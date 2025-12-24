@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
   BarChart, Bar, Legend, LineChart, Line, ComposedChart
@@ -8,6 +8,18 @@ import { ICONS, AI_AGENT_HANDOVER_DATA, ACCOUNT_PERFORMANCE_DATA, QUARTERLY_ACCO
 import InsightSection from './componenets/InsightSection';
 
 const Home: React.FC = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#f9fafb] text-slate-900 selection:bg-blue-100">
       {/* Header / Navigation */}
@@ -74,7 +86,10 @@ const Home: React.FC = () => {
           methodology="Monthly aggregation of AI agent ticket data from January 2025 through August 2025. Metrics include handover_tickets (tickets requiring human escalation), fully_automated_tickets (completely resolved by AI), total_ai_agent_tickets (sum of both), and calculated percentages for each category."
         >
           <ResponsiveContainer width="100%" height="100%">
-            <ComposedChart data={AI_AGENT_HANDOVER_DATA} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+            <ComposedChart 
+              data={AI_AGENT_HANDOVER_DATA} 
+              margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
+            >
               <defs>
                 <linearGradient id="colorHandover" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#ef4444" stopOpacity={0.8}/>
@@ -90,29 +105,31 @@ const Home: React.FC = () => {
                 dataKey="month_start" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 11}}
-                angle={-45}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                angle={isMobile ? -90 : -45}
                 textAnchor="end"
-                height={80}
+                height={isMobile ? 70 : 80}
               />
               <YAxis 
                 yAxisId="left" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
-                label={{ value: 'Ticket Count', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                label={isMobile ? undefined : { value: 'Ticket Count', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                width={isMobile ? 50 : 60}
               />
               <YAxis 
                 yAxisId="right" 
                 orientation="right" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
                 domain={[0, 100]}
-                label={{ value: 'Percentage %', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                label={isMobile ? undefined : { value: 'Percentage %', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                width={isMobile ? 50 : 60}
               />
               <Tooltip 
-                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)'}}
+                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
                 formatter={(value: number | undefined, name: string | undefined) => {
                   const nameStr = name || '';
                   if (nameStr.includes('%') || nameStr === 'Handover %' || nameStr === 'Fully Automated %') {
@@ -121,28 +138,28 @@ const Home: React.FC = () => {
                   return [value ? value.toLocaleString() : '0', nameStr];
                 }}
               />
-              <Legend />
+              <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
               <Area 
                 yAxisId="left"
                 type="monotone" 
                 dataKey="handover_tickets" 
-                name="Handover Tickets" 
+                name={isMobile ? 'Handover' : 'Handover Tickets'} 
                 stackId="1"
                 stroke="#ef4444" 
                 fillOpacity={1} 
                 fill="url(#colorHandover)" 
-                strokeWidth={2} 
+                strokeWidth={isMobile ? 1.5 : 2} 
               />
               <Area 
                 yAxisId="left"
                 type="monotone" 
                 dataKey="fully_automated_tickets" 
-                name="Fully Automated Tickets" 
+                name={isMobile ? 'Fully Auto' : 'Fully Automated Tickets'} 
                 stackId="1"
                 stroke="#10b981" 
                 fillOpacity={1} 
                 fill="url(#colorFullyAutomated)" 
-                strokeWidth={2} 
+                strokeWidth={isMobile ? 1.5 : 2} 
               />
               <Line 
                 yAxisId="right"
@@ -150,9 +167,9 @@ const Home: React.FC = () => {
                 dataKey="handover_percent" 
                 name="Handover %" 
                 stroke="#f59e0b" 
-                strokeWidth={3} 
-                dot={{fill: '#f59e0b', r: 5}}
-                activeDot={{r: 7}}
+                strokeWidth={isMobile ? 2 : 3} 
+                dot={{fill: '#f59e0b', r: isMobile ? 3 : 5}}
+                activeDot={{r: isMobile ? 5 : 7}}
               />
               <Line 
                 yAxisId="right"
@@ -160,9 +177,9 @@ const Home: React.FC = () => {
                 dataKey="fully_automated_percent" 
                 name="Fully Automated %" 
                 stroke="#22c55e" 
-                strokeWidth={3} 
-                dot={{fill: '#22c55e', r: 5}}
-                activeDot={{r: 7}}
+                strokeWidth={isMobile ? 2 : 3} 
+                dot={{fill: '#22c55e', r: isMobile ? 3 : 5}}
+                activeDot={{r: isMobile ? 5 : 7}}
               />
             </ComposedChart>
           </ResponsiveContainer>
@@ -177,60 +194,68 @@ const Home: React.FC = () => {
           methodology="Data extracted from account performance tables for event_date 12/1/2025, focusing on Commercial ($3-20m) fixed_gmv_parent_band. Metrics represent rolling 28-day windows: rolling_ai_covered_28, rolling_closed_billed_28, and rolling_total_tickets_28."
         >
           <ResponsiveContainer width="100%" height="100%">
-            <ComposedChart data={ACCOUNT_PERFORMANCE_DATA} margin={{ top: 20, right: 30, left: 0, bottom: 80 }}>
+            <ComposedChart 
+              data={ACCOUNT_PERFORMANCE_DATA} 
+              margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 80 } : { top: 20, right: 30, left: 0, bottom: 80 }}
+            >
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
               <XAxis 
                 dataKey="account_name" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 10}}
-                angle={-45}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 8 : 10}}
+                angle={isMobile ? -90 : -45}
                 textAnchor="end"
-                height={100}
+                height={isMobile ? 90 : 100}
+                interval={0}
               />
               <YAxis 
                 yAxisId="left" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
-                label={{ value: 'Ticket Count', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                label={isMobile ? undefined : { value: 'Ticket Count', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                width={isMobile ? 50 : 60}
               />
               <YAxis 
                 yAxisId="right" 
                 orientation="right" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
-                label={{ value: 'Total Tickets', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                label={isMobile ? undefined : { value: 'Total Tickets', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                width={isMobile ? 50 : 60}
               />
               <Tooltip 
-                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)'}}
+                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
                 formatter={(value: number | undefined) => value ? value.toLocaleString() : '0'}
               />
-              <Legend />
+              <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
               <Bar 
                 yAxisId="left" 
                 dataKey="rolling_ai_covered_28" 
-                name="AI Covered (28d)" 
+                name={isMobile ? 'AI Covered' : 'AI Covered (28d)'} 
                 fill="#2563eb" 
-                radius={[4, 4, 0, 0]} 
+                radius={[4, 4, 0, 0]}
+                maxBarSize={isMobile ? 50 : 80}
               />
               <Bar 
                 yAxisId="left" 
                 dataKey="rolling_closed_billed_28" 
-                name="Closed Billed (28d)" 
+                name={isMobile ? 'Closed Billed' : 'Closed Billed (28d)'} 
                 fill="#10b981" 
-                radius={[4, 4, 0, 0]} 
+                radius={[4, 4, 0, 0]}
+                maxBarSize={isMobile ? 50 : 80}
               />
               <Line 
                 yAxisId="right"
                 type="monotone" 
                 dataKey="rolling_total_tickets_28" 
-                name="Total Tickets (28d)" 
+                name={isMobile ? 'Total (28d)' : 'Total Tickets (28d)'} 
                 stroke="#f59e0b" 
-                strokeWidth={3} 
-                dot={{fill: '#f59e0b', r: 4}}
-                activeDot={{r: 6}}
+                strokeWidth={isMobile ? 2 : 3} 
+                dot={{fill: '#f59e0b', r: isMobile ? 3 : 4}}
+                activeDot={{r: isMobile ? 5 : 6}}
               />
             </ComposedChart>
           </ResponsiveContainer>
@@ -245,35 +270,41 @@ const Home: React.FC = () => {
           methodology="Quarterly aggregation of account performance data for 2025-Q1. Metrics include total_interactions, automated_interactions (sum of flows_interactions and ai_agent_interactions), human_interactions, automation_rate_percent, and avg_first_response_time_min."
         >
           <ResponsiveContainer width="100%" height="100%">
-            <ComposedChart data={QUARTERLY_ACCOUNT_DATA} margin={{ top: 20, right: 30, left: 0, bottom: 100 }}>
+            <ComposedChart 
+              data={QUARTERLY_ACCOUNT_DATA} 
+              margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 80 } : { top: 20, right: 30, left: 0, bottom: 100 }}
+            >
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
               <XAxis 
                 dataKey="account_name" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 10}}
-                angle={-45}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 8 : 10}}
+                angle={isMobile ? -90 : -45}
                 textAnchor="end"
-                height={120}
+                height={isMobile ? 100 : 120}
+                interval={0}
               />
               <YAxis 
                 yAxisId="left" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
-                label={{ value: 'Interactions', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                label={isMobile ? undefined : { value: 'Interactions', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                width={isMobile ? 50 : 60}
               />
               <YAxis 
                 yAxisId="right" 
                 orientation="right" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
                 domain={[0, 100]}
-                label={{ value: 'Automation Rate %', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                label={isMobile ? undefined : { value: 'Automation Rate %', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                width={isMobile ? 50 : 60}
               />
               <Tooltip 
-                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)'}}
+                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
                 formatter={(value: number | undefined, name: string | undefined) => {
                   const nameStr = name || '';
                   if (nameStr === 'Automation Rate %') {
@@ -282,39 +313,42 @@ const Home: React.FC = () => {
                   return [value ? value.toLocaleString() : '0', nameStr];
                 }}
               />
-              <Legend />
+              <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
               <Bar 
                 yAxisId="left" 
                 dataKey="flows_interactions" 
-                name="Flows Interactions" 
+                name={isMobile ? 'Flows' : 'Flows Interactions'} 
                 stackId="automated"
                 fill="#10b981" 
-                radius={[0, 0, 0, 0]} 
+                radius={[0, 0, 0, 0]}
+                maxBarSize={isMobile ? 50 : 80}
               />
               <Bar 
                 yAxisId="left" 
                 dataKey="ai_agent_interactions" 
-                name="AI Agent Interactions" 
+                name={isMobile ? 'AI Agent' : 'AI Agent Interactions'} 
                 stackId="automated"
                 fill="#3b82f6" 
-                radius={[0, 0, 0, 0]} 
+                radius={[0, 0, 0, 0]}
+                maxBarSize={isMobile ? 50 : 80}
               />
               <Bar 
                 yAxisId="left" 
                 dataKey="human_interactions" 
-                name="Human Interactions" 
+                name={isMobile ? 'Human' : 'Human Interactions'} 
                 fill="#ef4444" 
-                radius={[4, 4, 0, 0]} 
+                radius={[4, 4, 0, 0]}
+                maxBarSize={isMobile ? 50 : 80}
               />
               <Line 
                 yAxisId="right"
                 type="monotone" 
                 dataKey="automation_rate_percent" 
-                name="Automation Rate %" 
+                name={isMobile ? 'Auto Rate %' : 'Automation Rate %'} 
                 stroke="#f59e0b" 
-                strokeWidth={3} 
-                dot={{fill: '#f59e0b', r: 5}}
-                activeDot={{r: 7}}
+                strokeWidth={isMobile ? 2 : 3} 
+                dot={{fill: '#f59e0b', r: isMobile ? 3 : 5}}
+                activeDot={{r: isMobile ? 5 : 7}}
                 connectNulls={false}
               />
             </ComposedChart>
@@ -330,25 +364,29 @@ const Home: React.FC = () => {
           methodology="Data extracted from Support Inquiries by Intent and Channel table for PERIOD 2025-12-01, CHANNEL chat, showing SUPPORT_INQUIRIES broken down by TICKET_INTENT_LVL_1 categories."
         >
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={SUPPORT_INQUIRIES_DATA} layout="vertical" margin={{ top: 20, right: 30, left: 120, bottom: 5 }}>
+            <BarChart 
+              data={SUPPORT_INQUIRIES_DATA} 
+              layout="vertical" 
+              margin={isMobile ? { top: 10, right: 10, left: 80, bottom: 20 } : { top: 20, right: 30, left: 120, bottom: 5 }}
+            >
               <CartesianGrid strokeDasharray="3 3" horizontal={true} vertical={false} stroke="#e2e8f0" />
               <XAxis 
                 type="number" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 12}}
-                label={{ value: 'Support Inquiries', position: 'insideBottom', offset: -5, fill: '#94a3b8' }}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                label={isMobile ? undefined : { value: 'Support Inquiries', position: 'insideBottom', offset: -5, fill: '#94a3b8' }}
               />
               <YAxis 
                 type="category" 
                 dataKey="TICKET_INTENT_LVL_1" 
                 axisLine={false} 
                 tickLine={false} 
-                tick={{fill: '#94a3b8', fontSize: 11}}
-                width={110}
+                tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                width={isMobile ? 75 : 110}
               />
               <Tooltip 
-                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)'}}
+                contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
                 formatter={(value: number | undefined) => value ? value.toLocaleString() : '0'}
                 labelFormatter={(label, payload) => {
                   if (payload && payload[0]) {
@@ -363,6 +401,7 @@ const Home: React.FC = () => {
                 name="Support Inquiries" 
                 fill="#2563eb" 
                 radius={[0, 8, 8, 0]}
+                maxBarSize={isMobile ? 40 : 60}
               />
             </BarChart>
           </ResponsiveContainer>
