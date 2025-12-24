@@ -56,8 +56,18 @@ const InsightSection: React.FC<InsightSectionProps> = ({
         </div>
 
         {/* Visualization Area */}
-        <div className="lg:col-span-7 bg-slate-50 rounded-xl p-4 sm:p-8 min-h-[400px] flex items-center justify-center border border-slate-100">
-          <div className="w-full h-[400px]">
+        <div 
+          className="lg:col-span-7 bg-slate-50 rounded-xl p-4 sm:p-8 min-h-[400px] flex items-center justify-center border border-slate-100"
+          tabIndex={-1}
+          onFocus={(e) => e.currentTarget.blur()}
+          style={{ outline: 'none', WebkitTapHighlightColor: 'transparent' }}
+        >
+          <div 
+            className="w-full h-[400px]"
+            tabIndex={-1}
+            onFocus={(e) => e.currentTarget.blur()}
+            style={{ outline: 'none' }}
+          >
             {children}
           </div>
         </div>

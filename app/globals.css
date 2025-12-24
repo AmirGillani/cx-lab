@@ -24,3 +24,91 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Remove outline from graph divs when clicked - comprehensive rules */
+section.bg-white,
+section.bg-white:focus,
+section.bg-white:focus-visible,
+section.bg-white:active,
+section.bg-white:focus-within {
+  outline: none !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  outline-color: transparent !important;
+}
+
+section.bg-white div,
+section.bg-white div:focus,
+section.bg-white div:focus-visible,
+section.bg-white div:active,
+section.bg-white div:focus-within {
+  outline: none !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  outline-color: transparent !important;
+}
+
+section.bg-white .bg-slate-50,
+section.bg-white .bg-slate-50:focus,
+section.bg-white .bg-slate-50:focus-visible,
+section.bg-white .bg-slate-50:active,
+section.bg-white .bg-slate-50:focus-within {
+  outline: none !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  outline-color: transparent !important;
+  border-color: rgb(241 245 249) !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Remove outline from all divs with tabindex */
+div[tabindex="-1"],
+div[tabindex="-1"]:focus,
+div[tabindex="-1"]:focus-visible,
+div[tabindex="-1"]:active,
+div[tabindex="-1"]:focus-within {
+  outline: none !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  outline-color: transparent !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Remove outline from Recharts elements */
+.recharts-wrapper,
+.recharts-wrapper:focus,
+.recharts-wrapper:focus-visible,
+.recharts-wrapper:active,
+.recharts-wrapper:focus-within {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.recharts-responsive-container,
+.recharts-responsive-container:focus,
+.recharts-responsive-container:focus-visible,
+.recharts-responsive-container:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.recharts-wrapper *,
+.recharts-wrapper *:focus,
+.recharts-wrapper *:focus-visible,
+.recharts-wrapper *:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+svg.recharts-surface,
+svg.recharts-surface:focus,
+svg.recharts-surface:focus-visible,
+svg.recharts-surface:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
