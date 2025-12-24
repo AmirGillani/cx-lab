@@ -85,7 +85,8 @@ const Home: React.FC = () => {
           whyItMatters="As fully_automated_percent increases, we reduce agent workload while maintaining quality. The goal is to maximize fully_automated_tickets while minimizing handover_tickets—this data shows we're on the right trajectory, with automation rates improving even as volume grows."
           methodology="Monthly aggregation of AI agent ticket data from January 2025 through August 2025. Metrics include handover_tickets (tickets requiring human escalation), fully_automated_tickets (completely resolved by AI), total_ai_agent_tickets (sum of both), and calculated percentages for each category."
         >
-          <ResponsiveContainer width="100%" height="100%">
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
             <ComposedChart 
               data={AI_AGENT_HANDOVER_DATA} 
               margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
@@ -148,7 +149,7 @@ const Home: React.FC = () => {
                 stroke="#ef4444" 
                 fillOpacity={1} 
                 fill="url(#colorHandover)" 
-                strokeWidth={isMobile ? 1.5 : 2} 
+                strokeWidth={isMobile ? 1.5 : 2}
               />
               <Area 
                 yAxisId="left"
@@ -159,7 +160,7 @@ const Home: React.FC = () => {
                 stroke="#10b981" 
                 fillOpacity={1} 
                 fill="url(#colorFullyAutomated)" 
-                strokeWidth={isMobile ? 1.5 : 2} 
+                strokeWidth={isMobile ? 1.5 : 2}
               />
               <Line 
                 yAxisId="right"
@@ -183,6 +184,7 @@ const Home: React.FC = () => {
               />
             </ComposedChart>
           </ResponsiveContainer>
+          </div>
         </InsightSection>
 
         {/* Insight 2: Account Performance by GMV Band */}
@@ -193,7 +195,8 @@ const Home: React.FC = () => {
           whyItMatters="Understanding performance variation within GMV bands helps identify high-performing accounts that can serve as benchmarks. Accounts with similar revenue profiles but different automation rates reveal untapped efficiency potential."
           methodology="Data extracted from account performance tables for event_date 12/1/2025, focusing on Commercial ($3-20m) fixed_gmv_parent_band. Metrics represent rolling 28-day windows: rolling_ai_covered_28, rolling_closed_billed_28, and rolling_total_tickets_28."
         >
-          <ResponsiveContainer width="100%" height="100%">
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
             <ComposedChart 
               data={ACCOUNT_PERFORMANCE_DATA} 
               margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 80 } : { top: 20, right: 30, left: 0, bottom: 80 }}
@@ -259,6 +262,7 @@ const Home: React.FC = () => {
               />
             </ComposedChart>
           </ResponsiveContainer>
+          </div>
         </InsightSection>
 
         {/* Insight 3: Quarterly Automation Performance */}
@@ -269,7 +273,8 @@ const Home: React.FC = () => {
           whyItMatters="These benchmarks show what's possible when automation is fully embraced. Accounts with 50%+ automation rates see response times measured in minutes, not hours. The gap between top and bottom performers represents millions in potential efficiency gains."
           methodology="Quarterly aggregation of account performance data for 2025-Q1. Metrics include total_interactions, automated_interactions (sum of flows_interactions and ai_agent_interactions), human_interactions, automation_rate_percent, and avg_first_response_time_min."
         >
-          <ResponsiveContainer width="100%" height="100%">
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
             <ComposedChart 
               data={QUARTERLY_ACCOUNT_DATA} 
               margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 80 } : { top: 20, right: 30, left: 0, bottom: 100 }}
@@ -353,6 +358,7 @@ const Home: React.FC = () => {
               />
             </ComposedChart>
           </ResponsiveContainer>
+          </div>
         </InsightSection>
 
         {/* Insight 4: Support Inquiries by Intent and Channel */}
@@ -363,7 +369,8 @@ const Home: React.FC = () => {
           whyItMatters="Knowing where your tickets are coming from helps you prioritize automation investments. Order status questions can be automated, freeing agents for complex Account issues that drive retention. The data shows clear opportunities: Order and Product intents together account for 72.5% of volume, representing the biggest automation opportunity."
           methodology="Data extracted from Support Inquiries by Intent and Channel table for PERIOD 2025-12-01, CHANNEL chat, showing SUPPORT_INQUIRIES broken down by TICKET_INTENT_LVL_1 categories."
         >
-          <ResponsiveContainer width="100%" height="100%">
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
             <BarChart 
               data={SUPPORT_INQUIRIES_DATA} 
               layout="vertical" 
@@ -405,6 +412,7 @@ const Home: React.FC = () => {
               />
             </BarChart>
           </ResponsiveContainer>
+          </div>
         </InsightSection>
 
         {/* Call to Action Section */}
