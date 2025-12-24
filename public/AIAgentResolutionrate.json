@@ -1,0 +1,2778 @@
+[
+  {
+    "event_date": "2025-05-04",
+    "success_rate_28": 0.3396506905629978,
+    "coverage_rate_28": 0.4646115487598262,
+    "rolling_closed_billed_28": 490764,
+    "rolling_ai_covered_28": 1444908,
+    "rolling_total_tickets_28": 3109927
+  },
+  {
+    "event_date": "2025-12-10",
+    "success_rate_28": 0.3571413173778628,
+    "coverage_rate_28": 0.5329230505414733,
+    "rolling_closed_billed_28": 1358537,
+    "rolling_ai_covered_28": 3803920,
+    "rolling_total_tickets_28": 7137841
+  },
+  {
+    "event_date": "2025-05-10",
+    "success_rate_28": 0.342771285475793,
+    "coverage_rate_28": 0.4653709620328771,
+    "rolling_closed_billed_28": 513300,
+    "rolling_ai_covered_28": 1497500,
+    "rolling_total_tickets_28": 3217863
+  },
+  {
+    "event_date": "2025-10-23",
+    "success_rate_28": 0.33342164225302234,
+    "coverage_rate_28": 0.5418273728674795,
+    "rolling_closed_billed_28": 751350,
+    "rolling_ai_covered_28": 2253453,
+    "rolling_total_tickets_28": 4158987
+  },
+  {
+    "event_date": "2025-05-08",
+    "success_rate_28": 0.3423314337742591,
+    "coverage_rate_28": 0.46525820801899,
+    "rolling_closed_billed_28": 508330,
+    "rolling_ai_covered_28": 1484906,
+    "rolling_total_tickets_28": 3191574
+  },
+  {
+    "event_date": "2025-09-29",
+    "success_rate_28": 0.3542766109192634,
+    "coverage_rate_28": 0.5018175410206326,
+    "rolling_closed_billed_28": 716297,
+    "rolling_ai_covered_28": 2021858,
+    "rolling_total_tickets_28": 4029070
+  },
+  {
+    "event_date": "2025-10-09",
+    "success_rate_28": 0.35994864462665227,
+    "coverage_rate_28": 0.5136058363822742,
+    "rolling_closed_billed_28": 740148,
+    "rolling_ai_covered_28": 2056260,
+    "rolling_total_tickets_28": 4003576
+  },
+  {
+    "event_date": "2025-05-30",
+    "success_rate_28": 0.34982220206913833,
+    "coverage_rate_28": 0.4849964653820122,
+    "rolling_closed_billed_28": 586323,
+    "rolling_ai_covered_28": 1676060,
+    "rolling_total_tickets_28": 3455819
+  },
+  {
+    "event_date": "2025-08-29",
+    "success_rate_28": 0.3729737542216694,
+    "coverage_rate_28": 0.5329447463604086,
+    "rolling_closed_billed_28": 779335,
+    "rolling_ai_covered_28": 2089517,
+    "rolling_total_tickets_28": 3920701
+  },
+  {
+    "event_date": "2025-10-11",
+    "success_rate_28": 0.35628585529087475,
+    "coverage_rate_28": 0.5171117382627953,
+    "rolling_closed_billed_28": 739979,
+    "rolling_ai_covered_28": 2076925,
+    "rolling_total_tickets_28": 4016395
+  },
+  {
+    "event_date": "2025-10-02",
+    "success_rate_28": 0.35772232974147533,
+    "coverage_rate_28": 0.5036817977384667,
+    "rolling_closed_billed_28": 722710,
+    "rolling_ai_covered_28": 2020310,
+    "rolling_total_tickets_28": 4011084
+  },
+  {
+    "event_date": "2025-10-12",
+    "success_rate_28": 0.35393764599094607,
+    "coverage_rate_28": 0.5186881423470205,
+    "rolling_closed_billed_28": 738527,
+    "rolling_ai_covered_28": 2086602,
+    "rolling_total_tickets_28": 4022845
+  },
+  {
+    "event_date": "2025-03-29",
+    "success_rate_28": 0.2950152178700232,
+    "coverage_rate_28": 0.4562050606509688,
+    "rolling_closed_billed_28": 404588,
+    "rolling_ai_covered_28": 1371414,
+    "rolling_total_tickets_28": 3006135
+  },
+  {
+    "event_date": "2025-06-05",
+    "success_rate_28": 0.35222153006887347,
+    "coverage_rate_28": 0.49378975814593346,
+    "rolling_closed_billed_28": 603303,
+    "rolling_ai_covered_28": 1712851,
+    "rolling_total_tickets_28": 3468786
+  },
+  {
+    "event_date": "2025-06-03",
+    "success_rate_28": 0.3521304127487304,
+    "coverage_rate_28": 0.4907423462609177,
+    "rolling_closed_billed_28": 598952,
+    "rolling_ai_covered_28": 1700938,
+    "rolling_total_tickets_28": 3466051
+  },
+  {
+    "event_date": "2025-12-01",
+    "success_rate_28": 0.345879569057568,
+    "coverage_rate_28": 0.5338804114500444,
+    "rolling_closed_billed_28": 1124331,
+    "rolling_ai_covered_28": 3250643,
+    "rolling_total_tickets_28": 6088710
+  },
+  {
+    "event_date": "2025-07-05",
+    "success_rate_28": 0.4159541562105428,
+    "coverage_rate_28": 0.5277373767619689,
+    "rolling_closed_billed_28": 816669,
+    "rolling_ai_covered_28": 1963363,
+    "rolling_total_tickets_28": 3720341
+  },
+  {
+    "event_date": "2025-03-25",
+    "success_rate_28": 0.29184932738598873,
+    "coverage_rate_28": 0.4565694131914895,
+    "rolling_closed_billed_28": 395980,
+    "rolling_ai_covered_28": 1356796,
+    "rolling_total_tickets_28": 2971719
+  },
+  {
+    "event_date": "2025-08-23",
+    "success_rate_28": 0.38530586100138786,
+    "coverage_rate_28": 0.5390182927219136,
+    "rolling_closed_billed_28": 812061,
+    "rolling_ai_covered_28": 2107575,
+    "rolling_total_tickets_28": 3910025
+  },
+  {
+    "event_date": "2025-04-24",
+    "success_rate_28": 0.33482728216505253,
+    "coverage_rate_28": 0.46043612993208083,
+    "rolling_closed_billed_28": 470881,
+    "rolling_ai_covered_28": 1406340,
+    "rolling_total_tickets_28": 3054365
+  },
+  {
+    "event_date": "2025-09-07",
+    "success_rate_28": 0.35957014886434646,
+    "coverage_rate_28": 0.5231410838912587,
+    "rolling_closed_billed_28": 749771,
+    "rolling_ai_covered_28": 2085187,
+    "rolling_total_tickets_28": 3985898
+  },
+  {
+    "event_date": "2025-04-10",
+    "success_rate_28": 0.3112208090536755,
+    "coverage_rate_28": 0.45824355344095247,
+    "rolling_closed_billed_28": 435711,
+    "rolling_ai_covered_28": 1400006,
+    "rolling_total_tickets_28": 3055157
+  },
+  {
+    "event_date": "2025-10-27",
+    "success_rate_28": 0.3279186342925753,
+    "coverage_rate_28": 0.5436575146247199,
+    "rolling_closed_billed_28": 758706,
+    "rolling_ai_covered_28": 2313702,
+    "rolling_total_tickets_28": 4255808
+  },
+  {
+    "event_date": "2025-09-04",
+    "success_rate_28": 0.3635353270862494,
+    "coverage_rate_28": 0.5254864823985111,
+    "rolling_closed_billed_28": 755265,
+    "rolling_ai_covered_28": 2077556,
+    "rolling_total_tickets_28": 3953586
+  },
+  {
+    "event_date": "2025-09-21",
+    "success_rate_28": 0.3541310573283713,
+    "coverage_rate_28": 0.5039492155543103,
+    "rolling_closed_billed_28": 725770,
+    "rolling_ai_covered_28": 2049439,
+    "rolling_total_tickets_28": 4066757
+  },
+  {
+    "event_date": "2025-12-11",
+    "success_rate_28": 0.35851064188081994,
+    "coverage_rate_28": 0.5326835422634225,
+    "rolling_closed_billed_28": 1383812,
+    "rolling_ai_covered_28": 3859891,
+    "rolling_total_tickets_28": 7246124
+  },
+  {
+    "event_date": "2025-02-24",
+    "success_rate_28": 0.29498501732210863,
+    "coverage_rate_28": 0.43478940493539353,
+    "rolling_closed_billed_28": 342972,
+    "rolling_ai_covered_28": 1162676,
+    "rolling_total_tickets_28": 2674113
+  },
+  {
+    "event_date": "2025-01-20",
+    "success_rate_28": 0.3009575432973762,
+    "coverage_rate_28": 0.4129991009141508,
+    "rolling_closed_billed_28": 335800,
+    "rolling_ai_covered_28": 1115772,
+    "rolling_total_tickets_28": 2701633
+  },
+  {
+    "event_date": "2025-03-04",
+    "success_rate_28": 0.2929814132873578,
+    "coverage_rate_28": 0.44304904542030504,
+    "rolling_closed_billed_28": 356353,
+    "rolling_ai_covered_28": 1216299,
+    "rolling_total_tickets_28": 2745292
+  },
+  {
+    "event_date": "2025-03-06",
+    "success_rate_28": 0.2936262949839182,
+    "coverage_rate_28": 0.44661181610648276,
+    "rolling_closed_billed_28": 362701,
+    "rolling_ai_covered_28": 1235247,
+    "rolling_total_tickets_28": 2765818
+  },
+  {
+    "event_date": "2025-10-04",
+    "success_rate_28": 0.35954311363450575,
+    "coverage_rate_28": 0.5034136289766645,
+    "rolling_closed_billed_28": 725718,
+    "rolling_ai_covered_28": 2018445,
+    "rolling_total_tickets_28": 4009516
+  },
+  {
+    "event_date": "2025-11-09",
+    "success_rate_28": 0.3198997742931379,
+    "coverage_rate_28": 0.5517568959443215,
+    "rolling_closed_billed_28": 787607,
+    "rolling_ai_covered_28": 2462043,
+    "rolling_total_tickets_28": 4462188
+  },
+  {
+    "event_date": "2025-08-18",
+    "success_rate_28": 0.39846903936487926,
+    "coverage_rate_28": 0.5448213816207206,
+    "rolling_closed_billed_28": 849638,
+    "rolling_ai_covered_28": 2132256,
+    "rolling_total_tickets_28": 3913679
+  },
+  {
+    "event_date": "2025-05-13",
+    "success_rate_28": 0.3424270751478011,
+    "coverage_rate_28": 0.4674930033410761,
+    "rolling_closed_billed_28": 519429,
+    "rolling_ai_covered_28": 1516904,
+    "rolling_total_tickets_28": 3244763
+  },
+  {
+    "event_date": "2025-02-09",
+    "success_rate_28": 0.3006823313312833,
+    "coverage_rate_28": 0.42518015035913,
+    "rolling_closed_billed_28": 338522,
+    "rolling_ai_covered_28": 1125846,
+    "rolling_total_tickets_28": 2647927
+  },
+  {
+    "event_date": "2025-11-07",
+    "success_rate_28": 0.31867947983386247,
+    "coverage_rate_28": 0.5508969791755867,
+    "rolling_closed_billed_28": 777011,
+    "rolling_ai_covered_28": 2438221,
+    "rolling_total_tickets_28": 4425911
+  },
+  {
+    "event_date": "2025-02-16",
+    "success_rate_28": 0.2984261543698827,
+    "coverage_rate_28": 0.42941504917101386,
+    "rolling_closed_billed_28": 340133,
+    "rolling_ai_covered_28": 1139756,
+    "rolling_total_tickets_28": 2654206
+  },
+  {
+    "event_date": "2025-10-03",
+    "success_rate_28": 0.35878254390380204,
+    "coverage_rate_28": 0.5035398645122471,
+    "rolling_closed_billed_28": 724204,
+    "rolling_ai_covered_28": 2018504,
+    "rolling_total_tickets_28": 4008628
+  },
+  {
+    "event_date": "2025-05-28",
+    "success_rate_28": 0.3482486118332246,
+    "coverage_rate_28": 0.4813073205398262,
+    "rolling_closed_billed_28": 577376,
+    "rolling_ai_covered_28": 1657942,
+    "rolling_total_tickets_28": 3444664
+  },
+  {
+    "event_date": "2025-06-11",
+    "success_rate_28": 0.3566659710884042,
+    "coverage_rate_28": 0.4984876923534159,
+    "rolling_closed_billed_28": 622151,
+    "rolling_ai_covered_28": 1744352,
+    "rolling_total_tickets_28": 3499288
+  },
+  {
+    "event_date": "2025-11-08",
+    "success_rate_28": 0.3193131130367759,
+    "coverage_rate_28": 0.5512848645501438,
+    "rolling_closed_billed_28": 782153,
+    "rolling_ai_covered_28": 2449486,
+    "rolling_total_tickets_28": 4443231
+  },
+  {
+    "event_date": "2025-05-20",
+    "success_rate_28": 0.341150615440499,
+    "coverage_rate_28": 0.47579617662985707,
+    "rolling_closed_billed_28": 542845,
+    "rolling_ai_covered_28": 1591218,
+    "rolling_total_tickets_28": 3344327
+  },
+  {
+    "event_date": "2025-11-10",
+    "success_rate_28": 0.32074205157711344,
+    "coverage_rate_28": 0.5517235553490626,
+    "rolling_closed_billed_28": 796042,
+    "rolling_ai_covered_28": 2481876,
+    "rolling_total_tickets_28": 4498405
+  },
+  {
+    "event_date": "2025-01-25",
+    "success_rate_28": 0.3020876933195924,
+    "coverage_rate_28": 0.41715290781806813,
+    "rolling_closed_billed_28": 343545,
+    "rolling_ai_covered_28": 1137236,
+    "rolling_total_tickets_28": 2726185
+  },
+  {
+    "event_date": "2025-02-13",
+    "success_rate_28": 0.3002600919103208,
+    "coverage_rate_28": 0.4276365126817782,
+    "rolling_closed_billed_28": 340213,
+    "rolling_ai_covered_28": 1133061,
+    "rolling_total_tickets_28": 2649589
+  },
+  {
+    "event_date": "2025-01-08",
+    "success_rate_28": 0.2975712407263757,
+    "coverage_rate_28": 0.3995833423375856,
+    "rolling_closed_billed_28": 368650,
+    "rolling_ai_covered_28": 1238863,
+    "rolling_total_tickets_28": 3100387
+  },
+  {
+    "event_date": "2025-08-09",
+    "success_rate_28": 0.420875476665539,
+    "coverage_rate_28": 0.5537325582699313,
+    "rolling_closed_billed_28": 914413,
+    "rolling_ai_covered_28": 2172645,
+    "rolling_total_tickets_28": 3923636
+  },
+  {
+    "event_date": "2025-05-22",
+    "success_rate_28": 0.342221623530887,
+    "coverage_rate_28": 0.47791556885570247,
+    "rolling_closed_billed_28": 551292,
+    "rolling_ai_covered_28": 1610921,
+    "rolling_total_tickets_28": 3370723
+  },
+  {
+    "event_date": "2025-04-28",
+    "success_rate_28": 0.33788029620376764,
+    "coverage_rate_28": 0.46465751715738174,
+    "rolling_closed_billed_28": 478228,
+    "rolling_ai_covered_28": 1415377,
+    "rolling_total_tickets_28": 3046065
+  },
+  {
+    "event_date": "2025-04-19",
+    "success_rate_28": 0.32773102084111366,
+    "coverage_rate_28": 0.45804561834724306,
+    "rolling_closed_billed_28": 461598,
+    "rolling_ai_covered_28": 1408466,
+    "rolling_total_tickets_28": 3074947
+  },
+  {
+    "event_date": "2025-11-21",
+    "success_rate_28": 0.33515346602118995,
+    "coverage_rate_28": 0.5400603120108031,
+    "rolling_closed_billed_28": 912398,
+    "rolling_ai_covered_28": 2722329,
+    "rolling_total_tickets_28": 5040787
+  },
+  {
+    "event_date": "2025-01-06",
+    "success_rate_28": 0.29720550875785534,
+    "coverage_rate_28": 0.3993040452370596,
+    "rolling_closed_billed_28": 377876,
+    "rolling_ai_covered_28": 1271430,
+    "rolling_total_tickets_28": 3184115
+  },
+  {
+    "event_date": "2025-08-07",
+    "success_rate_28": 0.42401376796587764,
+    "coverage_rate_28": 0.5555959774180685,
+    "rolling_closed_billed_28": 923421,
+    "rolling_ai_covered_28": 2177809,
+    "rolling_total_tickets_28": 3919771
+  },
+  {
+    "event_date": "2025-10-28",
+    "success_rate_28": 0.32684896003522157,
+    "coverage_rate_28": 0.5441448202964777,
+    "rolling_closed_billed_28": 760201,
+    "rolling_ai_covered_28": 2325848,
+    "rolling_total_tickets_28": 4274318
+  },
+  {
+    "event_date": "2025-07-26",
+    "success_rate_28": 0.4414236367778258,
+    "coverage_rate_28": 0.553576589586078,
+    "rolling_closed_billed_28": 949489,
+    "rolling_ai_covered_28": 2150970,
+    "rolling_total_tickets_28": 3885587
+  },
+  {
+    "event_date": "2025-01-11",
+    "success_rate_28": 0.2981193193409915,
+    "coverage_rate_28": 0.4015944123668453,
+    "rolling_closed_billed_28": 358010,
+    "rolling_ai_covered_28": 1200895,
+    "rolling_total_tickets_28": 2990318
+  },
+  {
+    "event_date": "2025-06-20",
+    "success_rate_28": 0.3774971449014131,
+    "coverage_rate_28": 0.5110279144700278,
+    "rolling_closed_billed_28": 685884,
+    "rolling_ai_covered_28": 1816925,
+    "rolling_total_tickets_28": 3555432
+  },
+  {
+    "event_date": "2025-08-30",
+    "success_rate_28": 0.3718568621440455,
+    "coverage_rate_28": 0.532037728801847,
+    "rolling_closed_billed_28": 777591,
+    "rolling_ai_covered_28": 2091103,
+    "rolling_total_tickets_28": 3930366
+  },
+  {
+    "event_date": "2025-09-19",
+    "success_rate_28": 0.35414396145043514,
+    "coverage_rate_28": 0.5053401379862447,
+    "rolling_closed_billed_28": 727882,
+    "rolling_ai_covered_28": 2055328,
+    "rolling_total_tickets_28": 4067217
+  },
+  {
+    "event_date": "2025-11-25",
+    "success_rate_28": 0.34005569217895215,
+    "coverage_rate_28": 0.5380865337444186,
+    "rolling_closed_billed_28": 976103,
+    "rolling_ai_covered_28": 2870421,
+    "rolling_total_tickets_28": 5334497
+  },
+  {
+    "event_date": "2025-05-09",
+    "success_rate_28": 0.34271051258295804,
+    "coverage_rate_28": 0.4647687229401512,
+    "rolling_closed_billed_28": 511589,
+    "rolling_ai_covered_28": 1492773,
+    "rolling_total_tickets_28": 3211862
+  },
+  {
+    "event_date": "2025-05-27",
+    "success_rate_28": 0.3475962415063148,
+    "coverage_rate_28": 0.4793066783191319,
+    "rolling_closed_billed_28": 571914,
+    "rolling_ai_covered_28": 1645340,
+    "rolling_total_tickets_28": 3432750
+  },
+  {
+    "event_date": "2025-05-21",
+    "success_rate_28": 0.34157792403810155,
+    "coverage_rate_28": 0.4770232447761265,
+    "rolling_closed_billed_28": 546538,
+    "rolling_ai_covered_28": 1600039,
+    "rolling_total_tickets_28": 3354216
+  },
+  {
+    "event_date": "2025-07-13",
+    "success_rate_28": 0.4313309634796281,
+    "coverage_rate_28": 0.5408602102675697,
+    "rolling_closed_billed_28": 890987,
+    "rolling_ai_covered_28": 2065669,
+    "rolling_total_tickets_28": 3819229
+  },
+  {
+    "event_date": "2025-12-06",
+    "success_rate_28": 0.35188128057475276,
+    "coverage_rate_28": 0.5328488159687217,
+    "rolling_closed_billed_28": 1254828,
+    "rolling_ai_covered_28": 3566055,
+    "rolling_total_tickets_28": 6692433
+  },
+  {
+    "event_date": "2025-12-02",
+    "success_rate_28": 0.3466065511786998,
+    "coverage_rate_28": 0.5325993073580887,
+    "rolling_closed_billed_28": 1154135,
+    "rolling_ai_covered_28": 3329813,
+    "rolling_total_tickets_28": 6252004
+  },
+  {
+    "event_date": "2025-02-08",
+    "success_rate_28": 0.3009391715111769,
+    "coverage_rate_28": 0.4249238710824641,
+    "rolling_closed_billed_28": 339432,
+    "rolling_ai_covered_28": 1127909,
+    "rolling_total_tickets_28": 2654379
+  },
+  {
+    "event_date": "2025-05-05",
+    "success_rate_28": 0.3401964026991103,
+    "coverage_rate_28": 0.4649501082240702,
+    "rolling_closed_billed_28": 494733,
+    "rolling_ai_covered_28": 1454257,
+    "rolling_total_tickets_28": 3127770
+  },
+  {
+    "event_date": "2025-04-01",
+    "success_rate_28": 0.2972142099163429,
+    "coverage_rate_28": 0.45527272679662745,
+    "rolling_closed_billed_28": 413400,
+    "rolling_ai_covered_28": 1390916,
+    "rolling_total_tickets_28": 3055127
+  },
+  {
+    "event_date": "2025-08-17",
+    "success_rate_28": 0.40192327407872763,
+    "coverage_rate_28": 0.5455531960266271,
+    "rolling_closed_billed_28": 858568,
+    "rolling_ai_covered_28": 2136149,
+    "rolling_total_tickets_28": 3915565
+  },
+  {
+    "event_date": "2025-01-09",
+    "success_rate_28": 0.2978876141388242,
+    "coverage_rate_28": 0.4005861379808634,
+    "rolling_closed_billed_28": 364338,
+    "rolling_ai_covered_28": 1223072,
+    "rolling_total_tickets_28": 3053206
+  },
+  {
+    "event_date": "2025-08-05",
+    "success_rate_28": 0.428168280850588,
+    "coverage_rate_28": 0.556733030607491,
+    "rolling_closed_billed_28": 934312,
+    "rolling_ai_covered_28": 2182114,
+    "rolling_total_tickets_28": 3919498
+  },
+  {
+    "event_date": "2025-09-23",
+    "success_rate_28": 0.3544793632527056,
+    "coverage_rate_28": 0.5012829543043819,
+    "rolling_closed_billed_28": 722022,
+    "rolling_ai_covered_28": 2036852,
+    "rolling_total_tickets_28": 4063278
+  },
+  {
+    "event_date": "2025-10-07",
+    "success_rate_28": 0.3628317016165586,
+    "coverage_rate_28": 0.5090741775841494,
+    "rolling_closed_billed_28": 737241,
+    "rolling_ai_covered_28": 2031909,
+    "rolling_total_tickets_28": 3991381
+  },
+  {
+    "event_date": "2025-08-15",
+    "success_rate_28": 0.4065157791332215,
+    "coverage_rate_28": 0.5475574844142345,
+    "rolling_closed_billed_28": 870682,
+    "rolling_ai_covered_28": 2141816,
+    "rolling_total_tickets_28": 3911582
+  },
+  {
+    "event_date": "2025-05-18",
+    "success_rate_28": 0.341291706490434,
+    "coverage_rate_28": 0.47351589910110886,
+    "rolling_closed_billed_28": 534914,
+    "rolling_ai_covered_28": 1567322,
+    "rolling_total_tickets_28": 3309967
+  },
+  {
+    "event_date": "2025-11-04",
+    "success_rate_28": 0.31744650268161667,
+    "coverage_rate_28": 0.5513365811648675,
+    "rolling_closed_billed_28": 764135,
+    "rolling_ai_covered_28": 2407130,
+    "rolling_total_tickets_28": 4365990
+  },
+  {
+    "event_date": "2025-06-29",
+    "success_rate_28": 0.3962909694878667,
+    "coverage_rate_28": 0.5211728474622184,
+    "rolling_closed_billed_28": 756355,
+    "rolling_ai_covered_28": 1908585,
+    "rolling_total_tickets_28": 3662096
+  },
+  {
+    "event_date": "2025-05-16",
+    "success_rate_28": 0.3417762285332209,
+    "coverage_rate_28": 0.47123724377296605,
+    "rolling_closed_billed_28": 529558,
+    "rolling_ai_covered_28": 1549429,
+    "rolling_total_tickets_28": 3288002
+  },
+  {
+    "event_date": "2025-08-03",
+    "success_rate_28": 0.43236258038890524,
+    "coverage_rate_28": 0.5561745979511792,
+    "rolling_closed_billed_28": 944848,
+    "rolling_ai_covered_28": 2185314,
+    "rolling_total_tickets_28": 3929187
+  },
+  {
+    "event_date": "2025-04-08",
+    "success_rate_28": 0.3066644440406197,
+    "coverage_rate_28": 0.4580168330474304,
+    "rolling_closed_billed_28": 428639,
+    "rolling_ai_covered_28": 1397746,
+    "rolling_total_tickets_28": 3051735
+  },
+  {
+    "event_date": "2025-08-11",
+    "success_rate_28": 0.41717880007603564,
+    "coverage_rate_28": 0.5522598556951788,
+    "rolling_closed_billed_28": 904195,
+    "rolling_ai_covered_28": 2167404,
+    "rolling_total_tickets_28": 3924609
+  },
+  {
+    "event_date": "2025-04-12",
+    "success_rate_28": 0.3145611903497864,
+    "coverage_rate_28": 0.4592896105111775,
+    "rolling_closed_billed_28": 441419,
+    "rolling_ai_covered_28": 1403285,
+    "rolling_total_tickets_28": 3055338
+  },
+  {
+    "event_date": "2025-11-13",
+    "success_rate_28": 0.3248083996395453,
+    "coverage_rate_28": 0.5509102954700977,
+    "rolling_closed_billed_28": 821089,
+    "rolling_ai_covered_28": 2527918,
+    "rolling_total_tickets_28": 4588620
+  },
+  {
+    "event_date": "2025-11-16",
+    "success_rate_28": 0.3279743510954703,
+    "coverage_rate_28": 0.5514181207779054,
+    "rolling_closed_billed_28": 848550,
+    "rolling_ai_covered_28": 2587245,
+    "rolling_total_tickets_28": 4691984
+  },
+  {
+    "event_date": "2025-10-14",
+    "success_rate_28": 0.3496972014620871,
+    "coverage_rate_28": 0.5231652051918575,
+    "rolling_closed_billed_28": 737047,
+    "rolling_ai_covered_28": 2107672,
+    "rolling_total_tickets_28": 4028693
+  },
+  {
+    "event_date": "2025-03-20",
+    "success_rate_28": 0.29267002806507253,
+    "coverage_rate_28": 0.4571669558892366,
+    "rolling_closed_billed_28": 389600,
+    "rolling_ai_covered_28": 1331192,
+    "rolling_total_tickets_28": 2911829
+  },
+  {
+    "event_date": "2025-07-19",
+    "success_rate_28": 0.43838176388642447,
+    "coverage_rate_28": 0.5482427136338847,
+    "rolling_closed_billed_28": 928952,
+    "rolling_ai_covered_28": 2119048,
+    "rolling_total_tickets_28": 3865164
+  },
+  {
+    "event_date": "2025-04-22",
+    "success_rate_28": 0.3325429680716731,
+    "coverage_rate_28": 0.45898710469908505,
+    "rolling_closed_billed_28": 465345,
+    "rolling_ai_covered_28": 1399353,
+    "rolling_total_tickets_28": 3048785
+  },
+  {
+    "event_date": "2025-06-21",
+    "success_rate_28": 0.3789078380328247,
+    "coverage_rate_28": 0.5126729909034834,
+    "rolling_closed_billed_28": 690641,
+    "rolling_ai_covered_28": 1822715,
+    "rolling_total_tickets_28": 3555317
+  },
+  {
+    "event_date": "2025-02-28",
+    "success_rate_28": 0.2922708091823227,
+    "coverage_rate_28": 0.4385769403518073,
+    "rolling_closed_billed_28": 348179,
+    "rolling_ai_covered_28": 1191289,
+    "rolling_total_tickets_28": 2716260
+  },
+  {
+    "event_date": "2025-05-26",
+    "success_rate_28": 0.3470367761164014,
+    "coverage_rate_28": 0.47755629446225994,
+    "rolling_closed_billed_28": 566009,
+    "rolling_ai_covered_28": 1630977,
+    "rolling_total_tickets_28": 3415256
+  },
+  {
+    "event_date": "2025-08-04",
+    "success_rate_28": 0.4304246159265603,
+    "coverage_rate_28": 0.5562721852425655,
+    "rolling_closed_billed_28": 938404,
+    "rolling_ai_covered_28": 2180182,
+    "rolling_total_tickets_28": 3919272
+  },
+  {
+    "event_date": "2025-09-08",
+    "success_rate_28": 0.358903431263648,
+    "coverage_rate_28": 0.5210415325478921,
+    "rolling_closed_billed_28": 747991,
+    "rolling_ai_covered_28": 2084101,
+    "rolling_total_tickets_28": 3999875
+  },
+  {
+    "event_date": "2025-03-28",
+    "success_rate_28": 0.29448355675571414,
+    "coverage_rate_28": 0.45617137572177274,
+    "rolling_closed_billed_28": 403062,
+    "rolling_ai_covered_28": 1368708,
+    "rolling_total_tickets_28": 3000425
+  },
+  {
+    "event_date": "2025-03-01",
+    "success_rate_28": 0.2922577341497414,
+    "coverage_rate_28": 0.43935834743142665,
+    "rolling_closed_billed_28": 349293,
+    "rolling_ai_covered_28": 1195154,
+    "rolling_total_tickets_28": 2720226
+  },
+  {
+    "event_date": "2025-10-31",
+    "success_rate_28": 0.3232995459165002,
+    "coverage_rate_28": 0.5464290915273274,
+    "rolling_closed_billed_28": 760611,
+    "rolling_ai_covered_28": 2352651,
+    "rolling_total_tickets_28": 4305501
+  },
+  {
+    "event_date": "2025-09-25",
+    "success_rate_28": 0.3546852679850394,
+    "coverage_rate_28": 0.501107898853488,
+    "rolling_closed_billed_28": 718066,
+    "rolling_ai_covered_28": 2024516,
+    "rolling_total_tickets_28": 4040080
+  },
+  {
+    "event_date": "2025-07-01",
+    "success_rate_28": 0.40213180499165435,
+    "coverage_rate_28": 0.5233518910857571,
+    "rolling_closed_billed_28": 777702,
+    "rolling_ai_covered_28": 1933948,
+    "rolling_total_tickets_28": 3695311
+  },
+  {
+    "event_date": "2025-05-31",
+    "success_rate_28": 0.3504131631537833,
+    "coverage_rate_28": 0.4862449124473743,
+    "rolling_closed_billed_28": 588979,
+    "rolling_ai_covered_28": 1680813,
+    "rolling_total_tickets_28": 3456721
+  },
+  {
+    "event_date": "2025-02-10",
+    "success_rate_28": 0.3008017161096775,
+    "coverage_rate_28": 0.42613466606129435,
+    "rolling_closed_billed_28": 338503,
+    "rolling_ai_covered_28": 1125336,
+    "rolling_total_tickets_28": 2640799
+  },
+  {
+    "event_date": "2025-11-03",
+    "success_rate_28": 0.31902234118808803,
+    "coverage_rate_28": 0.5508041654673727,
+    "rolling_closed_billed_28": 763728,
+    "rolling_ai_covered_28": 2393964,
+    "rolling_total_tickets_28": 4346307
+  },
+  {
+    "event_date": "2025-09-03",
+    "success_rate_28": 0.3652515357066565,
+    "coverage_rate_28": 0.5264150411767647,
+    "rolling_closed_billed_28": 757459,
+    "rolling_ai_covered_28": 2073801,
+    "rolling_total_tickets_28": 3939479
+  },
+  {
+    "event_date": "2025-05-24",
+    "success_rate_28": 0.34400250967218327,
+    "coverage_rate_28": 0.47652018433621907,
+    "rolling_closed_billed_28": 560345,
+    "rolling_ai_covered_28": 1628898,
+    "rolling_total_tickets_28": 3418319
+  },
+  {
+    "event_date": "2025-08-25",
+    "success_rate_28": 0.3806674583381679,
+    "coverage_rate_28": 0.5377062674283155,
+    "rolling_closed_billed_28": 797233,
+    "rolling_ai_covered_28": 2094303,
+    "rolling_total_tickets_28": 3894883
+  },
+  {
+    "event_date": "2025-04-27",
+    "success_rate_28": 0.33728695580747015,
+    "coverage_rate_28": 0.4634160107764526,
+    "rolling_closed_billed_28": 476319,
+    "rolling_ai_covered_28": 1412207,
+    "rolling_total_tickets_28": 3047385
+  },
+  {
+    "event_date": "2025-06-14",
+    "success_rate_28": 0.3619652749027721,
+    "coverage_rate_28": 0.5013870017392539,
+    "rolling_closed_billed_28": 639121,
+    "rolling_ai_covered_28": 1765697,
+    "rolling_total_tickets_28": 3521625
+  },
+  {
+    "event_date": "2025-07-02",
+    "success_rate_28": 0.40525052400336514,
+    "coverage_rate_28": 0.5245994509715903,
+    "rolling_closed_billed_28": 788068,
+    "rolling_ai_covered_28": 1944644,
+    "rolling_total_tickets_28": 3706912
+  },
+  {
+    "event_date": "2025-04-02",
+    "success_rate_28": 0.2989217967232779,
+    "coverage_rate_28": 0.4553342880625313,
+    "rolling_closed_billed_28": 416665,
+    "rolling_ai_covered_28": 1393893,
+    "rolling_total_tickets_28": 3061252
+  },
+  {
+    "event_date": "2025-04-20",
+    "success_rate_28": 0.3289196811841893,
+    "coverage_rate_28": 0.4578212687304368,
+    "rolling_closed_billed_28": 461125,
+    "rolling_ai_covered_28": 1401938,
+    "rolling_total_tickets_28": 3062195
+  },
+  {
+    "event_date": "2025-11-17",
+    "success_rate_28": 0.33016047281143013,
+    "coverage_rate_28": 0.5498028899380487,
+    "rolling_closed_billed_28": 863089,
+    "rolling_ai_covered_28": 2614150,
+    "rolling_total_tickets_28": 4754704
+  },
+  {
+    "event_date": "2025-08-06",
+    "success_rate_28": 0.42617907624286705,
+    "coverage_rate_28": 0.5565237882950387,
+    "rolling_closed_billed_28": 929979,
+    "rolling_ai_covered_28": 2182132,
+    "rolling_total_tickets_28": 3921004
+  },
+  {
+    "event_date": "2025-10-15",
+    "success_rate_28": 0.3476731784622549,
+    "coverage_rate_28": 0.5266226126888014,
+    "rolling_closed_billed_28": 740644,
+    "rolling_ai_covered_28": 2130288,
+    "rolling_total_tickets_28": 4045189
+  },
+  {
+    "event_date": "2025-04-09",
+    "success_rate_28": 0.30862205648346364,
+    "coverage_rate_28": 0.45792514871571743,
+    "rolling_closed_billed_28": 431345,
+    "rolling_ai_covered_28": 1397648,
+    "rolling_total_tickets_28": 3052132
+  },
+  {
+    "event_date": "2025-07-11",
+    "success_rate_28": 0.43106500345920834,
+    "coverage_rate_28": 0.5398621754028633,
+    "rolling_closed_billed_28": 886627,
+    "rolling_ai_covered_28": 2056829,
+    "rolling_total_tickets_28": 3809915
+  },
+  {
+    "event_date": "2025-02-22",
+    "success_rate_28": 0.29480269973425355,
+    "coverage_rate_28": 0.4338774069818964,
+    "rolling_closed_billed_28": 340345,
+    "rolling_ai_covered_28": 1154484,
+    "rolling_total_tickets_28": 2660853
+  },
+  {
+    "event_date": "2025-02-11",
+    "success_rate_28": 0.3006802696951338,
+    "coverage_rate_28": 0.42683330380116824,
+    "rolling_closed_billed_28": 338971,
+    "rolling_ai_covered_28": 1127347,
+    "rolling_total_tickets_28": 2641188
+  },
+  {
+    "event_date": "2025-11-01",
+    "success_rate_28": 0.3220416681644313,
+    "coverage_rate_28": 0.5494239568162786,
+    "rolling_closed_billed_28": 761511,
+    "rolling_ai_covered_28": 2364635,
+    "rolling_total_tickets_28": 4303844
+  },
+  {
+    "event_date": "2025-11-05",
+    "success_rate_28": 0.31739037249065527,
+    "coverage_rate_28": 0.5514624948204829,
+    "rolling_closed_billed_28": 767090,
+    "rolling_ai_covered_28": 2416866,
+    "rolling_total_tickets_28": 4382648
+  },
+  {
+    "event_date": "2025-01-12",
+    "success_rate_28": 0.29845586270388635,
+    "coverage_rate_28": 0.40224693885665647,
+    "rolling_closed_billed_28": 356279,
+    "rolling_ai_covered_28": 1193741,
+    "rolling_total_tickets_28": 2967682
+  },
+  {
+    "event_date": "2025-06-09",
+    "success_rate_28": 0.35457889539008014,
+    "coverage_rate_28": 0.49704342158074166,
+    "rolling_closed_billed_28": 614309,
+    "rolling_ai_covered_28": 1732503,
+    "rolling_total_tickets_28": 3485617
+  },
+  {
+    "event_date": "2025-02-15",
+    "success_rate_28": 0.2987202963616752,
+    "coverage_rate_28": 0.428952722130568,
+    "rolling_closed_billed_28": 339803,
+    "rolling_ai_covered_28": 1137529,
+    "rolling_total_tickets_28": 2651875
+  },
+  {
+    "event_date": "2025-09-26",
+    "success_rate_28": 0.35493050609108084,
+    "coverage_rate_28": 0.5014997213544284,
+    "rolling_closed_billed_28": 717048,
+    "rolling_ai_covered_28": 2020249,
+    "rolling_total_tickets_28": 4028415
+  },
+  {
+    "event_date": "2025-05-03",
+    "success_rate_28": 0.3393547562199288,
+    "coverage_rate_28": 0.4647022865957523,
+    "rolling_closed_billed_28": 488360,
+    "rolling_ai_covered_28": 1439084,
+    "rolling_total_tickets_28": 3096787
+  },
+  {
+    "event_date": "2025-03-18",
+    "success_rate_28": 0.29248180543500035,
+    "coverage_rate_28": 0.45710773857955517,
+    "rolling_closed_billed_28": 385484,
+    "rolling_ai_covered_28": 1317976,
+    "rolling_total_tickets_28": 2883294
+  },
+  {
+    "event_date": "2025-08-27",
+    "success_rate_28": 0.37609878069552605,
+    "coverage_rate_28": 0.535223768761567,
+    "rolling_closed_billed_28": 786063,
+    "rolling_ai_covered_28": 2090044,
+    "rolling_total_tickets_28": 3904991
+  },
+  {
+    "event_date": "2025-12-03",
+    "success_rate_28": 0.3477605857072507,
+    "coverage_rate_28": 0.5324210248838498,
+    "rolling_closed_billed_28": 1180032,
+    "rolling_ai_covered_28": 3393231,
+    "rolling_total_tickets_28": 6373210
+  },
+  {
+    "event_date": "2025-06-28",
+    "success_rate_28": 0.3944723327046628,
+    "coverage_rate_28": 0.5204739837821691,
+    "rolling_closed_billed_28": 749200,
+    "rolling_ai_covered_28": 1899246,
+    "rolling_total_tickets_28": 3649070
+  },
+  {
+    "event_date": "2025-07-10",
+    "success_rate_28": 0.42936296490529446,
+    "coverage_rate_28": 0.5374993097609012,
+    "rolling_closed_billed_28": 877672,
+    "rolling_ai_covered_28": 2044126,
+    "rolling_total_tickets_28": 3803030
+  },
+  {
+    "event_date": "2025-04-26",
+    "success_rate_28": 0.33668653019968203,
+    "coverage_rate_28": 0.46255614357147706,
+    "rolling_closed_billed_28": 474995,
+    "rolling_ai_covered_28": 1410793,
+    "rolling_total_tickets_28": 3049993
+  },
+  {
+    "event_date": "2025-09-24",
+    "success_rate_28": 0.35453642235678506,
+    "coverage_rate_28": 0.5007300879608002,
+    "rolling_closed_billed_28": 719749,
+    "rolling_ai_covered_28": 2030113,
+    "rolling_total_tickets_28": 4054306
+  },
+  {
+    "event_date": "2025-07-17",
+    "success_rate_28": 0.43607908477270096,
+    "coverage_rate_28": 0.5469553224607632,
+    "rolling_closed_billed_28": 919703,
+    "rolling_ai_covered_28": 2109028,
+    "rolling_total_tickets_28": 3855942
+  },
+  {
+    "event_date": "2025-01-03",
+    "success_rate_28": 0.29648881831271706,
+    "coverage_rate_28": 0.3994058024362408,
+    "rolling_closed_billed_28": 384436,
+    "rolling_ai_covered_28": 1296629,
+    "rolling_total_tickets_28": 3246395
+  },
+  {
+    "event_date": "2025-03-31",
+    "success_rate_28": 0.2962961891718741,
+    "coverage_rate_28": 0.4558764194281676,
+    "rolling_closed_billed_28": 409764,
+    "rolling_ai_covered_28": 1382954,
+    "rolling_total_tickets_28": 3033616
+  },
+  {
+    "event_date": "2025-10-10",
+    "success_rate_28": 0.3583651306772943,
+    "coverage_rate_28": 0.5157196373802865,
+    "rolling_closed_billed_28": 741303,
+    "rolling_ai_covered_28": 2068569,
+    "rolling_total_tickets_28": 4011034
+  },
+  {
+    "event_date": "2025-06-24",
+    "success_rate_28": 0.38443643531841654,
+    "coverage_rate_28": 0.5167420816995572,
+    "rolling_closed_billed_28": 714557,
+    "rolling_ai_covered_28": 1858713,
+    "rolling_total_tickets_28": 3596984
+  },
+  {
+    "event_date": "2025-05-12",
+    "success_rate_28": 0.3426899747998696,
+    "coverage_rate_28": 0.466775636518135,
+    "rolling_closed_billed_28": 517296,
+    "rolling_ai_covered_28": 1509516,
+    "rolling_total_tickets_28": 3233922
+  },
+  {
+    "event_date": "2025-06-01",
+    "success_rate_28": 0.35103628941799003,
+    "coverage_rate_28": 0.48749984448764394,
+    "rolling_closed_billed_28": 591480,
+    "rolling_ai_covered_28": 1684954,
+    "rolling_total_tickets_28": 3456317
+  },
+  {
+    "event_date": "2025-06-23",
+    "success_rate_28": 0.3815879041300061,
+    "coverage_rate_28": 0.5155098169844935,
+    "rolling_closed_billed_28": 706879,
+    "rolling_ai_covered_28": 1852467,
+    "rolling_total_tickets_28": 3593466
+  },
+  {
+    "event_date": "2025-03-10",
+    "success_rate_28": 0.2941555741256332,
+    "coverage_rate_28": 0.44974706992982083,
+    "rolling_closed_billed_28": 371367,
+    "rolling_ai_covered_28": 1262485,
+    "rolling_total_tickets_28": 2807100
+  },
+  {
+    "event_date": "2025-03-11",
+    "success_rate_28": 0.2943668097498251,
+    "coverage_rate_28": 0.4506008167102525,
+    "rolling_closed_billed_28": 373608,
+    "rolling_ai_covered_28": 1269192,
+    "rolling_total_tickets_28": 2816666
+  },
+  {
+    "event_date": "2025-10-16",
+    "success_rate_28": 0.34571298808678136,
+    "coverage_rate_28": 0.528724419013317,
+    "rolling_closed_billed_28": 742168,
+    "rolling_ai_covered_28": 2146775,
+    "rolling_total_tickets_28": 4060291
+  },
+  {
+    "event_date": "2025-02-07",
+    "success_rate_28": 0.30112557574942533,
+    "coverage_rate_28": 0.42451512439309563,
+    "rolling_closed_billed_28": 340352,
+    "rolling_ai_covered_28": 1130266,
+    "rolling_total_tickets_28": 2662487
+  },
+  {
+    "event_date": "2025-01-31",
+    "success_rate_28": 0.3021956191715463,
+    "coverage_rate_28": 0.42261421398888793,
+    "rolling_closed_billed_28": 348356,
+    "rolling_ai_covered_28": 1152750,
+    "rolling_total_tickets_28": 2727665
+  },
+  {
+    "event_date": "2025-10-08",
+    "success_rate_28": 0.36195467949408755,
+    "coverage_rate_28": 0.5113598505893215,
+    "rolling_closed_billed_28": 738916,
+    "rolling_ai_covered_28": 2041460,
+    "rolling_total_tickets_28": 3992218
+  },
+  {
+    "event_date": "2025-03-07",
+    "success_rate_28": 0.29402511799468206,
+    "coverage_rate_28": 0.4474026366932852,
+    "rolling_closed_billed_28": 365243,
+    "rolling_ai_covered_28": 1242217,
+    "rolling_total_tickets_28": 2776508
+  },
+  {
+    "event_date": "2025-07-28",
+    "success_rate_28": 0.44131995404712904,
+    "coverage_rate_28": 0.5547255566566794,
+    "rolling_closed_billed_28": 952308,
+    "rolling_ai_covered_28": 2157863,
+    "rolling_total_tickets_28": 3889965
+  },
+  {
+    "event_date": "2025-12-05",
+    "success_rate_28": 0.35084308143127757,
+    "coverage_rate_28": 0.5323592388213064,
+    "rolling_closed_billed_28": 1233679,
+    "rolling_ai_covered_28": 3516327,
+    "rolling_total_tickets_28": 6605177
+  },
+  {
+    "event_date": "2025-06-17",
+    "success_rate_28": 0.37124775777346836,
+    "coverage_rate_28": 0.5056718918574445,
+    "rolling_closed_billed_28": 668700,
+    "rolling_ai_covered_28": 1801223,
+    "rolling_total_tickets_28": 3562039
+  },
+  {
+    "event_date": "2025-07-18",
+    "success_rate_28": 0.43748404940101365,
+    "coverage_rate_28": 0.5478647750873294,
+    "rolling_closed_billed_28": 925676,
+    "rolling_ai_covered_28": 2115908,
+    "rolling_total_tickets_28": 3862099
+  },
+  {
+    "event_date": "2025-07-24",
+    "success_rate_28": 0.4414358775335805,
+    "coverage_rate_28": 0.551864708706436,
+    "rolling_closed_billed_28": 946352,
+    "rolling_ai_covered_28": 2143804,
+    "rolling_total_tickets_28": 3884655
+  },
+  {
+    "event_date": "2025-05-25",
+    "success_rate_28": 0.34528707643645284,
+    "coverage_rate_28": 0.4769378193151508,
+    "rolling_closed_billed_28": 564370,
+    "rolling_ai_covered_28": 1634495,
+    "rolling_total_tickets_28": 3427061
+  },
+  {
+    "event_date": "2025-09-06",
+    "success_rate_28": 0.36070100999721005,
+    "coverage_rate_28": 0.5237173836777241,
+    "rolling_closed_billed_28": 751153,
+    "rolling_ai_covered_28": 2082481,
+    "rolling_total_tickets_28": 3976345
+  },
+  {
+    "event_date": "2025-11-19",
+    "success_rate_28": 0.33255166008822845,
+    "coverage_rate_28": 0.544566146165784,
+    "rolling_closed_billed_28": 888026,
+    "rolling_ai_covered_28": 2670340,
+    "rolling_total_tickets_28": 4903610
+  },
+  {
+    "event_date": "2025-02-17",
+    "success_rate_28": 0.29815481115194425,
+    "coverage_rate_28": 0.43012547831176823,
+    "rolling_closed_billed_28": 340912,
+    "rolling_ai_covered_28": 1143406,
+    "rolling_total_tickets_28": 2658308
+  },
+  {
+    "event_date": "2025-09-20",
+    "success_rate_28": 0.3542266062175535,
+    "coverage_rate_28": 0.5044633025538575,
+    "rolling_closed_billed_28": 727020,
+    "rolling_ai_covered_28": 2052415,
+    "rolling_total_tickets_28": 4068512
+  },
+  {
+    "event_date": "2025-11-27",
+    "success_rate_28": 0.3420394863886464,
+    "coverage_rate_28": 0.5358314540893981,
+    "rolling_closed_billed_28": 1006064,
+    "rolling_ai_covered_28": 2941368,
+    "rolling_total_tickets_28": 5489353
+  },
+  {
+    "event_date": "2025-04-17",
+    "success_rate_28": 0.3243925414743643,
+    "coverage_rate_28": 0.4589448921175738,
+    "rolling_closed_billed_28": 458693,
+    "rolling_ai_covered_28": 1414006,
+    "rolling_total_tickets_28": 3080993
+  },
+  {
+    "event_date": "2025-04-16",
+    "success_rate_28": 0.32229187722187275,
+    "coverage_rate_28": 0.45955033955297686,
+    "rolling_closed_billed_28": 456014,
+    "rolling_ai_covered_28": 1414910,
+    "rolling_total_tickets_28": 3078901
+  },
+  {
+    "event_date": "2025-08-26",
+    "success_rate_28": 0.3780603345820737,
+    "coverage_rate_28": 0.5366579888983084,
+    "rolling_closed_billed_28": 790489,
+    "rolling_ai_covered_28": 2090907,
+    "rolling_total_tickets_28": 3896163
+  },
+  {
+    "event_date": "2025-04-21",
+    "success_rate_28": 0.3308762868879226,
+    "coverage_rate_28": 0.45855977123108765,
+    "rolling_closed_billed_28": 462033,
+    "rolling_ai_covered_28": 1396392,
+    "rolling_total_tickets_28": 3045169
+  },
+  {
+    "event_date": "2025-11-06",
+    "success_rate_28": 0.3180673680305825,
+    "coverage_rate_28": 0.5516468405231383,
+    "rolling_closed_billed_28": 771703,
+    "rolling_ai_covered_28": 2426225,
+    "rolling_total_tickets_28": 4398149
+  },
+  {
+    "event_date": "2025-03-23",
+    "success_rate_28": 0.29219754179023644,
+    "coverage_rate_28": 0.4566872154973565,
+    "rolling_closed_billed_28": 392234,
+    "rolling_ai_covered_28": 1342359,
+    "rolling_total_tickets_28": 2939340
+  },
+  {
+    "event_date": "2025-08-28",
+    "success_rate_28": 0.37474384412711836,
+    "coverage_rate_28": 0.5340274119854761,
+    "rolling_closed_billed_28": 783411,
+    "rolling_ai_covered_28": 2090524,
+    "rolling_total_tickets_28": 3914638
+  },
+  {
+    "event_date": "2025-10-20",
+    "success_rate_28": 0.3378004785903339,
+    "coverage_rate_28": 0.5373465966888045,
+    "rolling_closed_billed_28": 745350,
+    "rolling_ai_covered_28": 2206480,
+    "rolling_total_tickets_28": 4106251
+  },
+  {
+    "event_date": "2025-12-08",
+    "success_rate_28": 0.35424672517031186,
+    "coverage_rate_28": 0.5328041946463814,
+    "rolling_closed_billed_28": 1300721,
+    "rolling_ai_covered_28": 3671794,
+    "rolling_total_tickets_28": 6891451
+  },
+  {
+    "event_date": "2025-11-12",
+    "success_rate_28": 0.32371950131300514,
+    "coverage_rate_28": 0.5509700741534143,
+    "rolling_closed_billed_28": 812624,
+    "rolling_ai_covered_28": 2510272,
+    "rolling_total_tickets_28": 4556095
+  },
+  {
+    "event_date": "2025-04-30",
+    "success_rate_28": 0.3388789047953918,
+    "coverage_rate_28": 0.4654940893821212,
+    "rolling_closed_billed_28": 481409,
+    "rolling_ai_covered_28": 1420593,
+    "rolling_total_tickets_28": 3051796
+  },
+  {
+    "event_date": "2025-04-05",
+    "success_rate_28": 0.3027136134961984,
+    "coverage_rate_28": 0.4570221497701451,
+    "rolling_closed_billed_28": 422465,
+    "rolling_ai_covered_28": 1395593,
+    "rolling_total_tickets_28": 3053666
+  },
+  {
+    "event_date": "2025-08-22",
+    "success_rate_28": 0.38756829695563655,
+    "coverage_rate_28": 0.5400399436769098,
+    "rolling_closed_billed_28": 818583,
+    "rolling_ai_covered_28": 2112100,
+    "rolling_total_tickets_28": 3911007
+  },
+  {
+    "event_date": "2025-06-27",
+    "success_rate_28": 0.39233560126707895,
+    "coverage_rate_28": 0.5196875798523332,
+    "rolling_closed_billed_28": 741273,
+    "rolling_ai_covered_28": 1889385,
+    "rolling_total_tickets_28": 3635617
+  },
+  {
+    "event_date": "2025-08-13",
+    "success_rate_28": 0.4122591000206726,
+    "coverage_rate_28": 0.5497981745292272,
+    "rolling_closed_billed_28": 887431,
+    "rolling_ai_covered_28": 2152605,
+    "rolling_total_tickets_28": 3915264
+  },
+  {
+    "event_date": "2025-06-04",
+    "success_rate_28": 0.35222475932953196,
+    "coverage_rate_28": 0.49251009914792676,
+    "rolling_closed_billed_28": 601285,
+    "rolling_ai_covered_28": 1707106,
+    "rolling_total_tickets_28": 3466134
+  },
+  {
+    "event_date": "2025-09-14",
+    "success_rate_28": 0.35531167623335136,
+    "coverage_rate_28": 0.5135221321367495,
+    "rolling_closed_billed_28": 738106,
+    "rolling_ai_covered_28": 2077348,
+    "rolling_total_tickets_28": 4045294
+  },
+  {
+    "event_date": "2025-10-05",
+    "success_rate_28": 0.3605006655204925,
+    "coverage_rate_28": 0.5045498812998405,
+    "rolling_closed_billed_28": 728021,
+    "rolling_ai_covered_28": 2019472,
+    "rolling_total_tickets_28": 4002522
+  },
+  {
+    "event_date": "2025-08-10",
+    "success_rate_28": 0.41963160792063703,
+    "coverage_rate_28": 0.5532862878714312,
+    "rolling_closed_billed_28": 910930,
+    "rolling_ai_covered_28": 2170785,
+    "rolling_total_tickets_28": 3923439
+  },
+  {
+    "event_date": "2025-08-21",
+    "success_rate_28": 0.3902320140838225,
+    "coverage_rate_28": 0.5415437788842717,
+    "rolling_closed_billed_28": 827023,
+    "rolling_ai_covered_28": 2119311,
+    "rolling_total_tickets_28": 3913462
+  },
+  {
+    "event_date": "2025-04-07",
+    "success_rate_28": 0.30538485432779505,
+    "coverage_rate_28": 0.4575789591585026,
+    "rolling_closed_billed_28": 426677,
+    "rolling_ai_covered_28": 1397178,
+    "rolling_total_tickets_28": 3053414
+  },
+  {
+    "event_date": "2025-10-18",
+    "success_rate_28": 0.3421840745560671,
+    "coverage_rate_28": 0.5333887730621827,
+    "rolling_closed_billed_28": 743592,
+    "rolling_ai_covered_28": 2173076,
+    "rolling_total_tickets_28": 4074094
+  },
+  {
+    "event_date": "2025-02-14",
+    "success_rate_28": 0.29994709353352694,
+    "coverage_rate_28": 0.42869914710544194,
+    "rolling_closed_billed_28": 340730,
+    "rolling_ai_covered_28": 1135967,
+    "rolling_total_tickets_28": 2649800
+  },
+  {
+    "event_date": "2025-09-11",
+    "success_rate_28": 0.35583068417714425,
+    "coverage_rate_28": 0.5157316539675958,
+    "rolling_closed_billed_28": 739983,
+    "rolling_ai_covered_28": 2079593,
+    "rolling_total_tickets_28": 4032316
+  },
+  {
+    "event_date": "2025-10-29",
+    "success_rate_28": 0.3256291711080004,
+    "coverage_rate_28": 0.5445042945960744,
+    "rolling_closed_billed_28": 760673,
+    "rolling_ai_covered_28": 2336010,
+    "rolling_total_tickets_28": 4290159
+  },
+  {
+    "event_date": "2025-07-31",
+    "success_rate_28": 0.437297791824344,
+    "coverage_rate_28": 0.555612177704092,
+    "rolling_closed_billed_28": 946413,
+    "rolling_ai_covered_28": 2164230,
+    "rolling_total_tickets_28": 3895217
+  },
+  {
+    "event_date": "2025-01-30",
+    "success_rate_28": 0.3024721258762875,
+    "coverage_rate_28": 0.42220512885944944,
+    "rolling_closed_billed_28": 350309,
+    "rolling_ai_covered_28": 1158153,
+    "rolling_total_tickets_28": 2743105
+  },
+  {
+    "event_date": "2025-01-04",
+    "success_rate_28": 0.2968733300599281,
+    "coverage_rate_28": 0.3995796289631436,
+    "rolling_closed_billed_28": 383327,
+    "rolling_ai_covered_28": 1291214,
+    "rolling_total_tickets_28": 3231431
+  },
+  {
+    "event_date": "2025-11-30",
+    "success_rate_28": 0.34498943530836484,
+    "coverage_rate_28": 0.5341666118293902,
+    "rolling_closed_billed_28": 1089369,
+    "rolling_ai_covered_28": 3157688,
+    "rolling_total_tickets_28": 5911429
+  },
+  {
+    "event_date": "2025-01-28",
+    "success_rate_28": 0.30185425958584966,
+    "coverage_rate_28": 0.4206223140845407,
+    "rolling_closed_billed_28": 345228,
+    "rolling_ai_covered_28": 1143691,
+    "rolling_total_tickets_28": 2719045
+  },
+  {
+    "event_date": "2025-01-29",
+    "success_rate_28": 0.3021556920233458,
+    "coverage_rate_28": 0.4215025302577334,
+    "rolling_closed_billed_28": 351159,
+    "rolling_ai_covered_28": 1162179,
+    "rolling_total_tickets_28": 2757229
+  },
+  {
+    "event_date": "2025-09-27",
+    "success_rate_28": 0.3550597841936425,
+    "coverage_rate_28": 0.5019244255040337,
+    "rolling_closed_billed_28": 715890,
+    "rolling_ai_covered_28": 2016252,
+    "rolling_total_tickets_28": 4017043
+  },
+  {
+    "event_date": "2025-05-15",
+    "success_rate_28": 0.34210507473023755,
+    "coverage_rate_28": 0.4704031281433385,
+    "rolling_closed_billed_28": 525562,
+    "rolling_ai_covered_28": 1536259,
+    "rolling_total_tickets_28": 3265835
+  },
+  {
+    "event_date": "2025-07-22",
+    "success_rate_28": 0.44119729365626403,
+    "coverage_rate_28": 0.5505430842735098,
+    "rolling_closed_billed_28": 942862,
+    "rolling_ai_covered_28": 2137053,
+    "rolling_total_tickets_28": 3881718
+  },
+  {
+    "event_date": "2025-10-01",
+    "success_rate_28": 0.35665579558744626,
+    "coverage_rate_28": 0.5038413767414511,
+    "rolling_closed_billed_28": 721224,
+    "rolling_ai_covered_28": 2022185,
+    "rolling_total_tickets_28": 4013535
+  },
+  {
+    "event_date": "2025-12-07",
+    "success_rate_28": 0.3529757120837223,
+    "coverage_rate_28": 0.5327868089450445,
+    "rolling_closed_billed_28": 1272769,
+    "rolling_ai_covered_28": 3605826,
+    "rolling_total_tickets_28": 6767859
+  },
+  {
+    "event_date": "2025-06-10",
+    "success_rate_28": 0.3553887487107706,
+    "coverage_rate_28": 0.4976124242721925,
+    "rolling_closed_billed_28": 617478,
+    "rolling_ai_covered_28": 1737472,
+    "rolling_total_tickets_28": 3491617
+  },
+  {
+    "event_date": "2025-01-05",
+    "success_rate_28": 0.29703553793608006,
+    "coverage_rate_28": 0.39921479456408654,
+    "rolling_closed_billed_28": 382048,
+    "rolling_ai_covered_28": 1286203,
+    "rolling_total_tickets_28": 3221832
+  },
+  {
+    "event_date": "2025-04-14",
+    "success_rate_28": 0.31807478243666665,
+    "coverage_rate_28": 0.45986822039278624,
+    "rolling_closed_billed_28": 446966,
+    "rolling_ai_covered_28": 1405223,
+    "rolling_total_tickets_28": 3055708
+  },
+  {
+    "event_date": "2025-12-04",
+    "success_rate_28": 0.34928403458630297,
+    "coverage_rate_28": 0.5320176010615947,
+    "rolling_closed_billed_28": 1206820,
+    "rolling_ai_covered_28": 3455125,
+    "rolling_total_tickets_28": 6494381
+  },
+  {
+    "event_date": "2025-03-24",
+    "success_rate_28": 0.2917905262153036,
+    "coverage_rate_28": 0.4566649071381212,
+    "rolling_closed_billed_28": 394305,
+    "rolling_ai_covered_28": 1351329,
+    "rolling_total_tickets_28": 2959126
+  },
+  {
+    "event_date": "2025-07-20",
+    "success_rate_28": 0.4391359308533686,
+    "coverage_rate_28": 0.5486015834406892,
+    "rolling_closed_billed_28": 932398,
+    "rolling_ai_covered_28": 2123256,
+    "rolling_total_tickets_28": 3870306
+  },
+  {
+    "event_date": "2025-11-15",
+    "success_rate_28": 0.32704024514238467,
+    "coverage_rate_28": 0.5513341915035993,
+    "rolling_closed_billed_28": 840152,
+    "rolling_ai_covered_28": 2568956,
+    "rolling_total_tickets_28": 4659526
+  },
+  {
+    "event_date": "2025-06-15",
+    "success_rate_28": 0.3657641470664131,
+    "coverage_rate_28": 0.5032513443058187,
+    "rolling_closed_billed_28": 650607,
+    "rolling_ai_covered_28": 1778761,
+    "rolling_total_tickets_28": 3534538
+  },
+  {
+    "event_date": "2025-06-16",
+    "success_rate_28": 0.3686135238000591,
+    "coverage_rate_28": 0.5045006550222646,
+    "rolling_closed_billed_28": 660227,
+    "rolling_ai_covered_28": 1791109,
+    "rolling_total_tickets_28": 3550261
+  },
+  {
+    "event_date": "2025-11-28",
+    "success_rate_28": 0.34355802709526245,
+    "coverage_rate_28": 0.5350676301963171,
+    "rolling_closed_billed_28": 1040998,
+    "rolling_ai_covered_28": 3030050,
+    "rolling_total_tickets_28": 5662929
+  },
+  {
+    "event_date": "2025-10-21",
+    "success_rate_28": 0.33653441200820705,
+    "coverage_rate_28": 0.5390371945074708,
+    "rolling_closed_billed_28": 747941,
+    "rolling_ai_covered_28": 2222480,
+    "rolling_total_tickets_28": 4123055
+  },
+  {
+    "event_date": "2025-07-16",
+    "success_rate_28": 0.4348832532017676,
+    "coverage_rate_28": 0.5455663516418998,
+    "rolling_closed_billed_28": 912479,
+    "rolling_ai_covered_28": 2098216,
+    "rolling_total_tickets_28": 3845941
+  },
+  {
+    "event_date": "2025-11-02",
+    "success_rate_28": 0.32048188213934486,
+    "coverage_rate_28": 0.5504612624875855,
+    "rolling_closed_billed_28": 762561,
+    "rolling_ai_covered_28": 2379420,
+    "rolling_total_tickets_28": 4322593
+  },
+  {
+    "event_date": "2025-09-17",
+    "success_rate_28": 0.35420033386554767,
+    "coverage_rate_28": 0.5082909573836614,
+    "rolling_closed_billed_28": 730965,
+    "rolling_ai_covered_28": 2063705,
+    "rolling_total_tickets_28": 4060086
+  },
+  {
+    "event_date": "2025-04-13",
+    "success_rate_28": 0.31579104847637735,
+    "coverage_rate_28": 0.4595219864057907,
+    "rolling_closed_billed_28": 443274,
+    "rolling_ai_covered_28": 1403694,
+    "rolling_total_tickets_28": 3054683
+  },
+  {
+    "event_date": "2025-09-12",
+    "success_rate_28": 0.35509114370179207,
+    "coverage_rate_28": 0.5140935504024253,
+    "rolling_closed_billed_28": 737503,
+    "rolling_ai_covered_28": 2076940,
+    "rolling_total_tickets_28": 4040004
+  },
+  {
+    "event_date": "2025-05-17",
+    "success_rate_28": 0.34147818959226256,
+    "coverage_rate_28": 0.4724633995106884,
+    "rolling_closed_billed_28": 531575,
+    "rolling_ai_covered_28": 1556688,
+    "rolling_total_tickets_28": 3294833
+  },
+  {
+    "event_date": "2025-01-18",
+    "success_rate_28": 0.3005432089081269,
+    "coverage_rate_28": 0.4109850802259324,
+    "rolling_closed_billed_28": 337165,
+    "rolling_ai_covered_28": 1121852,
+    "rolling_total_tickets_28": 2729666
+  },
+  {
+    "event_date": "2025-11-14",
+    "success_rate_28": 0.32599228357943666,
+    "coverage_rate_28": 0.5507712575310985,
+    "rolling_closed_billed_28": 830821,
+    "rolling_ai_covered_28": 2548591,
+    "rolling_total_tickets_28": 4627313
+  },
+  {
+    "event_date": "2025-07-03",
+    "success_rate_28": 0.40907952362854455,
+    "coverage_rate_28": 0.5262435173765717,
+    "rolling_closed_billed_28": 801892,
+    "rolling_ai_covered_28": 1960235,
+    "rolling_total_tickets_28": 3724958
+  },
+  {
+    "event_date": "2025-01-14",
+    "success_rate_28": 0.2982070433712709,
+    "coverage_rate_28": 0.4048196838855416,
+    "rolling_closed_billed_28": 346830,
+    "rolling_ai_covered_28": 1163051,
+    "rolling_total_tickets_28": 2873010
+  },
+  {
+    "event_date": "2025-03-17",
+    "success_rate_28": 0.2926675215509505,
+    "coverage_rate_28": 0.45658683522180227,
+    "rolling_closed_billed_28": 383201,
+    "rolling_ai_covered_28": 1309339,
+    "rolling_total_tickets_28": 2867667
+  },
+  {
+    "event_date": "2025-05-14",
+    "success_rate_28": 0.34240329942563075,
+    "coverage_rate_28": 0.46868528071550153,
+    "rolling_closed_billed_28": 522038,
+    "rolling_ai_covered_28": 1524629,
+    "rolling_total_tickets_28": 3252991
+  },
+  {
+    "event_date": "2025-06-26",
+    "success_rate_28": 0.38945147297404503,
+    "coverage_rate_28": 0.5186282276902124,
+    "rolling_closed_billed_28": 731444,
+    "rolling_ai_covered_28": 1878139,
+    "rolling_total_tickets_28": 3621359
+  },
+  {
+    "event_date": "2025-09-28",
+    "success_rate_28": 0.35510053806870845,
+    "coverage_rate_28": 0.5019032845074758,
+    "rolling_closed_billed_28": 715654,
+    "rolling_ai_covered_28": 2015356,
+    "rolling_total_tickets_28": 4015427
+  },
+  {
+    "event_date": "2025-11-20",
+    "success_rate_28": 0.3339929093721007,
+    "coverage_rate_28": 0.5422556403682156,
+    "rolling_closed_billed_28": 900335,
+    "rolling_ai_covered_28": 2695671,
+    "rolling_total_tickets_28": 4971218
+  },
+  {
+    "event_date": "2025-05-06",
+    "success_rate_28": 0.34093533093322925,
+    "coverage_rate_28": 0.46531281225422505,
+    "rolling_closed_billed_28": 499638,
+    "rolling_ai_covered_28": 1465492,
+    "rolling_total_tickets_28": 3149477
+  },
+  {
+    "event_date": "2025-01-17",
+    "success_rate_28": 0.29939001065906007,
+    "coverage_rate_28": 0.40947489036669693,
+    "rolling_closed_billed_28": 337335,
+    "rolling_ai_covered_28": 1126741,
+    "rolling_total_tickets_28": 2751673
+  },
+  {
+    "event_date": "2025-11-29",
+    "success_rate_28": 0.34421054293773606,
+    "coverage_rate_28": 0.5346328397800107,
+    "rolling_closed_billed_28": 1068107,
+    "rolling_ai_covered_28": 3103063,
+    "rolling_total_tickets_28": 5804101
+  },
+  {
+    "event_date": "2025-08-19",
+    "success_rate_28": 0.3950629063248493,
+    "coverage_rate_28": 0.5435333417467086,
+    "rolling_closed_billed_28": 840539,
+    "rolling_ai_covered_28": 2127608,
+    "rolling_total_tickets_28": 3914402
+  },
+  {
+    "event_date": "2025-02-01",
+    "success_rate_28": 0.3017665848199735,
+    "coverage_rate_28": 0.42318954764760647,
+    "rolling_closed_billed_28": 347190,
+    "rolling_ai_covered_28": 1150525,
+    "rolling_total_tickets_28": 2718699
+  },
+  {
+    "event_date": "2025-07-21",
+    "success_rate_28": 0.440306213247672,
+    "coverage_rate_28": 0.5493296746212186,
+    "rolling_closed_billed_28": 937688,
+    "rolling_ai_covered_28": 2129627,
+    "rolling_total_tickets_28": 3876774
+  },
+  {
+    "event_date": "2025-02-03",
+    "success_rate_28": 0.30171589448644337,
+    "coverage_rate_28": 0.42361556359205205,
+    "rolling_closed_billed_28": 344867,
+    "rolling_ai_covered_28": 1143019,
+    "rolling_total_tickets_28": 2698246
+  },
+  {
+    "event_date": "2025-08-24",
+    "success_rate_28": 0.3832481084642127,
+    "coverage_rate_28": 0.5381434533535646,
+    "rolling_closed_billed_28": 806295,
+    "rolling_ai_covered_28": 2103846,
+    "rolling_total_tickets_28": 3909452
+  },
+  {
+    "event_date": "2025-01-26",
+    "success_rate_28": 0.302005365975765,
+    "coverage_rate_28": 0.4183413629770128,
+    "rolling_closed_billed_28": 342642,
+    "rolling_ai_covered_28": 1134556,
+    "rolling_total_tickets_28": 2712034
+  },
+  {
+    "event_date": "2025-07-12",
+    "success_rate_28": 0.4316207467994999,
+    "coverage_rate_28": 0.540644480160118,
+    "rolling_closed_billed_28": 890753,
+    "rolling_ai_covered_28": 2063740,
+    "rolling_total_tickets_28": 3817185
+  },
+  {
+    "event_date": "2025-07-30",
+    "success_rate_28": 0.4396331784500426,
+    "coverage_rate_28": 0.5555913569913785,
+    "rolling_closed_billed_28": 951364,
+    "rolling_ai_covered_28": 2163995,
+    "rolling_total_tickets_28": 3894940
+  },
+  {
+    "event_date": "2025-06-13",
+    "success_rate_28": 0.3595557159231768,
+    "coverage_rate_28": 0.4998977201697817,
+    "rolling_closed_billed_28": 631766,
+    "rolling_ai_covered_28": 1757074,
+    "rolling_total_tickets_28": 3514867
+  },
+  {
+    "event_date": "2025-07-14",
+    "success_rate_28": 0.4324344133328254,
+    "coverage_rate_28": 0.5423024684546257,
+    "rolling_closed_billed_28": 896808,
+    "rolling_ai_covered_28": 2073859,
+    "rolling_total_tickets_28": 3824174
+  },
+  {
+    "event_date": "2025-03-08",
+    "success_rate_28": 0.29409068324972354,
+    "coverage_rate_28": 0.4482134999955102,
+    "rolling_closed_billed_28": 366984,
+    "rolling_ai_covered_28": 1247860,
+    "rolling_total_tickets_28": 2784075
+  },
+  {
+    "event_date": "2025-09-10",
+    "success_rate_28": 0.3565295255837178,
+    "coverage_rate_28": 0.5173924416589886,
+    "rolling_closed_billed_28": 742569,
+    "rolling_ai_covered_28": 2082770,
+    "rolling_total_tickets_28": 4025513
+  },
+  {
+    "event_date": "2025-07-04",
+    "success_rate_28": 0.4132363128114904,
+    "coverage_rate_28": 0.5272989345594353,
+    "rolling_closed_billed_28": 808920,
+    "rolling_ai_covered_28": 1957524,
+    "rolling_total_tickets_28": 3712361
+  },
+  {
+    "event_date": "2025-09-15",
+    "success_rate_28": 0.3553283071045702,
+    "coverage_rate_28": 0.5116128666250638,
+    "rolling_closed_billed_28": 737017,
+    "rolling_ai_covered_28": 2074186,
+    "rolling_total_tickets_28": 4054210
+  },
+  {
+    "event_date": "2025-02-25",
+    "success_rate_28": 0.29453684554447657,
+    "coverage_rate_28": 0.43601868516188413,
+    "rolling_closed_billed_28": 344366,
+    "rolling_ai_covered_28": 1169178,
+    "rolling_total_tickets_28": 2681486
+  },
+  {
+    "event_date": "2025-11-26",
+    "success_rate_28": 0.3411967467318838,
+    "coverage_rate_28": 0.537144332790824,
+    "rolling_closed_billed_28": 995000,
+    "rolling_ai_covered_28": 2916206,
+    "rolling_total_tickets_28": 5429092
+  },
+  {
+    "event_date": "2025-05-01",
+    "success_rate_28": 0.3387489629160521,
+    "coverage_rate_28": 0.4654581956175787,
+    "rolling_closed_billed_28": 483013,
+    "rolling_ai_covered_28": 1425873,
+    "rolling_total_tickets_28": 3063375
+  },
+  {
+    "event_date": "2025-09-16",
+    "success_rate_28": 0.3552854953745965,
+    "coverage_rate_28": 0.5099423998280915,
+    "rolling_closed_billed_28": 735204,
+    "rolling_ai_covered_28": 2069333,
+    "rolling_total_tickets_28": 4057974
+  },
+  {
+    "event_date": "2025-03-27",
+    "success_rate_28": 0.29352952079668676,
+    "coverage_rate_28": 0.4565816079919585,
+    "rolling_closed_billed_28": 400654,
+    "rolling_ai_covered_28": 1364953,
+    "rolling_total_tickets_28": 2989505
+  },
+  {
+    "event_date": "2025-01-01",
+    "success_rate_28": 0.29681277177951987,
+    "coverage_rate_28": 0.39854314119269946,
+    "rolling_closed_billed_28": 389405,
+    "rolling_ai_covered_28": 1311955,
+    "rolling_total_tickets_28": 3291877
+  },
+  {
+    "event_date": "2025-10-17",
+    "success_rate_28": 0.3439092200156358,
+    "coverage_rate_28": 0.5313197496809073,
+    "rolling_closed_billed_28": 743432,
+    "rolling_ai_covered_28": 2161710,
+    "rolling_total_tickets_28": 4068567
+  },
+  {
+    "event_date": "2025-02-18",
+    "success_rate_28": 0.2973144527834705,
+    "coverage_rate_28": 0.43064621858453095,
+    "rolling_closed_billed_28": 340054,
+    "rolling_ai_covered_28": 1143752,
+    "rolling_total_tickets_28": 2655897
+  },
+  {
+    "event_date": "2025-11-24",
+    "success_rate_28": 0.3389296295220272,
+    "coverage_rate_28": 0.5389585900462508,
+    "rolling_closed_billed_28": 956616,
+    "rolling_ai_covered_28": 2822462,
+    "rolling_total_tickets_28": 5236881
+  },
+  {
+    "event_date": "2025-09-13",
+    "success_rate_28": 0.3550765712898719,
+    "coverage_rate_28": 0.5138145608477863,
+    "rolling_closed_billed_28": 737292,
+    "rolling_ai_covered_28": 2076431,
+    "rolling_total_tickets_28": 4041207
+  },
+  {
+    "event_date": "2025-03-16",
+    "success_rate_28": 0.2930656295110982,
+    "coverage_rate_28": 0.45558587071447854,
+    "rolling_closed_billed_28": 379845,
+    "rolling_ai_covered_28": 1296109,
+    "rolling_total_tickets_28": 2844928
+  },
+  {
+    "event_date": "2025-03-09",
+    "success_rate_28": 0.29429777564660553,
+    "coverage_rate_28": 0.44889886001774315,
+    "rolling_closed_billed_28": 368859,
+    "rolling_ai_covered_28": 1253353,
+    "rolling_total_tickets_28": 2792061
+  },
+  {
+    "event_date": "2025-07-07",
+    "success_rate_28": 0.42156141562455773,
+    "coverage_rate_28": 0.5303958067212983,
+    "rolling_closed_billed_28": 843001,
+    "rolling_ai_covered_28": 1999711,
+    "rolling_total_tickets_28": 3770224
+  },
+  {
+    "event_date": "2025-10-30",
+    "success_rate_28": 0.32461751130479605,
+    "coverage_rate_28": 0.5456248762296843,
+    "rolling_closed_billed_28": 762025,
+    "rolling_ai_covered_28": 2347455,
+    "rolling_total_tickets_28": 4302324
+  },
+  {
+    "event_date": "2025-06-07",
+    "success_rate_28": 0.3528823648126712,
+    "coverage_rate_28": 0.4960970450781799,
+    "rolling_closed_billed_28": 608492,
+    "rolling_ai_covered_28": 1724348,
+    "rolling_total_tickets_28": 3475828
+  },
+  {
+    "event_date": "2025-09-01",
+    "success_rate_28": 0.3700548723892333,
+    "coverage_rate_28": 0.5308462798228785,
+    "rolling_closed_billed_28": 769481,
+    "rolling_ai_covered_28": 2079370,
+    "rolling_total_tickets_28": 3917085
+  },
+  {
+    "event_date": "2025-01-07",
+    "success_rate_28": 0.29756571657815306,
+    "coverage_rate_28": 0.3993434043543328,
+    "rolling_closed_billed_28": 373833,
+    "rolling_ai_covered_28": 1256304,
+    "rolling_total_tickets_28": 3145924
+  },
+  {
+    "event_date": "2025-06-02",
+    "success_rate_28": 0.35164911111741187,
+    "coverage_rate_28": 0.4893261804559959,
+    "rolling_closed_billed_28": 595311,
+    "rolling_ai_covered_28": 1692912,
+    "rolling_total_tickets_28": 3459680
+  },
+  {
+    "event_date": "2025-02-19",
+    "success_rate_28": 0.29665458673536216,
+    "coverage_rate_28": 0.43129731173136976,
+    "rolling_closed_billed_28": 339714,
+    "rolling_ai_covered_28": 1145150,
+    "rolling_total_tickets_28": 2655129
+  },
+  {
+    "event_date": "2025-04-15",
+    "success_rate_28": 0.32046639834471813,
+    "coverage_rate_28": 0.45980277131488073,
+    "rolling_closed_billed_28": 452255,
+    "rolling_ai_covered_28": 1411240,
+    "rolling_total_tickets_28": 3069229
+  },
+  {
+    "event_date": "2025-03-30",
+    "success_rate_28": 0.2956166531400629,
+    "coverage_rate_28": 0.4561061802482289,
+    "rolling_closed_billed_28": 406493,
+    "rolling_ai_covered_28": 1375068,
+    "rolling_total_tickets_28": 3014798
+  },
+  {
+    "event_date": "2025-06-19",
+    "success_rate_28": 0.37545651663513196,
+    "coverage_rate_28": 0.5074190955021786,
+    "rolling_closed_billed_28": 679642,
+    "rolling_ai_covered_28": 1810175,
+    "rolling_total_tickets_28": 3567416
+  },
+  {
+    "event_date": "2025-07-29",
+    "success_rate_28": 0.440688302758449,
+    "coverage_rate_28": 0.5553523480404237,
+    "rolling_closed_billed_28": 952390,
+    "rolling_ai_covered_28": 2161142,
+    "rolling_total_tickets_28": 3891479
+  },
+  {
+    "event_date": "2025-07-27",
+    "success_rate_28": 0.442022029747915,
+    "coverage_rate_28": 0.5542532772806865,
+    "rolling_closed_billed_28": 951833,
+    "rolling_ai_covered_28": 2153361,
+    "rolling_total_tickets_28": 3885157
+  },
+  {
+    "event_date": "2025-02-27",
+    "success_rate_28": 0.2927987594366844,
+    "coverage_rate_28": 0.4375019378614573,
+    "rolling_closed_billed_28": 347045,
+    "rolling_ai_covered_28": 1185268,
+    "rolling_total_tickets_28": 2709172
+  },
+  {
+    "event_date": "2025-07-08",
+    "success_rate_28": 0.42487979338744614,
+    "coverage_rate_28": 0.5328522007692624,
+    "rolling_closed_billed_28": 856782,
+    "rolling_ai_covered_28": 2016528,
+    "rolling_total_tickets_28": 3784404
+  },
+  {
+    "event_date": "2025-03-19",
+    "success_rate_28": 0.2925490178309133,
+    "coverage_rate_28": 0.4573225569373337,
+    "rolling_closed_billed_28": 387382,
+    "rolling_ai_covered_28": 1324161,
+    "rolling_total_tickets_28": 2895464
+  },
+  {
+    "event_date": "2025-04-11",
+    "success_rate_28": 0.3132057180941112,
+    "coverage_rate_28": 0.4590469633823242,
+    "rolling_closed_billed_28": 439401,
+    "rolling_ai_covered_28": 1402915,
+    "rolling_total_tickets_28": 3056147
+  },
+  {
+    "event_date": "2025-01-13",
+    "success_rate_28": 0.2983012138071197,
+    "coverage_rate_28": 0.40257396577212473,
+    "rolling_closed_billed_28": 351088,
+    "rolling_ai_covered_28": 1176958,
+    "rolling_total_tickets_28": 2923582
+  },
+  {
+    "event_date": "2025-10-26",
+    "success_rate_28": 0.32891563694720927,
+    "coverage_rate_28": 0.542992504612955,
+    "rolling_closed_billed_28": 755461,
+    "rolling_ai_covered_28": 2296823,
+    "rolling_total_tickets_28": 4229935
+  },
+  {
+    "event_date": "2025-01-22",
+    "success_rate_28": 0.30140862740724733,
+    "coverage_rate_28": 0.41476464181513195,
+    "rolling_closed_billed_28": 345952,
+    "rolling_ai_covered_28": 1147784,
+    "rolling_total_tickets_28": 2767314
+  },
+  {
+    "event_date": "2025-11-22",
+    "success_rate_28": 0.33641597316358457,
+    "coverage_rate_28": 0.5401025117056384,
+    "rolling_closed_billed_28": 925443,
+    "rolling_ai_covered_28": 2750889,
+    "rolling_total_tickets_28": 5093272
+  },
+  {
+    "event_date": "2025-01-24",
+    "success_rate_28": 0.3019025370078823,
+    "coverage_rate_28": 0.4160779187469579,
+    "rolling_closed_billed_28": 344789,
+    "rolling_ai_covered_28": 1142054,
+    "rolling_total_tickets_28": 2744808
+  },
+  {
+    "event_date": "2025-01-21",
+    "success_rate_28": 0.3016894025486745,
+    "coverage_rate_28": 0.41432124916693824,
+    "rolling_closed_billed_28": 340601,
+    "rolling_ai_covered_28": 1128979,
+    "rolling_total_tickets_28": 2724888
+  },
+  {
+    "event_date": "2025-01-19",
+    "success_rate_28": 0.3008572330774068,
+    "coverage_rate_28": 0.4118344202372646,
+    "rolling_closed_billed_28": 336328,
+    "rolling_ai_covered_28": 1117899,
+    "rolling_total_tickets_28": 2714438
+  },
+  {
+    "event_date": "2025-07-09",
+    "success_rate_28": 0.42710490392718276,
+    "coverage_rate_28": 0.5344233600941382,
+    "rolling_closed_billed_28": 866677,
+    "rolling_ai_covered_28": 2029190,
+    "rolling_total_tickets_28": 3796971
+  },
+  {
+    "event_date": "2025-07-23",
+    "success_rate_28": 0.4413065568447535,
+    "coverage_rate_28": 0.5511207363124538,
+    "rolling_closed_billed_28": 944588,
+    "rolling_ai_covered_28": 2140435,
+    "rolling_total_tickets_28": 3883786
+  },
+  {
+    "event_date": "2025-01-02",
+    "success_rate_28": 0.2963742417064704,
+    "coverage_rate_28": 0.39905575801324966,
+    "rolling_closed_billed_28": 386007,
+    "rolling_ai_covered_28": 1302431,
+    "rolling_total_tickets_28": 3263782
+  },
+  {
+    "event_date": "2025-03-26",
+    "success_rate_28": 0.2928566587996806,
+    "coverage_rate_28": 0.456140586664803,
+    "rolling_closed_billed_28": 397574,
+    "rolling_ai_covered_28": 1357572,
+    "rolling_total_tickets_28": 2976214
+  },
+  {
+    "event_date": "2025-02-21",
+    "success_rate_28": 0.29493261703733886,
+    "coverage_rate_28": 0.4334826092097642,
+    "rolling_closed_billed_28": 339499,
+    "rolling_ai_covered_28": 1151107,
+    "rolling_total_tickets_28": 2655486
+  },
+  {
+    "event_date": "2025-08-02",
+    "success_rate_28": 0.43351985054226005,
+    "coverage_rate_28": 0.5562051859554651,
+    "rolling_closed_billed_28": 947690,
+    "rolling_ai_covered_28": 2186036,
+    "rolling_total_tickets_28": 3930269
+  },
+  {
+    "event_date": "2025-07-15",
+    "success_rate_28": 0.4331009000773605,
+    "coverage_rate_28": 0.5436887254582407,
+    "rolling_closed_billed_28": 903034,
+    "rolling_ai_covered_28": 2085043,
+    "rolling_total_tickets_28": 3834994
+  },
+  {
+    "event_date": "2025-12-12",
+    "success_rate_28": 0.35763638373188994,
+    "coverage_rate_28": 0.5326069849305599,
+    "rolling_closed_billed_28": 1397859,
+    "rolling_ai_covered_28": 3908604,
+    "rolling_total_tickets_28": 7338627
+  },
+  {
+    "event_date": "2025-08-12",
+    "success_rate_28": 0.41491869849127455,
+    "coverage_rate_28": 0.5514365493329756,
+    "rolling_closed_billed_28": 897009,
+    "rolling_ai_covered_28": 2161891,
+    "rolling_total_tickets_28": 3920471
+  },
+  {
+    "event_date": "2025-10-25",
+    "success_rate_28": 0.33052394673189245,
+    "coverage_rate_28": 0.5424046217944332,
+    "rolling_closed_billed_28": 754567,
+    "rolling_ai_covered_28": 2282942,
+    "rolling_total_tickets_28": 4208928
+  },
+  {
+    "event_date": "2025-01-23",
+    "success_rate_28": 0.3014868808986687,
+    "coverage_rate_28": 0.41496025581598156,
+    "rolling_closed_billed_28": 345734,
+    "rolling_ai_covered_28": 1146763,
+    "rolling_total_tickets_28": 2763549
+  },
+  {
+    "event_date": "2025-03-14",
+    "success_rate_28": 0.2929726877306255,
+    "coverage_rate_28": 0.45466862607769076,
+    "rolling_closed_billed_28": 377529,
+    "rolling_ai_covered_28": 1288615,
+    "rolling_total_tickets_28": 2834185
+  },
+  {
+    "event_date": "2025-08-01",
+    "success_rate_28": 0.4349795440592491,
+    "coverage_rate_28": 0.555595351606174,
+    "rolling_closed_billed_28": 948703,
+    "rolling_ai_covered_28": 2181029,
+    "rolling_total_tickets_28": 3925571
+  },
+  {
+    "event_date": "2025-06-22",
+    "success_rate_28": 0.38038449451405304,
+    "coverage_rate_28": 0.5140444758357586,
+    "rolling_closed_billed_28": 695980,
+    "rolling_ai_covered_28": 1829675,
+    "rolling_total_tickets_28": 3559371
+  },
+  {
+    "event_date": "2025-03-05",
+    "success_rate_28": 0.2931901816473536,
+    "coverage_rate_28": 0.4450628130990421,
+    "rolling_closed_billed_28": 359484,
+    "rolling_ai_covered_28": 1226112,
+    "rolling_total_tickets_28": 2754919
+  },
+  {
+    "event_date": "2025-04-29",
+    "success_rate_28": 0.3387759827796906,
+    "coverage_rate_28": 0.46572983686417274,
+    "rolling_closed_billed_28": 479865,
+    "rolling_ai_covered_28": 1416467,
+    "rolling_total_tickets_28": 3041392
+  },
+  {
+    "event_date": "2025-02-02",
+    "success_rate_28": 0.3015322214075608,
+    "coverage_rate_28": 0.4236752378289078,
+    "rolling_closed_billed_28": 346279,
+    "rolling_ai_covered_28": 1148398,
+    "rolling_total_tickets_28": 2710562
+  },
+  {
+    "event_date": "2025-09-18",
+    "success_rate_28": 0.3541232286386848,
+    "coverage_rate_28": 0.5068020909525486,
+    "rolling_closed_billed_28": 729468,
+    "rolling_ai_covered_28": 2059927,
+    "rolling_total_tickets_28": 4064559
+  },
+  {
+    "event_date": "2025-08-16",
+    "success_rate_28": 0.40428250612838174,
+    "coverage_rate_28": 0.5465243043014714,
+    "rolling_closed_billed_28": 865017,
+    "rolling_ai_covered_28": 2139635,
+    "rolling_total_tickets_28": 3914986
+  },
+  {
+    "event_date": "2025-03-12",
+    "success_rate_28": 0.29400250032899067,
+    "coverage_rate_28": 0.4526896880398737,
+    "rolling_closed_billed_28": 375333,
+    "rolling_ai_covered_28": 1276632,
+    "rolling_total_tickets_28": 2820104
+  },
+  {
+    "event_date": "2025-09-02",
+    "success_rate_28": 0.3674829631359215,
+    "coverage_rate_28": 0.527690905198277,
+    "rolling_closed_billed_28": 761740,
+    "rolling_ai_covered_28": 2072858,
+    "rolling_total_tickets_28": 3928167
+  },
+  {
+    "event_date": "2025-06-25",
+    "success_rate_28": 0.38694559019628116,
+    "coverage_rate_28": 0.5178177692209529,
+    "rolling_closed_billed_28": 722256,
+    "rolling_ai_covered_28": 1866557,
+    "rolling_total_tickets_28": 3604660
+  },
+  {
+    "event_date": "2025-06-06",
+    "success_rate_28": 0.35225730928825927,
+    "coverage_rate_28": 0.49546969926275053,
+    "rolling_closed_billed_28": 605450,
+    "rolling_ai_covered_28": 1718772,
+    "rolling_total_tickets_28": 3468975
+  },
+  {
+    "event_date": "2025-03-15",
+    "success_rate_28": 0.29301519109820995,
+    "coverage_rate_28": 0.4550058835980923,
+    "rolling_closed_billed_28": 378539,
+    "rolling_ai_covered_28": 1291875,
+    "rolling_total_tickets_28": 2839249
+  },
+  {
+    "event_date": "2025-02-06",
+    "success_rate_28": 0.30162586762545956,
+    "coverage_rate_28": 0.42368021948539025,
+    "rolling_closed_billed_28": 341518,
+    "rolling_ai_covered_28": 1132257,
+    "rolling_total_tickets_28": 2672433
+  },
+  {
+    "event_date": "2025-06-12",
+    "success_rate_28": 0.35787009064307596,
+    "coverage_rate_28": 0.4984471509921993,
+    "rolling_closed_billed_28": 626054,
+    "rolling_ai_covered_28": 1749389,
+    "rolling_total_tickets_28": 3509678
+  },
+  {
+    "event_date": "2025-11-23",
+    "success_rate_28": 0.33741127984035496,
+    "coverage_rate_28": 0.5402239049340789,
+    "rolling_closed_billed_28": 937891,
+    "rolling_ai_covered_28": 2779667,
+    "rolling_total_tickets_28": 5145398
+  },
+  {
+    "event_date": "2025-07-06",
+    "success_rate_28": 0.41853783682074397,
+    "coverage_rate_28": 0.5287425550066995,
+    "rolling_closed_billed_28": 827456,
+    "rolling_ai_covered_28": 1977016,
+    "rolling_total_tickets_28": 3739090
+  },
+  {
+    "event_date": "2025-02-12",
+    "success_rate_28": 0.30050178323318316,
+    "coverage_rate_28": 0.4269099437899578,
+    "rolling_closed_billed_28": 339558,
+    "rolling_ai_covered_28": 1129970,
+    "rolling_total_tickets_28": 2646858
+  },
+  {
+    "event_date": "2025-12-09",
+    "success_rate_28": 0.35578859002050817,
+    "coverage_rate_28": 0.5327736920518215,
+    "rolling_closed_billed_28": 1329947,
+    "rolling_ai_covered_28": 3738026,
+    "rolling_total_tickets_28": 7016161
+  },
+  {
+    "event_date": "2025-10-24",
+    "success_rate_28": 0.33219111075857327,
+    "coverage_rate_28": 0.5421441938326875,
+    "rolling_closed_billed_28": 753828,
+    "rolling_ai_covered_28": 2269260,
+    "rolling_total_tickets_28": 4185713
+  },
+  {
+    "event_date": "2025-02-20",
+    "success_rate_28": 0.29572897242701385,
+    "coverage_rate_28": 0.4324811904212531,
+    "rolling_closed_billed_28": 339231,
+    "rolling_ai_covered_28": 1147101,
+    "rolling_total_tickets_28": 2652372
+  },
+  {
+    "event_date": "2025-12-13",
+    "success_rate_28": 0.35644609899063107,
+    "coverage_rate_28": 0.532608598823519,
+    "rolling_closed_billed_28": 1406547,
+    "rolling_ai_covered_28": 3946030,
+    "rolling_total_tickets_28": 7408874
+  },
+  {
+    "event_date": "2025-09-05",
+    "success_rate_28": 0.36187060979309743,
+    "coverage_rate_28": 0.5249313034091228,
+    "rolling_closed_billed_28": 752608,
+    "rolling_ai_covered_28": 2079771,
+    "rolling_total_tickets_28": 3961987
+  },
+  {
+    "event_date": "2025-05-02",
+    "success_rate_28": 0.3387999148826322,
+    "coverage_rate_28": 0.46464874698838926,
+    "rolling_closed_billed_28": 485607,
+    "rolling_ai_covered_28": 1433315,
+    "rolling_total_tickets_28": 3084728
+  },
+  {
+    "event_date": "2025-02-23",
+    "success_rate_28": 0.29490413440108953,
+    "coverage_rate_28": 0.4338832145196529,
+    "rolling_closed_billed_28": 341261,
+    "rolling_ai_covered_28": 1157193,
+    "rolling_total_tickets_28": 2667061
+  },
+  {
+    "event_date": "2025-09-22",
+    "success_rate_28": 0.3541020035930816,
+    "coverage_rate_28": 0.5024042018595509,
+    "rolling_closed_billed_28": 723759,
+    "rolling_ai_covered_28": 2043928,
+    "rolling_total_tickets_28": 4068294
+  },
+  {
+    "event_date": "2025-02-26",
+    "success_rate_28": 0.29303288065446076,
+    "coverage_rate_28": 0.4374363354106338,
+    "rolling_closed_billed_28": 345804,
+    "rolling_ai_covered_28": 1180086,
+    "rolling_total_tickets_28": 2697732
+  },
+  {
+    "event_date": "2025-09-30",
+    "success_rate_28": 0.3553215442111857,
+    "coverage_rate_28": 0.503312492612431,
+    "rolling_closed_billed_28": 718673,
+    "rolling_ai_covered_28": 2022599,
+    "rolling_total_tickets_28": 4018575
+  },
+  {
+    "event_date": "2025-01-27",
+    "success_rate_28": 0.3017661130693426,
+    "coverage_rate_28": 0.41931733825315143,
+    "rolling_closed_billed_28": 342105,
+    "rolling_ai_covered_28": 1133676,
+    "rolling_total_tickets_28": 2703623
+  },
+  {
+    "event_date": "2025-01-16",
+    "success_rate_28": 0.29923529344525934,
+    "coverage_rate_28": 0.4086982770547681,
+    "rolling_closed_billed_28": 340320,
+    "rolling_ai_covered_28": 1137299,
+    "rolling_total_tickets_28": 2782735
+  },
+  {
+    "event_date": "2025-10-19",
+    "success_rate_28": 0.3403091941397467,
+    "coverage_rate_28": 0.5354699225024023,
+    "rolling_closed_billed_28": 744490,
+    "rolling_ai_covered_28": 2187687,
+    "rolling_total_tickets_28": 4085546
+  },
+  {
+    "event_date": "2025-05-11",
+    "success_rate_28": 0.342850343088335,
+    "coverage_rate_28": 0.46556546590035125,
+    "rolling_closed_billed_28": 514293,
+    "rolling_ai_covered_28": 1500051,
+    "rolling_total_tickets_28": 3221998
+  },
+  {
+    "event_date": "2025-11-11",
+    "success_rate_28": 0.3218671705507733,
+    "coverage_rate_28": 0.5519454361849475,
+    "rolling_closed_billed_28": 804853,
+    "rolling_ai_covered_28": 2500575,
+    "rolling_total_tickets_28": 4530475
+  },
+  {
+    "event_date": "2025-06-18",
+    "success_rate_28": 0.37322436185496494,
+    "coverage_rate_28": 0.5061402157380668,
+    "rolling_closed_billed_28": 674400,
+    "rolling_ai_covered_28": 1806956,
+    "rolling_total_tickets_28": 3570070
+  },
+  {
+    "event_date": "2025-08-08",
+    "success_rate_28": 0.42206252328410515,
+    "coverage_rate_28": 0.5545874117383583,
+    "rolling_closed_billed_28": 917661,
+    "rolling_ai_covered_28": 2174230,
+    "rolling_total_tickets_28": 3920446
+  },
+  {
+    "event_date": "2025-04-18",
+    "success_rate_28": 0.3263068613768141,
+    "coverage_rate_28": 0.4584410813271128,
+    "rolling_closed_billed_28": 460124,
+    "rolling_ai_covered_28": 1410096,
+    "rolling_total_tickets_28": 3075850
+  },
+  {
+    "event_date": "2025-01-10",
+    "success_rate_28": 0.2979719511428354,
+    "coverage_rate_28": 0.40084204326813067,
+    "rolling_closed_billed_28": 360173,
+    "rolling_ai_covered_28": 1208748,
+    "rolling_total_tickets_28": 3015522
+  },
+  {
+    "event_date": "2025-10-22",
+    "success_rate_28": 0.3349207398684448,
+    "coverage_rate_28": 0.5409677355429103,
+    "rolling_closed_billed_28": 749704,
+    "rolling_ai_covered_28": 2238452,
+    "rolling_total_tickets_28": 4137866
+  },
+  {
+    "event_date": "2025-03-21",
+    "success_rate_28": 0.2928662259249252,
+    "coverage_rate_28": 0.4567481299588439,
+    "rolling_closed_billed_28": 391293,
+    "rolling_ai_covered_28": 1336081,
+    "rolling_total_tickets_28": 2925203
+  },
+  {
+    "event_date": "2025-06-30",
+    "success_rate_28": 0.3993073958740226,
+    "coverage_rate_28": 0.522008340299874,
+    "rolling_closed_billed_28": 767708,
+    "rolling_ai_covered_28": 1922599,
+    "rolling_total_tickets_28": 3683081
+  },
+  {
+    "event_date": "2025-01-15",
+    "success_rate_28": 0.2984326220647555,
+    "coverage_rate_28": 0.4068453474533492,
+    "rolling_closed_billed_28": 342991,
+    "rolling_ai_covered_28": 1149308,
+    "rolling_total_tickets_28": 2824926
+  },
+  {
+    "event_date": "2025-08-20",
+    "success_rate_28": 0.3928052183629217,
+    "coverage_rate_28": 0.542530250710576,
+    "rolling_closed_billed_28": 834574,
+    "rolling_ai_covered_28": 2124651,
+    "rolling_total_tickets_28": 3916189
+  },
+  {
+    "event_date": "2025-07-25",
+    "success_rate_28": 0.44125068787926475,
+    "coverage_rate_28": 0.5528650111221334,
+    "rolling_closed_billed_28": 947765,
+    "rolling_ai_covered_28": 2147906,
+    "rolling_total_tickets_28": 3885046
+  },
+  {
+    "event_date": "2025-04-23",
+    "success_rate_28": 0.33398963686279315,
+    "coverage_rate_28": 0.4597715981676237,
+    "rolling_closed_billed_28": 468862,
+    "rolling_ai_covered_28": 1403822,
+    "rolling_total_tickets_28": 3053303
+  },
+  {
+    "event_date": "2025-06-08",
+    "success_rate_28": 0.35350441440493685,
+    "coverage_rate_28": 0.4967640323611121,
+    "rolling_closed_billed_28": 611569,
+    "rolling_ai_covered_28": 1730018,
+    "rolling_total_tickets_28": 3482575
+  },
+  {
+    "event_date": "2025-02-05",
+    "success_rate_28": 0.3015195783172374,
+    "coverage_rate_28": 0.4234200997523182,
+    "rolling_closed_billed_28": 341903,
+    "rolling_ai_covered_28": 1133933,
+    "rolling_total_tickets_28": 2678033
+  },
+  {
+    "event_date": "2025-04-03",
+    "success_rate_28": 0.3003143809018081,
+    "coverage_rate_28": 0.4558687042621524,
+    "rolling_closed_billed_28": 419071,
+    "rolling_ai_covered_28": 1395441,
+    "rolling_total_tickets_28": 3061059
+  },
+  {
+    "event_date": "2025-05-29",
+    "success_rate_28": 0.34907563801153496,
+    "coverage_rate_28": 0.48295999810036006,
+    "rolling_closed_billed_28": 582188,
+    "rolling_ai_covered_28": 1667799,
+    "rolling_total_tickets_28": 3453286
+  },
+  {
+    "event_date": "2025-03-22",
+    "success_rate_28": 0.2925473021735915,
+    "coverage_rate_28": 0.45670672267387924,
+    "rolling_closed_billed_28": 391581,
+    "rolling_ai_covered_28": 1338522,
+    "rolling_total_tickets_28": 2930813
+  },
+  {
+    "event_date": "2025-04-06",
+    "success_rate_28": 0.3038020756832666,
+    "coverage_rate_28": 0.4572575717615761,
+    "rolling_closed_billed_28": 424012,
+    "rolling_ai_covered_28": 1395685,
+    "rolling_total_tickets_28": 3052295
+  },
+  {
+    "event_date": "2025-10-06",
+    "success_rate_28": 0.361185427168699,
+    "coverage_rate_28": 0.5068679667512777,
+    "rolling_closed_billed_28": 731044,
+    "rolling_ai_covered_28": 2024013,
+    "rolling_total_tickets_28": 3993176
+  },
+  {
+    "event_date": "2025-05-23",
+    "success_rate_28": 0.3430801144077389,
+    "coverage_rate_28": 0.4764674228181489,
+    "rolling_closed_billed_28": 556208,
+    "rolling_ai_covered_28": 1621219,
+    "rolling_total_tickets_28": 3402581
+  },
+  {
+    "event_date": "2025-10-13",
+    "success_rate_28": 0.35202254007301753,
+    "coverage_rate_28": 0.5210721918397283,
+    "rolling_closed_billed_28": 737527,
+    "rolling_ai_covered_28": 2095113,
+    "rolling_total_tickets_28": 4020773
+  },
+  {
+    "event_date": "2025-04-25",
+    "success_rate_28": 0.33572934548347333,
+    "coverage_rate_28": 0.46162265220247034,
+    "rolling_closed_billed_28": 473092,
+    "rolling_ai_covered_28": 1409147,
+    "rolling_total_tickets_28": 3052595
+  },
+  {
+    "event_date": "2025-05-19",
+    "success_rate_28": 0.34085035505179495,
+    "coverage_rate_28": 0.47460997127603616,
+    "rolling_closed_billed_28": 539425,
+    "rolling_ai_covered_28": 1582586,
+    "rolling_total_tickets_28": 3334498
+  },
+  {
+    "event_date": "2025-03-02",
+    "success_rate_28": 0.2924650107595042,
+    "coverage_rate_28": 0.44003401534066905,
+    "rolling_closed_billed_28": 350648,
+    "rolling_ai_covered_28": 1198940,
+    "rolling_total_tickets_28": 2724653
+  },
+  {
+    "event_date": "2025-08-14",
+    "success_rate_28": 0.40956906465404214,
+    "coverage_rate_28": 0.5484495752735183,
+    "rolling_closed_billed_28": 879337,
+    "rolling_ai_covered_28": 2146981,
+    "rolling_total_tickets_28": 3914637
+  },
+  {
+    "event_date": "2025-11-18",
+    "success_rate_28": 0.3311015514371929,
+    "coverage_rate_28": 0.5467098090247248,
+    "rolling_closed_billed_28": 874963,
+    "rolling_ai_covered_28": 2642582,
+    "rolling_total_tickets_28": 4833610
+  },
+  {
+    "event_date": "2025-05-07",
+    "success_rate_28": 0.34158561305776686,
+    "coverage_rate_28": 0.46546863866575866,
+    "rolling_closed_billed_28": 504524,
+    "rolling_ai_covered_28": 1477006,
+    "rolling_total_tickets_28": 3173159
+  },
+  {
+    "event_date": "2025-03-13",
+    "success_rate_28": 0.2931288464056567,
+    "coverage_rate_28": 0.45403043416870825,
+    "rolling_closed_billed_28": 376089,
+    "rolling_ai_covered_28": 1283016,
+    "rolling_total_tickets_28": 2825837
+  },
+  {
+    "event_date": "2025-04-04",
+    "success_rate_28": 0.3017928914582337,
+    "coverage_rate_28": 0.4566961996169264,
+    "rolling_closed_billed_28": 421391,
+    "rolling_ai_covered_28": 1396292,
+    "rolling_total_tickets_28": 3057376
+  },
+  {
+    "event_date": "2025-09-09",
+    "success_rate_28": 0.35756369216434486,
+    "coverage_rate_28": 0.518930209976213,
+    "rolling_closed_billed_28": 744478,
+    "rolling_ai_covered_28": 2082085,
+    "rolling_total_tickets_28": 4012264
+  },
+  {
+    "event_date": "2025-08-31",
+    "success_rate_28": 0.3708976464463177,
+    "coverage_rate_28": 0.5319014741613255,
+    "rolling_closed_billed_28": 775093,
+    "rolling_ai_covered_28": 2089776,
+    "rolling_total_tickets_28": 3928878
+  },
+  {
+    "event_date": "2025-03-03",
+    "success_rate_28": 0.29279061813984186,
+    "coverage_rate_28": 0.441708916389259,
+    "rolling_closed_billed_28": 353576,
+    "rolling_ai_covered_28": 1207607,
+    "rolling_total_tickets_28": 2733943
+  },
+  {
+    "event_date": "2025-02-04",
+    "success_rate_28": 0.30153858593528904,
+    "coverage_rate_28": 0.42366716636989804,
+    "rolling_closed_billed_28": 343090,
+    "rolling_ai_covered_28": 1137798,
+    "rolling_total_tickets_28": 2685594
+  }
+]

@@ -1,0 +1,2126 @@
+[
+  {
+    "day": "2025-11-03",
+    "customers": 968,
+    "gmv_28d": 363392591.2160001,
+    "revenue_influenced_28d": 8606450.815999998
+  },
+  {
+    "day": "2025-11-06",
+    "customers": 1006,
+    "gmv_28d": 379703200.04899997,
+    "revenue_influenced_28d": 9118565.828000002
+  },
+  {
+    "day": "2025-11-09",
+    "customers": 1021,
+    "gmv_28d": 404883706.1959999,
+    "revenue_influenced_28d": 9766634.854999999
+  },
+  {
+    "day": "2025-11-10",
+    "customers": 1027,
+    "gmv_28d": 415196264.916,
+    "revenue_influenced_28d": 9993004.402999999
+  },
+  {
+    "day": "2025-11-13",
+    "customers": 1055,
+    "gmv_28d": 448206476.843,
+    "revenue_influenced_28d": 10823189.232
+  },
+  {
+    "day": "2025-11-18",
+    "customers": 1082,
+    "gmv_28d": 518204207.2,
+    "revenue_influenced_28d": 12179231.024
+  },
+  {
+    "day": "2025-11-21",
+    "customers": 1112,
+    "gmv_28d": 571131660.6669999,
+    "revenue_influenced_28d": 12945965.817
+  },
+  {
+    "day": "2025-11-23",
+    "customers": 1122,
+    "gmv_28d": 612023362.5770001,
+    "revenue_influenced_28d": 13667735.054
+  },
+  {
+    "day": "2025-12-07",
+    "customers": 1175,
+    "gmv_28d": 1076423420.2459998,
+    "revenue_influenced_28d": 21229024.862000003
+  },
+  {
+    "day": "2025-12-13",
+    "customers": 1204,
+    "gmv_28d": 1115350769.8700001,
+    "revenue_influenced_28d": 20493118.545
+  },
+  {
+    "day": "2025-12-18",
+    "customers": 1231,
+    "gmv_28d": 1120757810.95,
+    "revenue_influenced_28d": 19687125.928999994
+  },
+  {
+    "day": "2025-05-20",
+    "customers": 72,
+    "gmv_28d": 53327690.225,
+    "revenue_influenced_28d": 626826.82
+  },
+  {
+    "day": "2025-05-25",
+    "customers": 77,
+    "gmv_28d": 59194700.663,
+    "revenue_influenced_28d": 756603.77
+  },
+  {
+    "day": "2025-06-14",
+    "customers": 105,
+    "gmv_28d": 53806559.64299999,
+    "revenue_influenced_28d": 1078391.59
+  },
+  {
+    "day": "2025-06-16",
+    "customers": 112,
+    "gmv_28d": 52894402.698,
+    "revenue_influenced_28d": 1124565.642
+  },
+  {
+    "day": "2025-06-22",
+    "customers": 121,
+    "gmv_28d": 44750567.6,
+    "revenue_influenced_28d": 1261436.6859999995
+  },
+  {
+    "day": "2025-07-08",
+    "customers": 145,
+    "gmv_28d": 52586993.563,
+    "revenue_influenced_28d": 1840024.042
+  },
+  {
+    "day": "2025-07-24",
+    "customers": 284,
+    "gmv_28d": 89878402.429,
+    "revenue_influenced_28d": 2540927.0859999997
+  },
+  {
+    "day": "2025-08-02",
+    "customers": 332,
+    "gmv_28d": 114838910.111,
+    "revenue_influenced_28d": 3350090.6410000008
+  },
+  {
+    "day": "2025-08-21",
+    "customers": 423,
+    "gmv_28d": 166570759.316,
+    "revenue_influenced_28d": 4593283.176999999
+  },
+  {
+    "day": "2025-09-03",
+    "customers": 505,
+    "gmv_28d": 219201950.76900005,
+    "revenue_influenced_28d": 4895372.427999998
+  },
+  {
+    "day": "2025-09-08",
+    "customers": 543,
+    "gmv_28d": 232769109.257,
+    "revenue_influenced_28d": 4931359.493000001
+  },
+  {
+    "day": "2025-09-25",
+    "customers": 634,
+    "gmv_28d": 259322429.986,
+    "revenue_influenced_28d": 5367353.297000001
+  },
+  {
+    "day": "2025-09-27",
+    "customers": 645,
+    "gmv_28d": 257738637.23900002,
+    "revenue_influenced_28d": 5380056.106000001
+  },
+  {
+    "day": "2025-10-21",
+    "customers": 871,
+    "gmv_28d": 317970171.188,
+    "revenue_influenced_28d": 7081727.840999998
+  },
+  {
+    "day": "2025-10-22",
+    "customers": 883,
+    "gmv_28d": 321061069.439,
+    "revenue_influenced_28d": 7188530.805
+  },
+  {
+    "day": "2025-10-27",
+    "customers": 917,
+    "gmv_28d": 338237448.824,
+    "revenue_influenced_28d": 7689890.866000002
+  },
+  {
+    "day": "2025-10-31",
+    "customers": 952,
+    "gmv_28d": 350662513.629,
+    "revenue_influenced_28d": 8129862.713
+  },
+  {
+    "day": "2025-11-26",
+    "customers": 1142,
+    "gmv_28d": 708660996.5699999,
+    "revenue_influenced_28d": 15160091.053999998
+  },
+  {
+    "day": "2025-11-27",
+    "customers": 1144,
+    "gmv_28d": 741318482.956,
+    "revenue_influenced_28d": 15704118.549999999
+  },
+  {
+    "day": "2025-12-01",
+    "customers": 1158,
+    "gmv_28d": 992901147.2099999,
+    "revenue_influenced_28d": 20172809.731999997
+  },
+  {
+    "day": "2025-11-28",
+    "customers": 1152,
+    "gmv_28d": 826249487.5719999,
+    "revenue_influenced_28d": 17198470.088
+  },
+  {
+    "day": "2025-12-10",
+    "customers": 1186,
+    "gmv_28d": 1095673381.186,
+    "revenue_influenced_28d": 20880229.504
+  },
+  {
+    "day": "2025-12-17",
+    "customers": 1225,
+    "gmv_28d": 1125598693.276,
+    "revenue_influenced_28d": 19923668.799000002
+  },
+  {
+    "day": "2025-06-21",
+    "customers": 120,
+    "gmv_28d": 46206398.96700001,
+    "revenue_influenced_28d": 1235537.402
+  },
+  {
+    "day": "2025-08-27",
+    "customers": 454,
+    "gmv_28d": 183019853.905,
+    "revenue_influenced_28d": 4527528.692000002
+  },
+  {
+    "day": "2025-09-12",
+    "customers": 564,
+    "gmv_28d": 239106195.376,
+    "revenue_influenced_28d": 4897660.228
+  },
+  {
+    "day": "2025-09-23",
+    "customers": 621,
+    "gmv_28d": 258844480.582,
+    "revenue_influenced_28d": 5288126.460000001
+  },
+  {
+    "day": "2025-09-28",
+    "customers": 644,
+    "gmv_28d": 256611226.237,
+    "revenue_influenced_28d": 5410292.671
+  },
+  {
+    "day": "2025-10-18",
+    "customers": 856,
+    "gmv_28d": 308195702.243,
+    "revenue_influenced_28d": 6826694.407000001
+  },
+  {
+    "day": "2025-11-07",
+    "customers": 1015,
+    "gmv_28d": 386657298.13499993,
+    "revenue_influenced_28d": 9312695.269000001
+  },
+  {
+    "day": "2025-11-14",
+    "customers": 1068,
+    "gmv_28d": 460239431.145,
+    "revenue_influenced_28d": 11121643.067
+  },
+  {
+    "day": "2025-11-19",
+    "customers": 1089,
+    "gmv_28d": 533092827.24399996,
+    "revenue_influenced_28d": 12486214.861
+  },
+  {
+    "day": "2025-12-06",
+    "customers": 1181,
+    "gmv_28d": 1071552400.9660001,
+    "revenue_influenced_28d": 21271096.007
+  },
+  {
+    "day": "2025-09-30",
+    "customers": 664,
+    "gmv_28d": 253219836.35099998,
+    "revenue_influenced_28d": 5467676.579000001
+  },
+  {
+    "day": "2025-10-02",
+    "customers": 708,
+    "gmv_28d": 257004819.21400005,
+    "revenue_influenced_28d": 5622428.642
+  },
+  {
+    "day": "2025-10-09",
+    "customers": 791,
+    "gmv_28d": 280160004.23300004,
+    "revenue_influenced_28d": 6127593.868999997
+  },
+  {
+    "day": "2025-10-10",
+    "customers": 799,
+    "gmv_28d": 284237583.3550001,
+    "revenue_influenced_28d": 6227091.037
+  },
+  {
+    "day": "2025-10-11",
+    "customers": 804,
+    "gmv_28d": 286745928.98700005,
+    "revenue_influenced_28d": 6286003.545
+  },
+  {
+    "day": "2025-11-05",
+    "customers": 996,
+    "gmv_28d": 373549418.33400005,
+    "revenue_influenced_28d": 8912078.595999999
+  },
+  {
+    "day": "2025-11-12",
+    "customers": 1040,
+    "gmv_28d": 436927588.7580001,
+    "revenue_influenced_28d": 10526995.052
+  },
+  {
+    "day": "2025-12-08",
+    "customers": 1174,
+    "gmv_28d": 1082253779.898,
+    "revenue_influenced_28d": 21209116.305999998
+  },
+  {
+    "day": "2025-11-20",
+    "customers": 1098,
+    "gmv_28d": 549916273.6889999,
+    "revenue_influenced_28d": 12715186.594999999
+  },
+  {
+    "day": "2025-12-20",
+    "customers": 1237,
+    "gmv_28d": 1077888770.905,
+    "revenue_influenced_28d": 18791498.907
+  },
+  {
+    "day": "2025-11-22",
+    "customers": 1118,
+    "gmv_28d": 590547995.297,
+    "revenue_influenced_28d": 13276342.383
+  },
+  {
+    "day": "2025-12-12",
+    "customers": 1200,
+    "gmv_28d": 1108638108.484,
+    "revenue_influenced_28d": 20590441.062000003
+  },
+  {
+    "day": "2025-05-09",
+    "customers": 64,
+    "gmv_28d": 47620430.19,
+    "revenue_influenced_28d": 495659.723
+  },
+  {
+    "day": "2025-05-26",
+    "customers": 77,
+    "gmv_28d": 61056557.56399999,
+    "revenue_influenced_28d": 791026.8049999998
+  },
+  {
+    "day": "2025-05-31",
+    "customers": 83,
+    "gmv_28d": 60992332.302999996,
+    "revenue_influenced_28d": 860990.6060000001
+  },
+  {
+    "day": "2025-06-29",
+    "customers": 134,
+    "gmv_28d": 42483062.113000005,
+    "revenue_influenced_28d": 1430500.542
+  },
+  {
+    "day": "2025-06-30",
+    "customers": 137,
+    "gmv_28d": 43549661.64100001,
+    "revenue_influenced_28d": 1483771.9770000002
+  },
+  {
+    "day": "2025-08-06",
+    "customers": 357,
+    "gmv_28d": 126418757.17700002,
+    "revenue_influenced_28d": 3583928.845
+  },
+  {
+    "day": "2025-09-01",
+    "customers": 492,
+    "gmv_28d": 210329711.18600002,
+    "revenue_influenced_28d": 4796789.681999999
+  },
+  {
+    "day": "2025-08-23",
+    "customers": 429,
+    "gmv_28d": 170238213.61999997,
+    "revenue_influenced_28d": 4546112.268
+  },
+  {
+    "day": "2025-08-30",
+    "customers": 476,
+    "gmv_28d": 196391300.401,
+    "revenue_influenced_28d": 4653964.711
+  },
+  {
+    "day": "2025-09-05",
+    "customers": 524,
+    "gmv_28d": 225427121.95100003,
+    "revenue_influenced_28d": 4927028.432999999
+  },
+  {
+    "day": "2025-09-06",
+    "customers": 533,
+    "gmv_28d": 227810700.50799996,
+    "revenue_influenced_28d": 4942978.168
+  },
+  {
+    "day": "2025-09-16",
+    "customers": 586,
+    "gmv_28d": 248698965.17800003,
+    "revenue_influenced_28d": 5038742.286
+  },
+  {
+    "day": "2025-09-22",
+    "customers": 615,
+    "gmv_28d": 257760128.353,
+    "revenue_influenced_28d": 5216710.19
+  },
+  {
+    "day": "2025-09-29",
+    "customers": 651,
+    "gmv_28d": 253898722.53999996,
+    "revenue_influenced_28d": 5408901.255000001
+  },
+  {
+    "day": "2025-10-14",
+    "customers": 812,
+    "gmv_28d": 295238102.264,
+    "revenue_influenced_28d": 6525618.02
+  },
+  {
+    "day": "2025-10-23",
+    "customers": 894,
+    "gmv_28d": 324630925.33500004,
+    "revenue_influenced_28d": 7280414.191
+  },
+  {
+    "day": "2025-12-05",
+    "customers": 1180,
+    "gmv_28d": 1063781321.076,
+    "revenue_influenced_28d": 21208671.623000003
+  },
+  {
+    "day": "2025-10-03",
+    "customers": 739,
+    "gmv_28d": 259748576.93,
+    "revenue_influenced_28d": 5685059.514
+  },
+  {
+    "day": "2025-10-25",
+    "customers": 908,
+    "gmv_28d": 331026560.89299995,
+    "revenue_influenced_28d": 7485108.014999999
+  },
+  {
+    "day": "2025-10-28",
+    "customers": 928,
+    "gmv_28d": 341368584.476,
+    "revenue_influenced_28d": 7806694.981
+  },
+  {
+    "day": "2025-11-11",
+    "customers": 1034,
+    "gmv_28d": 426803019.34000003,
+    "revenue_influenced_28d": 10300140.397999998
+  },
+  {
+    "day": "2025-10-19",
+    "customers": 858,
+    "gmv_28d": 311733178.463,
+    "revenue_influenced_28d": 6952305.788000001
+  },
+  {
+    "day": "2025-11-25",
+    "customers": 1135,
+    "gmv_28d": 663358701.6159999,
+    "revenue_influenced_28d": 14600216.559000002
+  },
+  {
+    "day": "2025-12-04",
+    "customers": 1172,
+    "gmv_28d": 1056647130.138,
+    "revenue_influenced_28d": 21134057.608999997
+  },
+  {
+    "day": "2025-06-23",
+    "customers": 122,
+    "gmv_28d": 42667724.164000005,
+    "revenue_influenced_28d": 1259363.5529999998
+  },
+  {
+    "day": "2025-06-24",
+    "customers": 121,
+    "gmv_28d": 41300081.926,
+    "revenue_influenced_28d": 1256694.6619999998
+  },
+  {
+    "day": "2025-07-01",
+    "customers": 140,
+    "gmv_28d": 44179435.78299999,
+    "revenue_influenced_28d": 1507810.6120000002
+  },
+  {
+    "day": "2025-07-11",
+    "customers": 147,
+    "gmv_28d": 56654545.148,
+    "revenue_influenced_28d": 1983435.3549999995
+  },
+  {
+    "day": "2025-07-20",
+    "customers": 249,
+    "gmv_28d": 74548278.712,
+    "revenue_influenced_28d": 2232725.814
+  },
+  {
+    "day": "2025-07-31",
+    "customers": 328,
+    "gmv_28d": 109647941.78,
+    "revenue_influenced_28d": 3215285.6710000006
+  },
+  {
+    "day": "2025-08-01",
+    "customers": 332,
+    "gmv_28d": 112460114.17800002,
+    "revenue_influenced_28d": 3305369.6270000003
+  },
+  {
+    "day": "2025-08-10",
+    "customers": 378,
+    "gmv_28d": 138640408.77099997,
+    "revenue_influenced_28d": 3873801.144
+  },
+  {
+    "day": "2025-08-16",
+    "customers": 394,
+    "gmv_28d": 155560300.903,
+    "revenue_influenced_28d": 4462094.095000001
+  },
+  {
+    "day": "2025-08-22",
+    "customers": 428,
+    "gmv_28d": 168406133.67,
+    "revenue_influenced_28d": 4571519.515000001
+  },
+  {
+    "day": "2025-08-24",
+    "customers": 431,
+    "gmv_28d": 172840225.366,
+    "revenue_influenced_28d": 4532523.239
+  },
+  {
+    "day": "2025-09-15",
+    "customers": 579,
+    "gmv_28d": 246325622.97999996,
+    "revenue_influenced_28d": 4984769.078000002
+  },
+  {
+    "day": "2025-09-17",
+    "customers": 592,
+    "gmv_28d": 250461929.24499997,
+    "revenue_influenced_28d": 5062142.641
+  },
+  {
+    "day": "2025-09-20",
+    "customers": 612,
+    "gmv_28d": 255375083.47700003,
+    "revenue_influenced_28d": 5174216.356000001
+  },
+  {
+    "day": "2025-12-11",
+    "customers": 1192,
+    "gmv_28d": 1101717661.1239998,
+    "revenue_influenced_28d": 20727983.491000004
+  },
+  {
+    "day": "2025-05-27",
+    "customers": 77,
+    "gmv_28d": 62053555.984000005,
+    "revenue_influenced_28d": 809984.5410000001
+  },
+  {
+    "day": "2025-06-03",
+    "customers": 86,
+    "gmv_28d": 59624862.001,
+    "revenue_influenced_28d": 915831.6869999999
+  },
+  {
+    "day": "2025-06-09",
+    "customers": 94,
+    "gmv_28d": 56719197.927,
+    "revenue_influenced_28d": 992363.766
+  },
+  {
+    "day": "2025-06-15",
+    "customers": 108,
+    "gmv_28d": 53181530.178,
+    "revenue_influenced_28d": 1097231.521
+  },
+  {
+    "day": "2025-06-28",
+    "customers": 135,
+    "gmv_28d": 42270806.292,
+    "revenue_influenced_28d": 1405502.644
+  },
+  {
+    "day": "2025-10-01",
+    "customers": 684,
+    "gmv_28d": 254915656.15899998,
+    "revenue_influenced_28d": 5542762.966999999
+  },
+  {
+    "day": "2025-06-06",
+    "customers": 91,
+    "gmv_28d": 58062636.871,
+    "revenue_influenced_28d": 949034.365
+  },
+  {
+    "day": "2025-06-08",
+    "customers": 94,
+    "gmv_28d": 57349939.085,
+    "revenue_influenced_28d": 973312.9069999999
+  },
+  {
+    "day": "2025-07-02",
+    "customers": 143,
+    "gmv_28d": 45068256.984,
+    "revenue_influenced_28d": 1541091.634
+  },
+  {
+    "day": "2025-07-06",
+    "customers": 145,
+    "gmv_28d": 50070468.58699999,
+    "revenue_influenced_28d": 1736207.336
+  },
+  {
+    "day": "2025-08-09",
+    "customers": 375,
+    "gmv_28d": 135424704.42000002,
+    "revenue_influenced_28d": 3795318.6720000007
+  },
+  {
+    "day": "2025-08-18",
+    "customers": 405,
+    "gmv_28d": 160674145.21199998,
+    "revenue_influenced_28d": 4585719.823
+  },
+  {
+    "day": "2025-08-19",
+    "customers": 411,
+    "gmv_28d": 162611250.76999998,
+    "revenue_influenced_28d": 4570826.687999999
+  },
+  {
+    "day": "2025-09-09",
+    "customers": 549,
+    "gmv_28d": 234493488.308,
+    "revenue_influenced_28d": 4873855.1790000005
+  },
+  {
+    "day": "2025-09-10",
+    "customers": 554,
+    "gmv_28d": 236420257.987,
+    "revenue_influenced_28d": 4878937.8440000005
+  },
+  {
+    "day": "2025-11-04",
+    "customers": 980,
+    "gmv_28d": 367716123.80799997,
+    "revenue_influenced_28d": 8792644.032000002
+  },
+  {
+    "day": "2025-08-28",
+    "customers": 467,
+    "gmv_28d": 186640186.148,
+    "revenue_influenced_28d": 4525383.415000001
+  },
+  {
+    "day": "2025-09-11",
+    "customers": 560,
+    "gmv_28d": 237861981.212,
+    "revenue_influenced_28d": 4883933.495
+  },
+  {
+    "day": "2025-09-24",
+    "customers": 627,
+    "gmv_28d": 259030125.203,
+    "revenue_influenced_28d": 5305291.1389999995
+  },
+  {
+    "day": "2025-10-26",
+    "customers": 910,
+    "gmv_28d": 334835873.53400004,
+    "revenue_influenced_28d": 7586281.790000002
+  },
+  {
+    "day": "2025-10-29",
+    "customers": 939,
+    "gmv_28d": 344445887.532,
+    "revenue_influenced_28d": 7898136.448000001
+  },
+  {
+    "day": "2025-11-08",
+    "customers": 1017,
+    "gmv_28d": 393878880.86599994,
+    "revenue_influenced_28d": 9489612.517000003
+  },
+  {
+    "day": "2025-12-09",
+    "customers": 1177,
+    "gmv_28d": 1087723317.251,
+    "revenue_influenced_28d": 21025210.283
+  },
+  {
+    "day": "2025-12-14",
+    "customers": 1205,
+    "gmv_28d": 1117273172.717,
+    "revenue_influenced_28d": 20415134.186000004
+  },
+  {
+    "day": "2025-11-01",
+    "customers": 959,
+    "gmv_28d": 353879613.9430001,
+    "revenue_influenced_28d": 8285155.362
+  },
+  {
+    "day": "2025-11-16",
+    "customers": 1071,
+    "gmv_28d": 487921924.394,
+    "revenue_influenced_28d": 11605019.241999999
+  },
+  {
+    "day": "2025-08-14",
+    "customers": 388,
+    "gmv_28d": 150861104.868,
+    "revenue_influenced_28d": 4328398.043
+  },
+  {
+    "day": "2025-10-07",
+    "customers": 772,
+    "gmv_28d": 272392646.716,
+    "revenue_influenced_28d": 5941237.701
+  },
+  {
+    "day": "2025-01-14",
+    "customers": 18,
+    "gmv_28d": 11779718.869,
+    "revenue_influenced_28d": 27777.389000000003
+  },
+  {
+    "day": "2025-01-18",
+    "customers": 18,
+    "gmv_28d": 15456556.082,
+    "revenue_influenced_28d": 38406.072
+  },
+  {
+    "day": "2025-01-27",
+    "customers": 19,
+    "gmv_28d": 24346673.794,
+    "revenue_influenced_28d": 62623.83999999999
+  },
+  {
+    "day": "2025-01-31",
+    "customers": 22,
+    "gmv_28d": 26499358.062999997,
+    "revenue_influenced_28d": 71696.213
+  },
+  {
+    "day": "2025-02-01",
+    "customers": 22,
+    "gmv_28d": 26918363.540000003,
+    "revenue_influenced_28d": 72230.54000000001
+  },
+  {
+    "day": "2025-02-17",
+    "customers": 23,
+    "gmv_28d": 33515749.441,
+    "revenue_influenced_28d": 136647.234
+  },
+  {
+    "day": "2025-02-19",
+    "customers": 23,
+    "gmv_28d": 33949077.095000006,
+    "revenue_influenced_28d": 147278.694
+  },
+  {
+    "day": "2025-02-27",
+    "customers": 23,
+    "gmv_28d": 34511563.853,
+    "revenue_influenced_28d": 205438.682
+  },
+  {
+    "day": "2025-03-02",
+    "customers": 23,
+    "gmv_28d": 34439136.918,
+    "revenue_influenced_28d": 225445.51399999994
+  },
+  {
+    "day": "2025-03-04",
+    "customers": 23,
+    "gmv_28d": 34582862.267000005,
+    "revenue_influenced_28d": 240303.939
+  },
+  {
+    "day": "2025-03-16",
+    "customers": 24,
+    "gmv_28d": 34462374.015,
+    "revenue_influenced_28d": 295612.25
+  },
+  {
+    "day": "2025-03-21",
+    "customers": 26,
+    "gmv_28d": 34801510.895,
+    "revenue_influenced_28d": 307472.488
+  },
+  {
+    "day": "2025-03-23",
+    "customers": 28,
+    "gmv_28d": 35293107.452,
+    "revenue_influenced_28d": 305456.309
+  },
+  {
+    "day": "2025-03-24",
+    "customers": 29,
+    "gmv_28d": 35444216.105,
+    "revenue_influenced_28d": 308377.19800000003
+  },
+  {
+    "day": "2025-04-07",
+    "customers": 46,
+    "gmv_28d": 37958974.649000004,
+    "revenue_influenced_28d": 326988.055
+  },
+  {
+    "day": "2025-04-14",
+    "customers": 48,
+    "gmv_28d": 38504907.887,
+    "revenue_influenced_28d": 360943.733
+  },
+  {
+    "day": "2025-04-22",
+    "customers": 51,
+    "gmv_28d": 39413224.86799999,
+    "revenue_influenced_28d": 378612.08700000006
+  },
+  {
+    "day": "2025-04-24",
+    "customers": 52,
+    "gmv_28d": 40068903.929,
+    "revenue_influenced_28d": 383797.245
+  },
+  {
+    "day": "2025-07-14",
+    "customers": 150,
+    "gmv_28d": 60121384.55800001,
+    "revenue_influenced_28d": 2103150.0930000003
+  },
+  {
+    "day": "2025-07-16",
+    "customers": 189,
+    "gmv_28d": 64554062.07699999,
+    "revenue_influenced_28d": 2151270.946
+  },
+  {
+    "day": "2025-07-27",
+    "customers": 301,
+    "gmv_28d": 98170424.57699999,
+    "revenue_influenced_28d": 2794420.47
+  },
+  {
+    "day": "2025-07-28",
+    "customers": 302,
+    "gmv_28d": 101015057.25400001,
+    "revenue_influenced_28d": 2914616.785
+  },
+  {
+    "day": "2025-08-13",
+    "customers": 380,
+    "gmv_28d": 148399414.725,
+    "revenue_influenced_28d": 4221600.031
+  },
+  {
+    "day": "2025-09-04",
+    "customers": 515,
+    "gmv_28d": 222168998.935,
+    "revenue_influenced_28d": 4897102.598999999
+  },
+  {
+    "day": "2025-10-12",
+    "customers": 806,
+    "gmv_28d": 289594224.4929999,
+    "revenue_influenced_28d": 6342701.768
+  },
+  {
+    "day": "2025-11-15",
+    "customers": 1070,
+    "gmv_28d": 471927592.397,
+    "revenue_influenced_28d": 11385656.886
+  },
+  {
+    "day": "2025-11-17",
+    "customers": 1078,
+    "gmv_28d": 503641799.232,
+    "revenue_influenced_28d": 11932779.902000003
+  },
+  {
+    "day": "2025-10-13",
+    "customers": 811,
+    "gmv_28d": 292680119.215,
+    "revenue_influenced_28d": 6446740.8379999995
+  },
+  {
+    "day": "2025-10-16",
+    "customers": 840,
+    "gmv_28d": 301486209.19600004,
+    "revenue_influenced_28d": 6678657.9339999985
+  },
+  {
+    "day": "2025-10-30",
+    "customers": 942,
+    "gmv_28d": 347590610.07600003,
+    "revenue_influenced_28d": 8028053.670999999
+  },
+  {
+    "day": "2025-12-03",
+    "customers": 1169,
+    "gmv_28d": 1049619628.0939996,
+    "revenue_influenced_28d": 21099908.071999997
+  },
+  {
+    "day": "2025-12-02",
+    "customers": 1162,
+    "gmv_28d": 1036405157.367,
+    "revenue_influenced_28d": 20838033.191999994
+  },
+  {
+    "day": "2025-05-16",
+    "customers": 72,
+    "gmv_28d": 50740642.759,
+    "revenue_influenced_28d": 544067.359
+  },
+  {
+    "day": "2025-05-30",
+    "customers": 81,
+    "gmv_28d": 61065804.19200001,
+    "revenue_influenced_28d": 840001.2379999999
+  },
+  {
+    "day": "2025-06-02",
+    "customers": 85,
+    "gmv_28d": 60081369.38400001,
+    "revenue_influenced_28d": 884860.2719999999
+  },
+  {
+    "day": "2025-06-07",
+    "customers": 93,
+    "gmv_28d": 57720041.31699999,
+    "revenue_influenced_28d": 960260.5090000001
+  },
+  {
+    "day": "2025-06-12",
+    "customers": 102,
+    "gmv_28d": 55182082.243999995,
+    "revenue_influenced_28d": 1046956.6720000001
+  },
+  {
+    "day": "2025-06-18",
+    "customers": 117,
+    "gmv_28d": 50649370.011,
+    "revenue_influenced_28d": 1172051.278
+  },
+  {
+    "day": "2025-06-25",
+    "customers": 132,
+    "gmv_28d": 41503652.254999995,
+    "revenue_influenced_28d": 1311306.704
+  },
+  {
+    "day": "2025-07-09",
+    "customers": 145,
+    "gmv_28d": 53930907.12900001,
+    "revenue_influenced_28d": 1888306.3399999999
+  },
+  {
+    "day": "2025-08-20",
+    "customers": 419,
+    "gmv_28d": 164730460.39499998,
+    "revenue_influenced_28d": 4580567.915999999
+  },
+  {
+    "day": "2025-09-21",
+    "customers": 613,
+    "gmv_28d": 256693848.52,
+    "revenue_influenced_28d": 5180904.363999999
+  },
+  {
+    "day": "2025-10-04",
+    "customers": 743,
+    "gmv_28d": 262451242.62699994,
+    "revenue_influenced_28d": 5699032.3330000015
+  },
+  {
+    "day": "2025-11-29",
+    "customers": 1155,
+    "gmv_28d": 890304150.4399999,
+    "revenue_influenced_28d": 18299506.4
+  },
+  {
+    "day": "2025-11-24",
+    "customers": 1132,
+    "gmv_28d": 638596028.798,
+    "revenue_influenced_28d": 14157499.305
+  },
+  {
+    "day": "2025-12-19",
+    "customers": 1238,
+    "gmv_28d": 1109756022.1549997,
+    "revenue_influenced_28d": 19411968.144999996
+  },
+  {
+    "day": "2025-07-30",
+    "customers": 324,
+    "gmv_28d": 106773517.17600001,
+    "revenue_influenced_28d": 3109388.559
+  },
+  {
+    "day": "2025-10-06",
+    "customers": 763,
+    "gmv_28d": 268547539.54999995,
+    "revenue_influenced_28d": 5819652.736999999
+  },
+  {
+    "day": "2025-11-30",
+    "customers": 1155,
+    "gmv_28d": 935691615.887,
+    "revenue_influenced_28d": 19168968.325
+  },
+  {
+    "day": "2025-07-26",
+    "customers": 297,
+    "gmv_28d": 95315650.63799998,
+    "revenue_influenced_28d": 2695676.9929999993
+  },
+  {
+    "day": "2025-08-08",
+    "customers": 372,
+    "gmv_28d": 132554328.714,
+    "revenue_influenced_28d": 3721262.0840000003
+  },
+  {
+    "day": "2025-08-17",
+    "customers": 396,
+    "gmv_28d": 157885916.76900005,
+    "revenue_influenced_28d": 4529521.285999999
+  },
+  {
+    "day": "2025-08-25",
+    "customers": 434,
+    "gmv_28d": 175144565.688,
+    "revenue_influenced_28d": 4493593.712000001
+  },
+  {
+    "day": "2025-09-19",
+    "customers": 609,
+    "gmv_28d": 253842296.27199998,
+    "revenue_influenced_28d": 5130093.019999999
+  },
+  {
+    "day": "2025-10-20",
+    "customers": 861,
+    "gmv_28d": 314862900.45,
+    "revenue_influenced_28d": 7032376.602999999
+  },
+  {
+    "day": "2025-11-02",
+    "customers": 962,
+    "gmv_28d": 358657974.39400005,
+    "revenue_influenced_28d": 8440767.157
+  },
+  {
+    "day": "2025-10-15",
+    "customers": 829,
+    "gmv_28d": 298642980.31100005,
+    "revenue_influenced_28d": 6635839.417
+  },
+  {
+    "day": "2025-06-05",
+    "customers": 88,
+    "gmv_28d": 58483814.94799999,
+    "revenue_influenced_28d": 935131.1069999998
+  },
+  {
+    "day": "2025-06-13",
+    "customers": 102,
+    "gmv_28d": 54457670.68099999,
+    "revenue_influenced_28d": 1070605.0050000001
+  },
+  {
+    "day": "2025-07-07",
+    "customers": 146,
+    "gmv_28d": 51402810.21300001,
+    "revenue_influenced_28d": 1795217.8559999997
+  },
+  {
+    "day": "2025-07-19",
+    "customers": 245,
+    "gmv_28d": 72120435.384,
+    "revenue_influenced_28d": 2210243.6289999997
+  },
+  {
+    "day": "2025-09-18",
+    "customers": 601,
+    "gmv_28d": 252356385.28600004,
+    "revenue_influenced_28d": 5081381.677
+  },
+  {
+    "day": "2025-03-27",
+    "customers": 31,
+    "gmv_28d": 36156084.476,
+    "revenue_influenced_28d": 323554.373
+  },
+  {
+    "day": "2025-04-05",
+    "customers": 44,
+    "gmv_28d": 37585448.720000006,
+    "revenue_influenced_28d": 323954.04799999995
+  },
+  {
+    "day": "2025-04-10",
+    "customers": 46,
+    "gmv_28d": 38269576.03400001,
+    "revenue_influenced_28d": 342174.36399999994
+  },
+  {
+    "day": "2025-05-28",
+    "customers": 78,
+    "gmv_28d": 61791758.63699999,
+    "revenue_influenced_28d": 807131.9219999999
+  },
+  {
+    "day": "2025-07-17",
+    "customers": 214,
+    "gmv_28d": 66579668.011999995,
+    "revenue_influenced_28d": 2157787.287
+  },
+  {
+    "day": "2025-07-21",
+    "customers": 259,
+    "gmv_28d": 77239764.20800002,
+    "revenue_influenced_28d": 2280043.7420000006
+  },
+  {
+    "day": "2025-08-26",
+    "customers": 446,
+    "gmv_28d": 179094553.71300003,
+    "revenue_influenced_28d": 4510652.464000001
+  },
+  {
+    "day": "2025-10-08",
+    "customers": 784,
+    "gmv_28d": 276076599.45299995,
+    "revenue_influenced_28d": 6014166.956
+  },
+  {
+    "day": "2025-09-07",
+    "customers": 536,
+    "gmv_28d": 230480394.771,
+    "revenue_influenced_28d": 4938329.256
+  },
+  {
+    "day": "2025-08-11",
+    "customers": 383,
+    "gmv_28d": 142436798.74499997,
+    "revenue_influenced_28d": 3957237.451
+  },
+  {
+    "day": "2025-06-26",
+    "customers": 133,
+    "gmv_28d": 41796409.273,
+    "revenue_influenced_28d": 1342186.1250000002
+  },
+  {
+    "day": "2025-08-12",
+    "customers": 372,
+    "gmv_28d": 146090900.80400002,
+    "revenue_influenced_28d": 4107353.6029999997
+  },
+  {
+    "day": "2025-12-15",
+    "customers": 1208,
+    "gmv_28d": 1119860923.964,
+    "revenue_influenced_28d": 20263013.432
+  },
+  {
+    "day": "2025-09-26",
+    "customers": 637,
+    "gmv_28d": 258884562.166,
+    "revenue_influenced_28d": 5368203.333000001
+  },
+  {
+    "day": "2025-08-03",
+    "customers": 336,
+    "gmv_28d": 117576446.479,
+    "revenue_influenced_28d": 3385134.159000001
+  },
+  {
+    "day": "2025-10-05",
+    "customers": 749,
+    "gmv_28d": 265223497.07199997,
+    "revenue_influenced_28d": 5759567.946
+  },
+  {
+    "day": "2025-12-16",
+    "customers": 1216,
+    "gmv_28d": 1123699983.731,
+    "revenue_influenced_28d": 20159670.348000005
+  },
+  {
+    "day": "2025-07-29",
+    "customers": 314,
+    "gmv_28d": 103898449.94300002,
+    "revenue_influenced_28d": 3007406.852
+  },
+  {
+    "day": "2025-09-13",
+    "customers": 573,
+    "gmv_28d": 240730366.02600002,
+    "revenue_influenced_28d": 4914389.054
+  },
+  {
+    "day": "2025-09-14",
+    "customers": 573,
+    "gmv_28d": 242818379.48000002,
+    "revenue_influenced_28d": 4934805.290000001
+  },
+  {
+    "day": "2025-01-11",
+    "customers": 17,
+    "gmv_28d": 8865795.898,
+    "revenue_influenced_28d": 20781.394
+  },
+  {
+    "day": "2025-01-17",
+    "customers": 18,
+    "gmv_28d": 14678186.000999998,
+    "revenue_influenced_28d": 36547.438
+  },
+  {
+    "day": "2025-01-26",
+    "customers": 19,
+    "gmv_28d": 23354319.488,
+    "revenue_influenced_28d": 60084.73499999999
+  },
+  {
+    "day": "2025-03-01",
+    "customers": 23,
+    "gmv_28d": 34401667.576,
+    "revenue_influenced_28d": 220303.696
+  },
+  {
+    "day": "2025-03-29",
+    "customers": 34,
+    "gmv_28d": 36702421.831999995,
+    "revenue_influenced_28d": 328087.99100000004
+  },
+  {
+    "day": "2025-04-01",
+    "customers": 39,
+    "gmv_28d": 36871492.55100001,
+    "revenue_influenced_28d": 331749.658
+  },
+  {
+    "day": "2025-05-06",
+    "customers": 62,
+    "gmv_28d": 46213093.096999995,
+    "revenue_influenced_28d": 479105.7729999999
+  },
+  {
+    "day": "2025-07-25",
+    "customers": 293,
+    "gmv_28d": 92942112.341,
+    "revenue_influenced_28d": 2621895.34
+  },
+  {
+    "day": "2025-07-23",
+    "customers": 277,
+    "gmv_28d": 86847782.252,
+    "revenue_influenced_28d": 2463436.768
+  },
+  {
+    "day": "2025-10-24",
+    "customers": 902,
+    "gmv_28d": 328000927.73099995,
+    "revenue_influenced_28d": 7409399.977
+  },
+  {
+    "day": "2025-07-22",
+    "customers": 271,
+    "gmv_28d": 84434311.68700002,
+    "revenue_influenced_28d": 2397186.68
+  },
+  {
+    "day": "2025-09-02",
+    "customers": 498,
+    "gmv_28d": 215774475.96,
+    "revenue_influenced_28d": 4863556.374
+  },
+  {
+    "day": "2025-08-29",
+    "customers": 473,
+    "gmv_28d": 191171674.801,
+    "revenue_influenced_28d": 4569780.083999999
+  },
+  {
+    "day": "2025-07-15",
+    "customers": 153,
+    "gmv_28d": 61506700.603999995,
+    "revenue_influenced_28d": 2130283.8740000003
+  },
+  {
+    "day": "2025-06-17",
+    "customers": 114,
+    "gmv_28d": 51889200.79900001,
+    "revenue_influenced_28d": 1140866.8429999999
+  },
+  {
+    "day": "2025-07-03",
+    "customers": 144,
+    "gmv_28d": 46382938.05499999,
+    "revenue_influenced_28d": 1594088.8649999998
+  },
+  {
+    "day": "2025-07-10",
+    "customers": 147,
+    "gmv_28d": 55290385.05,
+    "revenue_influenced_28d": 1931302.6639999999
+  },
+  {
+    "day": "2025-08-05",
+    "customers": 350,
+    "gmv_28d": 123271301.74399999,
+    "revenue_influenced_28d": 3511013.4820000003
+  },
+  {
+    "day": "2025-07-12",
+    "customers": 150,
+    "gmv_28d": 57952124.083,
+    "revenue_influenced_28d": 2019766.212
+  },
+  {
+    "day": "2025-07-13",
+    "customers": 150,
+    "gmv_28d": 59125305.29,
+    "revenue_influenced_28d": 2050903.7019999998
+  },
+  {
+    "day": "2025-10-17",
+    "customers": 851,
+    "gmv_28d": 304773491.2410001,
+    "revenue_influenced_28d": 6746354.260000001
+  },
+  {
+    "day": "2025-07-18",
+    "customers": 233,
+    "gmv_28d": 69569213.44999999,
+    "revenue_influenced_28d": 2179612.425
+  },
+  {
+    "day": "2025-08-07",
+    "customers": 366,
+    "gmv_28d": 129681419.431,
+    "revenue_influenced_28d": 3664158.91
+  },
+  {
+    "day": "2025-08-31",
+    "customers": 479,
+    "gmv_28d": 201883955.649,
+    "revenue_influenced_28d": 4705570.671999999
+  },
+  {
+    "day": "2025-05-19",
+    "customers": 72,
+    "gmv_28d": 52498261.104,
+    "revenue_influenced_28d": 603506.345
+  },
+  {
+    "day": "2025-06-11",
+    "customers": 102,
+    "gmv_28d": 55961410.72299999,
+    "revenue_influenced_28d": 1036071.4250000002
+  },
+  {
+    "day": "2025-08-15",
+    "customers": 391,
+    "gmv_28d": 153452821.38699996,
+    "revenue_influenced_28d": 4416154.710000001
+  },
+  {
+    "day": "2025-01-09",
+    "customers": 15,
+    "gmv_28d": 6776422.542,
+    "revenue_influenced_28d": 17114.733
+  },
+  {
+    "day": "2025-02-06",
+    "customers": 22,
+    "gmv_28d": 28587182.842,
+    "revenue_influenced_28d": 87297.365
+  },
+  {
+    "day": "2025-05-22",
+    "customers": 73,
+    "gmv_28d": 55319884.76,
+    "revenue_influenced_28d": 679866.1699999999
+  },
+  {
+    "day": "2025-06-10",
+    "customers": 101,
+    "gmv_28d": 56430811.470000006,
+    "revenue_influenced_28d": 1010772.149
+  },
+  {
+    "day": "2025-08-04",
+    "customers": 344,
+    "gmv_28d": 120179237.943,
+    "revenue_influenced_28d": 3438686.006
+  },
+  {
+    "day": "2025-07-05",
+    "customers": 145,
+    "gmv_28d": 48938807.90200001,
+    "revenue_influenced_28d": 1688949.6979999996
+  },
+  {
+    "day": "2025-06-20",
+    "customers": 118,
+    "gmv_28d": 47824804.901999995,
+    "revenue_influenced_28d": 1213107.0609999998
+  },
+  {
+    "day": "2025-04-09",
+    "customers": 46,
+    "gmv_28d": 38094993.408,
+    "revenue_influenced_28d": 341376.61100000003
+  },
+  {
+    "day": "2025-05-01",
+    "customers": 58,
+    "gmv_28d": 42990681.199,
+    "revenue_influenced_28d": 443820.483
+  },
+  {
+    "day": "2025-06-04",
+    "customers": 87,
+    "gmv_28d": 59206203.831999995,
+    "revenue_influenced_28d": 933158.4920000001
+  },
+  {
+    "day": "2025-02-25",
+    "customers": 23,
+    "gmv_28d": 34449581.831,
+    "revenue_influenced_28d": 195636.14
+  },
+  {
+    "day": "2025-02-28",
+    "customers": 23,
+    "gmv_28d": 34446083.018,
+    "revenue_influenced_28d": 213505.13
+  },
+  {
+    "day": "2025-04-08",
+    "customers": 47,
+    "gmv_28d": 38118535.22,
+    "revenue_influenced_28d": 329550.981
+  },
+  {
+    "day": "2025-05-17",
+    "customers": 72,
+    "gmv_28d": 51280735.530999996,
+    "revenue_influenced_28d": 567496.863
+  },
+  {
+    "day": "2025-05-10",
+    "customers": 65,
+    "gmv_28d": 47948506.15099999,
+    "revenue_influenced_28d": 500387.89600000007
+  },
+  {
+    "day": "2025-06-27",
+    "customers": 135,
+    "gmv_28d": 42116131.095,
+    "revenue_influenced_28d": 1383128.6739999996
+  },
+  {
+    "day": "2025-04-21",
+    "customers": 50,
+    "gmv_28d": 39254191.493,
+    "revenue_influenced_28d": 368617.70200000005
+  },
+  {
+    "day": "2025-05-03",
+    "customers": 64,
+    "gmv_28d": 44375332.036,
+    "revenue_influenced_28d": 461762.759
+  },
+  {
+    "day": "2025-05-11",
+    "customers": 63,
+    "gmv_28d": 48353348.526,
+    "revenue_influenced_28d": 498233.1400000001
+  },
+  {
+    "day": "2025-05-21",
+    "customers": 74,
+    "gmv_28d": 54355896.488,
+    "revenue_influenced_28d": 652062.0390000001
+  },
+  {
+    "day": "2025-05-12",
+    "customers": 67,
+    "gmv_28d": 48950900.780999996,
+    "revenue_influenced_28d": 511789.319
+  },
+  {
+    "day": "2025-03-28",
+    "customers": 33,
+    "gmv_28d": 36423784.319,
+    "revenue_influenced_28d": 324388.52800000005
+  },
+  {
+    "day": "2025-04-03",
+    "customers": 42,
+    "gmv_28d": 37213853.45,
+    "revenue_influenced_28d": 328007.571
+  },
+  {
+    "day": "2025-04-23",
+    "customers": 52,
+    "gmv_28d": 39719712.802,
+    "revenue_influenced_28d": 377765.5229999999
+  },
+  {
+    "day": "2025-05-23",
+    "customers": 75,
+    "gmv_28d": 56638023.47600001,
+    "revenue_influenced_28d": 707848.2260000001
+  },
+  {
+    "day": "2025-03-26",
+    "customers": 31,
+    "gmv_28d": 35891974.72,
+    "revenue_influenced_28d": 313994.05799999996
+  },
+  {
+    "day": "2025-04-02",
+    "customers": 41,
+    "gmv_28d": 37049018.102,
+    "revenue_influenced_28d": 329742.907
+  },
+  {
+    "day": "2025-04-29",
+    "customers": 54,
+    "gmv_28d": 41549439.999,
+    "revenue_influenced_28d": 406797.554
+  },
+  {
+    "day": "2025-05-24",
+    "customers": 76,
+    "gmv_28d": 57963343.539000005,
+    "revenue_influenced_28d": 735292.416
+  },
+  {
+    "day": "2025-04-04",
+    "customers": 44,
+    "gmv_28d": 37410622.44799999,
+    "revenue_influenced_28d": 326418.416
+  },
+  {
+    "day": "2025-04-12",
+    "customers": 47,
+    "gmv_28d": 38342184.605000004,
+    "revenue_influenced_28d": 353080.537
+  },
+  {
+    "day": "2025-04-15",
+    "customers": 48,
+    "gmv_28d": 38758748.574,
+    "revenue_influenced_28d": 361945.07100000005
+  },
+  {
+    "day": "2025-04-30",
+    "customers": 56,
+    "gmv_28d": 42137964.175000004,
+    "revenue_influenced_28d": 427466.723
+  },
+  {
+    "day": "2025-01-28",
+    "customers": 20,
+    "gmv_28d": 25294237.367,
+    "revenue_influenced_28d": 64763.06
+  },
+  {
+    "day": "2025-02-09",
+    "customers": 22,
+    "gmv_28d": 29062958.081000004,
+    "revenue_influenced_28d": 95906.22
+  },
+  {
+    "day": "2025-04-18",
+    "customers": 49,
+    "gmv_28d": 39118448.220000006,
+    "revenue_influenced_28d": 373435.575
+  },
+  {
+    "day": "2025-05-04",
+    "customers": 64,
+    "gmv_28d": 44892911.830000006,
+    "revenue_influenced_28d": 466777.951
+  },
+  {
+    "day": "2025-05-29",
+    "customers": 78,
+    "gmv_28d": 61302690.999,
+    "revenue_influenced_28d": 828342.804
+  },
+  {
+    "day": "2025-06-01",
+    "customers": 83,
+    "gmv_28d": 60824389.771000005,
+    "revenue_influenced_28d": 879951.799
+  },
+  {
+    "day": "2025-06-19",
+    "customers": 118,
+    "gmv_28d": 49355405.219,
+    "revenue_influenced_28d": 1188889.8909999998
+  },
+  {
+    "day": "2025-04-19",
+    "customers": 50,
+    "gmv_28d": 39094361.42499999,
+    "revenue_influenced_28d": 373284.909
+  },
+  {
+    "day": "2025-04-06",
+    "customers": 44,
+    "gmv_28d": 37785933.683000006,
+    "revenue_influenced_28d": 326070.81799999997
+  },
+  {
+    "day": "2025-05-13",
+    "customers": 68,
+    "gmv_28d": 49278152.70900001,
+    "revenue_influenced_28d": 517588.29300000006
+  },
+  {
+    "day": "2025-04-17",
+    "customers": 49,
+    "gmv_28d": 39097115.448,
+    "revenue_influenced_28d": 369548.802
+  },
+  {
+    "day": "2025-03-31",
+    "customers": 37,
+    "gmv_28d": 36762689.996,
+    "revenue_influenced_28d": 331422.278
+  },
+  {
+    "day": "2025-04-26",
+    "customers": 53,
+    "gmv_28d": 40330846.275000006,
+    "revenue_influenced_28d": 379354.47099999996
+  },
+  {
+    "day": "2025-04-16",
+    "customers": 48,
+    "gmv_28d": 38942755.033999994,
+    "revenue_influenced_28d": 367561.25499999995
+  },
+  {
+    "day": "2025-04-20",
+    "customers": 50,
+    "gmv_28d": 39037972.683000006,
+    "revenue_influenced_28d": 374375.498
+  },
+  {
+    "day": "2025-01-12",
+    "customers": 17,
+    "gmv_28d": 9763720.184,
+    "revenue_influenced_28d": 22088.149000000005
+  },
+  {
+    "day": "2025-01-22",
+    "customers": 18,
+    "gmv_28d": 19395550.631,
+    "revenue_influenced_28d": 49305.162
+  },
+  {
+    "day": "2025-02-07",
+    "customers": 22,
+    "gmv_28d": 28674482.761,
+    "revenue_influenced_28d": 90531.32499999998
+  },
+  {
+    "day": "2025-03-09",
+    "customers": 23,
+    "gmv_28d": 34927784.638,
+    "revenue_influenced_28d": 274413.287
+  },
+  {
+    "day": "2025-03-17",
+    "customers": 24,
+    "gmv_28d": 34261582.315,
+    "revenue_influenced_28d": 295940.099
+  },
+  {
+    "day": "2025-04-28",
+    "customers": 54,
+    "gmv_28d": 41222437.86899999,
+    "revenue_influenced_28d": 388246.057
+  },
+  {
+    "day": "2025-05-15",
+    "customers": 72,
+    "gmv_28d": 50286262.877000004,
+    "revenue_influenced_28d": 534571.502
+  },
+  {
+    "day": "2025-07-04",
+    "customers": 144,
+    "gmv_28d": 47748350.219,
+    "revenue_influenced_28d": 1642157.0170000005
+  },
+  {
+    "day": "2025-01-23",
+    "customers": 19,
+    "gmv_28d": 20391048.255,
+    "revenue_influenced_28d": 51877.748999999996
+  },
+  {
+    "day": "2025-02-05",
+    "customers": 22,
+    "gmv_28d": 28357565.751999997,
+    "revenue_influenced_28d": 81809.835
+  },
+  {
+    "day": "2025-02-11",
+    "customers": 22,
+    "gmv_28d": 29541698.163999997,
+    "revenue_influenced_28d": 96760.46900000001
+  },
+  {
+    "day": "2025-02-24",
+    "customers": 23,
+    "gmv_28d": 34350042.91,
+    "revenue_influenced_28d": 188884.017
+  },
+  {
+    "day": "2025-05-02",
+    "customers": 61,
+    "gmv_28d": 43744749.221,
+    "revenue_influenced_28d": 453641.093
+  },
+  {
+    "day": "2025-05-14",
+    "customers": 68,
+    "gmv_28d": 49663552.557000004,
+    "revenue_influenced_28d": 519858.619
+  },
+  {
+    "day": "2025-05-18",
+    "customers": 73,
+    "gmv_28d": 52112511.41500001,
+    "revenue_influenced_28d": 581024.1440000001
+  },
+  {
+    "day": "2025-01-13",
+    "customers": 18,
+    "gmv_28d": 10820929.643,
+    "revenue_influenced_28d": 25180.063000000002
+  },
+  {
+    "day": "2025-01-16",
+    "customers": 18,
+    "gmv_28d": 13686697.639,
+    "revenue_influenced_28d": 33963.244000000006
+  },
+  {
+    "day": "2025-01-21",
+    "customers": 18,
+    "gmv_28d": 18479067.588,
+    "revenue_influenced_28d": 46352.484000000004
+  },
+  {
+    "day": "2025-01-24",
+    "customers": 19,
+    "gmv_28d": 21368600.603,
+    "revenue_influenced_28d": 54738.539
+  },
+  {
+    "day": "2025-02-16",
+    "customers": 23,
+    "gmv_28d": 31533328.698,
+    "revenue_influenced_28d": 129655.627
+  },
+  {
+    "day": "2025-03-05",
+    "customers": 23,
+    "gmv_28d": 34648150.351,
+    "revenue_influenced_28d": 249880.47099999996
+  },
+  {
+    "day": "2025-03-08",
+    "customers": 23,
+    "gmv_28d": 34807461.767,
+    "revenue_influenced_28d": 269848.07300000003
+  },
+  {
+    "day": "2025-05-08",
+    "customers": 62,
+    "gmv_28d": 47192401.189,
+    "revenue_influenced_28d": 495048.5520000001
+  },
+  {
+    "day": "2025-05-07",
+    "customers": 62,
+    "gmv_28d": 46816703.04399999,
+    "revenue_influenced_28d": 477139.64
+  },
+  {
+    "day": "2025-01-08",
+    "customers": 14,
+    "gmv_28d": 5867693.125,
+    "revenue_influenced_28d": 15134.764000000001
+  },
+  {
+    "day": "2025-01-25",
+    "customers": 19,
+    "gmv_28d": 22320189.255000003,
+    "revenue_influenced_28d": 58244.111
+  },
+  {
+    "day": "2025-02-12",
+    "customers": 23,
+    "gmv_28d": 29882614.146999996,
+    "revenue_influenced_28d": 98813.46199999998
+  },
+  {
+    "day": "2025-02-23",
+    "customers": 23,
+    "gmv_28d": 34251547.210999995,
+    "revenue_influenced_28d": 176957.30399999997
+  },
+  {
+    "day": "2025-03-07",
+    "customers": 23,
+    "gmv_28d": 34777999.776,
+    "revenue_influenced_28d": 262699.60000000003
+  },
+  {
+    "day": "2025-04-13",
+    "customers": 47,
+    "gmv_28d": 38448123.147,
+    "revenue_influenced_28d": 362180.958
+  },
+  {
+    "day": "2025-03-10",
+    "customers": 23,
+    "gmv_28d": 35069949.449,
+    "revenue_influenced_28d": 284262.502
+  },
+  {
+    "day": "2025-03-06",
+    "customers": 23,
+    "gmv_28d": 34669417.794,
+    "revenue_influenced_28d": 254096.272
+  },
+  {
+    "day": "2025-04-11",
+    "customers": 46,
+    "gmv_28d": 38287551.752,
+    "revenue_influenced_28d": 349180.6599999999
+  },
+  {
+    "day": "2025-04-27",
+    "customers": 53,
+    "gmv_28d": 40457863.578,
+    "revenue_influenced_28d": 383620.5139999999
+  },
+  {
+    "day": "2025-04-25",
+    "customers": 52,
+    "gmv_28d": 40246788.372,
+    "revenue_influenced_28d": 383075.18899999995
+  },
+  {
+    "day": "2025-02-04",
+    "customers": 22,
+    "gmv_28d": 28079347.714,
+    "revenue_influenced_28d": 80183.75200000001
+  },
+  {
+    "day": "2025-02-22",
+    "customers": 23,
+    "gmv_28d": 34191670.44,
+    "revenue_influenced_28d": 166664.22099999996
+  },
+  {
+    "day": "2025-02-15",
+    "customers": 23,
+    "gmv_28d": 31182834.994000003,
+    "revenue_influenced_28d": 121387.967
+  },
+  {
+    "day": "2025-03-13",
+    "customers": 24,
+    "gmv_28d": 34985804.652,
+    "revenue_influenced_28d": 302211.354
+  },
+  {
+    "day": "2025-02-03",
+    "customers": 22,
+    "gmv_28d": 27781644.502,
+    "revenue_influenced_28d": 76689.85500000001
+  },
+  {
+    "day": "2025-02-13",
+    "customers": 23,
+    "gmv_28d": 30198450.898,
+    "revenue_influenced_28d": 104508.818
+  },
+  {
+    "day": "2025-02-18",
+    "customers": 23,
+    "gmv_28d": 33819020.906,
+    "revenue_influenced_28d": 142868.547
+  },
+  {
+    "day": "2025-01-07",
+    "customers": 13,
+    "gmv_28d": 3990907.517,
+    "revenue_influenced_28d": 12228.363000000001
+  },
+  {
+    "day": "2025-03-03",
+    "customers": 23,
+    "gmv_28d": 34490955.938,
+    "revenue_influenced_28d": 231790.86100000003
+  },
+  {
+    "day": "2025-03-18",
+    "customers": 24,
+    "gmv_28d": 34222993.217,
+    "revenue_influenced_28d": 298345.54900000006
+  },
+  {
+    "day": "2025-03-22",
+    "customers": 27,
+    "gmv_28d": 34949225.188,
+    "revenue_influenced_28d": 307326.4639999999
+  },
+  {
+    "day": "2025-01-19",
+    "customers": 18,
+    "gmv_28d": 16492456.046,
+    "revenue_influenced_28d": 41403.309
+  },
+  {
+    "day": "2025-01-30",
+    "customers": 21,
+    "gmv_28d": 26133522.770999998,
+    "revenue_influenced_28d": 69082.702
+  },
+  {
+    "day": "2025-02-20",
+    "customers": 23,
+    "gmv_28d": 34012377.201,
+    "revenue_influenced_28d": 153819.445
+  },
+  {
+    "day": "2025-02-10",
+    "customers": 22,
+    "gmv_28d": 29247456.791,
+    "revenue_influenced_28d": 96247.21999999999
+  },
+  {
+    "day": "2025-01-20",
+    "customers": 18,
+    "gmv_28d": 17556934.87,
+    "revenue_influenced_28d": 44416.929
+  },
+  {
+    "day": "2025-03-19",
+    "customers": 25,
+    "gmv_28d": 34422245.526999995,
+    "revenue_influenced_28d": 301891.92
+  },
+  {
+    "day": "2025-03-20",
+    "customers": 26,
+    "gmv_28d": 34560031.67600001,
+    "revenue_influenced_28d": 304432.68799999997
+  },
+  {
+    "day": "2025-05-05",
+    "customers": 63,
+    "gmv_28d": 45651823.78299999,
+    "revenue_influenced_28d": 476831.93799999997
+  },
+  {
+    "day": "2025-03-12",
+    "customers": 24,
+    "gmv_28d": 35044361.092,
+    "revenue_influenced_28d": 298368.611
+  },
+  {
+    "day": "2025-02-14",
+    "customers": 23,
+    "gmv_28d": 30579688.634,
+    "revenue_influenced_28d": 111023.202
+  },
+  {
+    "day": "2025-01-10",
+    "customers": 16,
+    "gmv_28d": 7805716.416,
+    "revenue_influenced_28d": 19165.255999999998
+  },
+  {
+    "day": "2025-03-15",
+    "customers": 24,
+    "gmv_28d": 34660756.487,
+    "revenue_influenced_28d": 299755.035
+  },
+  {
+    "day": "2025-02-26",
+    "customers": 23,
+    "gmv_28d": 34505694.407,
+    "revenue_influenced_28d": 203450.55299999999
+  },
+  {
+    "day": "2025-02-21",
+    "customers": 23,
+    "gmv_28d": 34065533.931,
+    "revenue_influenced_28d": 159219.64800000002
+  },
+  {
+    "day": "2025-03-30",
+    "customers": 36,
+    "gmv_28d": 36987055.874000005,
+    "revenue_influenced_28d": 327169.62700000004
+  },
+  {
+    "day": "2025-01-06",
+    "customers": 12,
+    "gmv_28d": 3355941.299,
+    "revenue_influenced_28d": 10481.126
+  },
+  {
+    "day": "2025-01-05",
+    "customers": 11,
+    "gmv_28d": 2796667.503,
+    "revenue_influenced_28d": 8808.406
+  },
+  {
+    "day": "2025-03-11",
+    "customers": 24,
+    "gmv_28d": 34993888.821,
+    "revenue_influenced_28d": 292377.593
+  },
+  {
+    "day": "2025-01-03",
+    "customers": 10,
+    "gmv_28d": 1748951.066,
+    "revenue_influenced_28d": 6385.125
+  },
+  {
+    "day": "2025-02-08",
+    "customers": 22,
+    "gmv_28d": 28826087.871999998,
+    "revenue_influenced_28d": 93329.90599999999
+  },
+  {
+    "day": "2025-03-14",
+    "customers": 24,
+    "gmv_28d": 34873296.54,
+    "revenue_influenced_28d": 304880.45900000003
+  },
+  {
+    "day": "2025-03-25",
+    "customers": 30,
+    "gmv_28d": 35677117.901,
+    "revenue_influenced_28d": 309972.28599999996
+  },
+  {
+    "day": "2025-01-15",
+    "customers": 18,
+    "gmv_28d": 12714292.211,
+    "revenue_influenced_28d": 31414.691
+  },
+  {
+    "day": "2025-02-02",
+    "customers": 22,
+    "gmv_28d": 27375532.151,
+    "revenue_influenced_28d": 74375.46
+  },
+  {
+    "day": "2025-01-29",
+    "customers": 21,
+    "gmv_28d": 25712951.356000002,
+    "revenue_influenced_28d": 68382.84000000001
+  },
+  {
+    "day": "2025-01-02",
+    "customers": 10,
+    "gmv_28d": 1179366.2370000002,
+    "revenue_influenced_28d": 4899.241
+  },
+  {
+    "day": "2025-01-04",
+    "customers": 10,
+    "gmv_28d": 2232681.363,
+    "revenue_influenced_28d": 7914.826
+  },
+  {
+    "day": "2025-01-01",
+    "customers": 5,
+    "gmv_28d": 311166.566,
+    "revenue_influenced_28d": 1613.693
+  }
+]

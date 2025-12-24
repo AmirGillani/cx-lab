@@ -1,0 +1,1234 @@
+[
+  {
+    "feedback_date": "2025-07-23",
+    "good": 166,
+    "ok": 121,
+    "bad": 214,
+    "total": 501,
+    "merchant_quality_rate": 0.5728542914171657
+  },
+  {
+    "feedback_date": "2025-07-24",
+    "good": 600,
+    "ok": 339,
+    "bad": 630,
+    "total": 1569,
+    "merchant_quality_rate": 0.5984703632887189
+  },
+  {
+    "feedback_date": "2025-07-25",
+    "good": 1129,
+    "ok": 486,
+    "bad": 966,
+    "total": 2581,
+    "merchant_quality_rate": 0.625726462611391
+  },
+  {
+    "feedback_date": "2025-07-26",
+    "good": 1445,
+    "ok": 534,
+    "bad": 1058,
+    "total": 3037,
+    "merchant_quality_rate": 0.6516298979255845
+  },
+  {
+    "feedback_date": "2025-07-27",
+    "good": 1632,
+    "ok": 574,
+    "bad": 1129,
+    "total": 3335,
+    "merchant_quality_rate": 0.6614692653673163
+  },
+  {
+    "feedback_date": "2025-07-28",
+    "good": 2333,
+    "ok": 850,
+    "bad": 1579,
+    "total": 4762,
+    "merchant_quality_rate": 0.6684166316673666
+  },
+  {
+    "feedback_date": "2025-07-29",
+    "good": 3002,
+    "ok": 1098,
+    "bad": 2040,
+    "total": 6140,
+    "merchant_quality_rate": 0.6677524429967426
+  },
+  {
+    "feedback_date": "2025-07-30",
+    "good": 3754,
+    "ok": 1360,
+    "bad": 2477,
+    "total": 7591,
+    "merchant_quality_rate": 0.6736925306283758
+  },
+  {
+    "feedback_date": "2025-07-31",
+    "good": 4461,
+    "ok": 1559,
+    "bad": 2891,
+    "total": 8911,
+    "merchant_quality_rate": 0.6755695208169678
+  },
+  {
+    "feedback_date": "2025-08-01",
+    "good": 4998,
+    "ok": 1722,
+    "bad": 3200,
+    "total": 9920,
+    "merchant_quality_rate": 0.6774193548387096
+  },
+  {
+    "feedback_date": "2025-08-02",
+    "good": 5175,
+    "ok": 1772,
+    "bad": 3258,
+    "total": 10205,
+    "merchant_quality_rate": 0.6807447329740324
+  },
+  {
+    "feedback_date": "2025-08-03",
+    "good": 5328,
+    "ok": 1804,
+    "bad": 3320,
+    "total": 10452,
+    "merchant_quality_rate": 0.6823574435514734
+  },
+  {
+    "feedback_date": "2025-08-04",
+    "good": 6161,
+    "ok": 2101,
+    "bad": 3897,
+    "total": 12159,
+    "merchant_quality_rate": 0.6794966691339749
+  },
+  {
+    "feedback_date": "2025-08-05",
+    "good": 6858,
+    "ok": 2283,
+    "bad": 4275,
+    "total": 13416,
+    "merchant_quality_rate": 0.681350626118068
+  },
+  {
+    "feedback_date": "2025-08-06",
+    "good": 7523,
+    "ok": 2488,
+    "bad": 4702,
+    "total": 14713,
+    "merchant_quality_rate": 0.6804186773601577
+  },
+  {
+    "feedback_date": "2025-08-07",
+    "good": 8282,
+    "ok": 2716,
+    "bad": 5146,
+    "total": 16144,
+    "merchant_quality_rate": 0.6812438057482656
+  },
+  {
+    "feedback_date": "2025-08-08",
+    "good": 8886,
+    "ok": 2934,
+    "bad": 5550,
+    "total": 17370,
+    "merchant_quality_rate": 0.6804835924006909
+  },
+  {
+    "feedback_date": "2025-08-09",
+    "good": 9123,
+    "ok": 2971,
+    "bad": 5618,
+    "total": 17712,
+    "merchant_quality_rate": 0.6828139114724481
+  },
+  {
+    "feedback_date": "2025-08-10",
+    "good": 9314,
+    "ok": 3015,
+    "bad": 5695,
+    "total": 18024,
+    "merchant_quality_rate": 0.6840324012427874
+  },
+  {
+    "feedback_date": "2025-08-11",
+    "good": 10113,
+    "ok": 3316,
+    "bad": 6259,
+    "total": 19688,
+    "merchant_quality_rate": 0.6820906135717189
+  },
+  {
+    "feedback_date": "2025-08-12",
+    "good": 10833,
+    "ok": 3608,
+    "bad": 6722,
+    "total": 21163,
+    "merchant_quality_rate": 0.682370174360913
+  },
+  {
+    "feedback_date": "2025-08-13",
+    "good": 11777,
+    "ok": 3827,
+    "bad": 7207,
+    "total": 22811,
+    "merchant_quality_rate": 0.6840559379246854
+  },
+  {
+    "feedback_date": "2025-08-14",
+    "good": 12706,
+    "ok": 4049,
+    "bad": 7677,
+    "total": 24432,
+    "merchant_quality_rate": 0.6857809430255403
+  },
+  {
+    "feedback_date": "2025-08-15",
+    "good": 13389,
+    "ok": 4235,
+    "bad": 7977,
+    "total": 25601,
+    "merchant_quality_rate": 0.6884106089605875
+  },
+  {
+    "feedback_date": "2025-08-16",
+    "good": 13603,
+    "ok": 4275,
+    "bad": 8046,
+    "total": 25924,
+    "merchant_quality_rate": 0.6896312297484956
+  },
+  {
+    "feedback_date": "2025-08-17",
+    "good": 13777,
+    "ok": 4318,
+    "bad": 8108,
+    "total": 26203,
+    "merchant_quality_rate": 0.6905697820860207
+  },
+  {
+    "feedback_date": "2025-08-18",
+    "good": 14569,
+    "ok": 4590,
+    "bad": 8610,
+    "total": 27769,
+    "merchant_quality_rate": 0.6899420216788505
+  },
+  {
+    "feedback_date": "2025-08-19",
+    "good": 15690,
+    "ok": 4969,
+    "bad": 9284,
+    "total": 29943,
+    "merchant_quality_rate": 0.6899442273653275
+  },
+  {
+    "feedback_date": "2025-08-20",
+    "good": 16914,
+    "ok": 5136,
+    "bad": 9680,
+    "total": 31730,
+    "merchant_quality_rate": 0.6949259375984872
+  },
+  {
+    "feedback_date": "2025-08-21",
+    "good": 17470,
+    "ok": 5183,
+    "bad": 9809,
+    "total": 32462,
+    "merchant_quality_rate": 0.6978313104553016
+  },
+  {
+    "feedback_date": "2025-08-22",
+    "good": 17763,
+    "ok": 5215,
+    "bad": 9865,
+    "total": 32843,
+    "merchant_quality_rate": 0.6996315805498888
+  },
+  {
+    "feedback_date": "2025-08-23",
+    "good": 17668,
+    "ok": 5213,
+    "bad": 9851,
+    "total": 32732,
+    "merchant_quality_rate": 0.6990406941219601
+  },
+  {
+    "feedback_date": "2025-08-24",
+    "good": 17664,
+    "ok": 5219,
+    "bad": 9836,
+    "total": 32719,
+    "merchant_quality_rate": 0.6993795653901402
+  },
+  {
+    "feedback_date": "2025-08-25",
+    "good": 17962,
+    "ok": 5250,
+    "bad": 9915,
+    "total": 33127,
+    "merchant_quality_rate": 0.7006973163884445
+  },
+  {
+    "feedback_date": "2025-08-26",
+    "good": 18779,
+    "ok": 5325,
+    "bad": 10004,
+    "total": 34108,
+    "merchant_quality_rate": 0.7066963762167233
+  },
+  {
+    "feedback_date": "2025-08-27",
+    "good": 19027,
+    "ok": 5373,
+    "bad": 10017,
+    "total": 34417,
+    "merchant_quality_rate": 0.7089519714094779
+  },
+  {
+    "feedback_date": "2025-08-28",
+    "good": 19494,
+    "ok": 5460,
+    "bad": 10096,
+    "total": 35050,
+    "merchant_quality_rate": 0.7119543509272468
+  },
+  {
+    "feedback_date": "2025-08-29",
+    "good": 19751,
+    "ok": 5456,
+    "bad": 10125,
+    "total": 35332,
+    "merchant_quality_rate": 0.7134325823615986
+  },
+  {
+    "feedback_date": "2025-08-30",
+    "good": 19854,
+    "ok": 5444,
+    "bad": 10141,
+    "total": 35439,
+    "merchant_quality_rate": 0.7138463274923107
+  },
+  {
+    "feedback_date": "2025-08-31",
+    "good": 19992,
+    "ok": 5470,
+    "bad": 10132,
+    "total": 35594,
+    "merchant_quality_rate": 0.7153452829128505
+  },
+  {
+    "feedback_date": "2025-09-01",
+    "good": 19914,
+    "ok": 5352,
+    "bad": 9860,
+    "total": 35126,
+    "merchant_quality_rate": 0.7192962477936571
+  },
+  {
+    "feedback_date": "2025-09-02",
+    "good": 20209,
+    "ok": 5484,
+    "bad": 10027,
+    "total": 35720,
+    "merchant_quality_rate": 0.7192889137737962
+  },
+  {
+    "feedback_date": "2025-09-03",
+    "good": 20341,
+    "ok": 5490,
+    "bad": 10036,
+    "total": 35867,
+    "merchant_quality_rate": 0.7201884740848133
+  },
+  {
+    "feedback_date": "2025-09-04",
+    "good": 20584,
+    "ok": 5515,
+    "bad": 10039,
+    "total": 36138,
+    "merchant_quality_rate": 0.7222037744202778
+  },
+  {
+    "feedback_date": "2025-09-05",
+    "good": 20951,
+    "ok": 5495,
+    "bad": 10044,
+    "total": 36490,
+    "merchant_quality_rate": 0.7247465058920252
+  },
+  {
+    "feedback_date": "2025-09-06",
+    "good": 21035,
+    "ok": 5513,
+    "bad": 10049,
+    "total": 36597,
+    "merchant_quality_rate": 0.7254146514741645
+  },
+  {
+    "feedback_date": "2025-09-07",
+    "good": 21014,
+    "ok": 5499,
+    "bad": 10014,
+    "total": 36527,
+    "merchant_quality_rate": 0.7258466339967695
+  },
+  {
+    "feedback_date": "2025-09-08",
+    "good": 21158,
+    "ok": 5494,
+    "bad": 10025,
+    "total": 36677,
+    "merchant_quality_rate": 0.7266679390353628
+  },
+  {
+    "feedback_date": "2025-09-09",
+    "good": 21679,
+    "ok": 5601,
+    "bad": 10183,
+    "total": 37463,
+    "merchant_quality_rate": 0.7281851426741052
+  },
+  {
+    "feedback_date": "2025-09-10",
+    "good": 22048,
+    "ok": 5780,
+    "bad": 10357,
+    "total": 38185,
+    "merchant_quality_rate": 0.7287678407751735
+  },
+  {
+    "feedback_date": "2025-09-11",
+    "good": 22489,
+    "ok": 5905,
+    "bad": 10391,
+    "total": 38785,
+    "merchant_quality_rate": 0.7320871470929483
+  },
+  {
+    "feedback_date": "2025-09-12",
+    "good": 22955,
+    "ok": 6094,
+    "bad": 10621,
+    "total": 39670,
+    "merchant_quality_rate": 0.7322661961179733
+  },
+  {
+    "feedback_date": "2025-09-13",
+    "good": 22957,
+    "ok": 6109,
+    "bad": 10609,
+    "total": 39675,
+    "merchant_quality_rate": 0.7326023944549465
+  },
+  {
+    "feedback_date": "2025-09-14",
+    "good": 23088,
+    "ok": 6126,
+    "bad": 10629,
+    "total": 39843,
+    "merchant_quality_rate": 0.7332279195843686
+  },
+  {
+    "feedback_date": "2025-09-15",
+    "good": 23873,
+    "ok": 6327,
+    "bad": 10827,
+    "total": 41027,
+    "merchant_quality_rate": 0.7361006166670729
+  },
+  {
+    "feedback_date": "2025-09-16",
+    "good": 24053,
+    "ok": 6337,
+    "bad": 10737,
+    "total": 41127,
+    "merchant_quality_rate": 0.7389306295134583
+  },
+  {
+    "feedback_date": "2025-09-17",
+    "good": 24056,
+    "ok": 6470,
+    "bad": 10840,
+    "total": 41366,
+    "merchant_quality_rate": 0.7379490402746217
+  },
+  {
+    "feedback_date": "2025-09-18",
+    "good": 24595,
+    "ok": 6714,
+    "bad": 10915,
+    "total": 42224,
+    "merchant_quality_rate": 0.7414977264115196
+  },
+  {
+    "feedback_date": "2025-09-19",
+    "good": 25030,
+    "ok": 6870,
+    "bad": 10978,
+    "total": 42878,
+    "merchant_quality_rate": 0.7439712673165726
+  },
+  {
+    "feedback_date": "2025-09-20",
+    "good": 25105,
+    "ok": 6911,
+    "bad": 10992,
+    "total": 43008,
+    "merchant_quality_rate": 0.7444196428571429
+  },
+  {
+    "feedback_date": "2025-09-21",
+    "good": 25170,
+    "ok": 6908,
+    "bad": 10998,
+    "total": 43076,
+    "merchant_quality_rate": 0.7446838146531711
+  },
+  {
+    "feedback_date": "2025-09-22",
+    "good": 25755,
+    "ok": 7243,
+    "bad": 11125,
+    "total": 44123,
+    "merchant_quality_rate": 0.7478639258436643
+  },
+  {
+    "feedback_date": "2025-09-23",
+    "good": 25960,
+    "ok": 7427,
+    "bad": 11157,
+    "total": 44544,
+    "merchant_quality_rate": 0.7495285560344828
+  },
+  {
+    "feedback_date": "2025-09-24",
+    "good": 27013,
+    "ok": 7494,
+    "bad": 11251,
+    "total": 45758,
+    "merchant_quality_rate": 0.7541194982298177
+  },
+  {
+    "feedback_date": "2025-09-25",
+    "good": 27337,
+    "ok": 7562,
+    "bad": 11326,
+    "total": 46225,
+    "merchant_quality_rate": 0.7549810708491076
+  },
+  {
+    "feedback_date": "2025-09-26",
+    "good": 28082,
+    "ok": 7743,
+    "bad": 11466,
+    "total": 47291,
+    "merchant_quality_rate": 0.7575437186779725
+  },
+  {
+    "feedback_date": "2025-09-27",
+    "good": 28161,
+    "ok": 7762,
+    "bad": 11505,
+    "total": 47428,
+    "merchant_quality_rate": 0.757421776165978
+  },
+  {
+    "feedback_date": "2025-09-28",
+    "good": 28194,
+    "ok": 7766,
+    "bad": 11531,
+    "total": 47491,
+    "merchant_quality_rate": 0.7571961003137436
+  },
+  {
+    "feedback_date": "2025-09-29",
+    "good": 29353,
+    "ok": 8062,
+    "bad": 11817,
+    "total": 49232,
+    "merchant_quality_rate": 0.7599731881702957
+  },
+  {
+    "feedback_date": "2025-09-30",
+    "good": 30359,
+    "ok": 8202,
+    "bad": 11840,
+    "total": 50401,
+    "merchant_quality_rate": 0.765084026110593
+  },
+  {
+    "feedback_date": "2025-10-01",
+    "good": 31401,
+    "ok": 8428,
+    "bad": 11963,
+    "total": 51792,
+    "merchant_quality_rate": 0.7690183812171764
+  },
+  {
+    "feedback_date": "2025-10-02",
+    "good": 32169,
+    "ok": 8592,
+    "bad": 12043,
+    "total": 52804,
+    "merchant_quality_rate": 0.7719301568063025
+  },
+  {
+    "feedback_date": "2025-10-03",
+    "good": 32628,
+    "ok": 8729,
+    "bad": 12150,
+    "total": 53507,
+    "merchant_quality_rate": 0.7729269067598632
+  },
+  {
+    "feedback_date": "2025-10-04",
+    "good": 32794,
+    "ok": 8748,
+    "bad": 12157,
+    "total": 53699,
+    "merchant_quality_rate": 0.7736084470846757
+  },
+  {
+    "feedback_date": "2025-10-05",
+    "good": 33080,
+    "ok": 8773,
+    "bad": 12192,
+    "total": 54045,
+    "merchant_quality_rate": 0.7744102137107965
+  },
+  {
+    "feedback_date": "2025-10-06",
+    "good": 34204,
+    "ok": 9031,
+    "bad": 12309,
+    "total": 55544,
+    "merchant_quality_rate": 0.7783919055163474
+  },
+  {
+    "feedback_date": "2025-10-07",
+    "good": 35061,
+    "ok": 9107,
+    "bad": 12261,
+    "total": 56429,
+    "merchant_quality_rate": 0.7827181059384359
+  },
+  {
+    "feedback_date": "2025-10-08",
+    "good": 35788,
+    "ok": 9151,
+    "bad": 12199,
+    "total": 57138,
+    "merchant_quality_rate": 0.7864993524449578
+  },
+  {
+    "feedback_date": "2025-10-09",
+    "good": 36443,
+    "ok": 9278,
+    "bad": 12321,
+    "total": 58042,
+    "merchant_quality_rate": 0.7877226835739637
+  },
+  {
+    "feedback_date": "2025-10-10",
+    "good": 36905,
+    "ok": 9275,
+    "bad": 12286,
+    "total": 58466,
+    "merchant_quality_rate": 0.7898607737830534
+  },
+  {
+    "feedback_date": "2025-10-11",
+    "good": 37142,
+    "ok": 9302,
+    "bad": 12310,
+    "total": 58754,
+    "merchant_quality_rate": 0.7904823501378629
+  },
+  {
+    "feedback_date": "2025-10-12",
+    "good": 37110,
+    "ok": 9316,
+    "bad": 12332,
+    "total": 58758,
+    "merchant_quality_rate": 0.7901221961264849
+  },
+  {
+    "feedback_date": "2025-10-13",
+    "good": 37281,
+    "ok": 9253,
+    "bad": 12258,
+    "total": 58792,
+    "merchant_quality_rate": 0.791502245203429
+  },
+  {
+    "feedback_date": "2025-10-14",
+    "good": 38157,
+    "ok": 9367,
+    "bad": 12350,
+    "total": 59874,
+    "merchant_quality_rate": 0.7937335070314326
+  },
+  {
+    "feedback_date": "2025-10-15",
+    "good": 38610,
+    "ok": 9351,
+    "bad": 12295,
+    "total": 60256,
+    "merchant_quality_rate": 0.7959539298990972
+  },
+  {
+    "feedback_date": "2025-10-16",
+    "good": 39292,
+    "ok": 9355,
+    "bad": 12315,
+    "total": 60962,
+    "merchant_quality_rate": 0.7979889111249631
+  },
+  {
+    "feedback_date": "2025-10-17",
+    "good": 39749,
+    "ok": 9388,
+    "bad": 12445,
+    "total": 61582,
+    "merchant_quality_rate": 0.7979117274528271
+  },
+  {
+    "feedback_date": "2025-10-18",
+    "good": 39908,
+    "ok": 9362,
+    "bad": 12446,
+    "total": 61716,
+    "merchant_quality_rate": 0.7983343055285501
+  },
+  {
+    "feedback_date": "2025-10-19",
+    "good": 40273,
+    "ok": 9421,
+    "bad": 12519,
+    "total": 62213,
+    "merchant_quality_rate": 0.7987719608441965
+  },
+  {
+    "feedback_date": "2025-10-20",
+    "good": 40492,
+    "ok": 9264,
+    "bad": 12548,
+    "total": 62304,
+    "merchant_quality_rate": 0.7986004108885465
+  },
+  {
+    "feedback_date": "2025-10-21",
+    "good": 40990,
+    "ok": 9411,
+    "bad": 12706,
+    "total": 63107,
+    "merchant_quality_rate": 0.798659419715721
+  },
+  {
+    "feedback_date": "2025-10-22",
+    "good": 41902,
+    "ok": 9759,
+    "bad": 12845,
+    "total": 64506,
+    "merchant_quality_rate": 0.8008712367841752
+  },
+  {
+    "feedback_date": "2025-10-23",
+    "good": 43318,
+    "ok": 9994,
+    "bad": 13085,
+    "total": 66397,
+    "merchant_quality_rate": 0.8029278431254424
+  },
+  {
+    "feedback_date": "2025-10-24",
+    "good": 43928,
+    "ok": 10020,
+    "bad": 13196,
+    "total": 67144,
+    "merchant_quality_rate": 0.8034671750268081
+  },
+  {
+    "feedback_date": "2025-10-25",
+    "good": 44156,
+    "ok": 10030,
+    "bad": 13205,
+    "total": 67391,
+    "merchant_quality_rate": 0.8040539537920494
+  },
+  {
+    "feedback_date": "2025-10-26",
+    "good": 44308,
+    "ok": 10015,
+    "bad": 13201,
+    "total": 67524,
+    "merchant_quality_rate": 0.8044991410461465
+  },
+  {
+    "feedback_date": "2025-10-27",
+    "good": 44838,
+    "ok": 10121,
+    "bad": 13355,
+    "total": 68314,
+    "merchant_quality_rate": 0.8045056650174196
+  },
+  {
+    "feedback_date": "2025-10-28",
+    "good": 46177,
+    "ok": 10417,
+    "bad": 13576,
+    "total": 70170,
+    "merchant_quality_rate": 0.8065270058429528
+  },
+  {
+    "feedback_date": "2025-10-29",
+    "good": 46497,
+    "ok": 10470,
+    "bad": 13681,
+    "total": 70648,
+    "merchant_quality_rate": 0.806349790510701
+  },
+  {
+    "feedback_date": "2025-10-30",
+    "good": 47334,
+    "ok": 10607,
+    "bad": 13823,
+    "total": 71764,
+    "merchant_quality_rate": 0.8073825316314587
+  },
+  {
+    "feedback_date": "2025-10-31",
+    "good": 48214,
+    "ok": 10751,
+    "bad": 13806,
+    "total": 72771,
+    "merchant_quality_rate": 0.8102815682071155
+  },
+  {
+    "feedback_date": "2025-11-01",
+    "good": 48171,
+    "ok": 10732,
+    "bad": 13829,
+    "total": 72732,
+    "merchant_quality_rate": 0.8098636088654237
+  },
+  {
+    "feedback_date": "2025-11-02",
+    "good": 48377,
+    "ok": 10785,
+    "bad": 13882,
+    "total": 73044,
+    "merchant_quality_rate": 0.8099501670226165
+  },
+  {
+    "feedback_date": "2025-11-03",
+    "good": 48879,
+    "ok": 10801,
+    "bad": 13946,
+    "total": 73626,
+    "merchant_quality_rate": 0.8105832178849863
+  },
+  {
+    "feedback_date": "2025-11-04",
+    "good": 49226,
+    "ok": 10919,
+    "bad": 14006,
+    "total": 74151,
+    "merchant_quality_rate": 0.8111151569095494
+  },
+  {
+    "feedback_date": "2025-11-05",
+    "good": 49865,
+    "ok": 11115,
+    "bad": 14130,
+    "total": 75110,
+    "merchant_quality_rate": 0.8118759153241912
+  },
+  {
+    "feedback_date": "2025-11-06",
+    "good": 50607,
+    "ok": 11307,
+    "bad": 14395,
+    "total": 76309,
+    "merchant_quality_rate": 0.8113590795319032
+  },
+  {
+    "feedback_date": "2025-11-07",
+    "good": 51277,
+    "ok": 11694,
+    "bad": 14714,
+    "total": 77685,
+    "merchant_quality_rate": 0.8105940657784643
+  },
+  {
+    "feedback_date": "2025-11-08",
+    "good": 51614,
+    "ok": 11697,
+    "bad": 14826,
+    "total": 78137,
+    "merchant_quality_rate": 0.8102563446254655
+  },
+  {
+    "feedback_date": "2025-11-09",
+    "good": 52221,
+    "ok": 11705,
+    "bad": 14883,
+    "total": 78809,
+    "merchant_quality_rate": 0.8111510106713701
+  },
+  {
+    "feedback_date": "2025-11-10",
+    "good": 52853,
+    "ok": 12093,
+    "bad": 15293,
+    "total": 80239,
+    "merchant_quality_rate": 0.8094068968955246
+  },
+  {
+    "feedback_date": "2025-11-11",
+    "good": 53915,
+    "ok": 12529,
+    "bad": 15651,
+    "total": 82095,
+    "merchant_quality_rate": 0.8093550155307875
+  },
+  {
+    "feedback_date": "2025-11-12",
+    "good": 56123,
+    "ok": 12896,
+    "bad": 15889,
+    "total": 84908,
+    "merchant_quality_rate": 0.8128680454138597
+  },
+  {
+    "feedback_date": "2025-11-13",
+    "good": 57595,
+    "ok": 13455,
+    "bad": 16157,
+    "total": 87207,
+    "merchant_quality_rate": 0.8147281754904996
+  },
+  {
+    "feedback_date": "2025-11-14",
+    "good": 59509,
+    "ok": 13846,
+    "bad": 16326,
+    "total": 89681,
+    "merchant_quality_rate": 0.8179547507275788
+  },
+  {
+    "feedback_date": "2025-11-15",
+    "good": 60486,
+    "ok": 13930,
+    "bad": 16442,
+    "total": 90858,
+    "merchant_quality_rate": 0.8190362983997006
+  },
+  {
+    "feedback_date": "2025-11-16",
+    "good": 60772,
+    "ok": 14002,
+    "bad": 16463,
+    "total": 91237,
+    "merchant_quality_rate": 0.8195578548176726
+  },
+  {
+    "feedback_date": "2025-11-17",
+    "good": 62082,
+    "ok": 14287,
+    "bad": 16566,
+    "total": 92935,
+    "merchant_quality_rate": 0.8217463818798084
+  },
+  {
+    "feedback_date": "2025-11-18",
+    "good": 63804,
+    "ok": 14368,
+    "bad": 16639,
+    "total": 94811,
+    "merchant_quality_rate": 0.8245034858824398
+  },
+  {
+    "feedback_date": "2025-11-19",
+    "good": 63705,
+    "ok": 14393,
+    "bad": 16702,
+    "total": 94800,
+    "merchant_quality_rate": 0.8238185654008439
+  },
+  {
+    "feedback_date": "2025-11-20",
+    "good": 63627,
+    "ok": 14545,
+    "bad": 16628,
+    "total": 94800,
+    "merchant_quality_rate": 0.8245991561181435
+  },
+  {
+    "feedback_date": "2025-11-21",
+    "good": 65200,
+    "ok": 14861,
+    "bad": 16818,
+    "total": 96879,
+    "merchant_quality_rate": 0.8264020066268232
+  },
+  {
+    "feedback_date": "2025-11-22",
+    "good": 65758,
+    "ok": 14932,
+    "bad": 16857,
+    "total": 97547,
+    "merchant_quality_rate": 0.8271909951100496
+  },
+  {
+    "feedback_date": "2025-11-23",
+    "good": 66416,
+    "ok": 15123,
+    "bad": 17003,
+    "total": 98542,
+    "merchant_quality_rate": 0.827454283452741
+  },
+  {
+    "feedback_date": "2025-11-24",
+    "good": 68094,
+    "ok": 15428,
+    "bad": 17150,
+    "total": 100672,
+    "merchant_quality_rate": 0.8296447870311506
+  },
+  {
+    "feedback_date": "2025-11-25",
+    "good": 68574,
+    "ok": 15414,
+    "bad": 17114,
+    "total": 101102,
+    "merchant_quality_rate": 0.8307254060255979
+  },
+  {
+    "feedback_date": "2025-11-26",
+    "good": 69627,
+    "ok": 15644,
+    "bad": 17201,
+    "total": 102472,
+    "merchant_quality_rate": 0.8321395112811305
+  },
+  {
+    "feedback_date": "2025-11-27",
+    "good": 69865,
+    "ok": 15686,
+    "bad": 17097,
+    "total": 102648,
+    "merchant_quality_rate": 0.8334404956745383
+  },
+  {
+    "feedback_date": "2025-11-28",
+    "good": 70664,
+    "ok": 15858,
+    "bad": 17277,
+    "total": 103799,
+    "merchant_quality_rate": 0.8335533097621365
+  },
+  {
+    "feedback_date": "2025-11-29",
+    "good": 71456,
+    "ok": 16053,
+    "bad": 17418,
+    "total": 104927,
+    "merchant_quality_rate": 0.8339988754086174
+  },
+  {
+    "feedback_date": "2025-11-30",
+    "good": 72376,
+    "ok": 16193,
+    "bad": 17500,
+    "total": 106069,
+    "merchant_quality_rate": 0.8350130575380177
+  },
+  {
+    "feedback_date": "2025-12-01",
+    "good": 73427,
+    "ok": 16257,
+    "bad": 17483,
+    "total": 107167,
+    "merchant_quality_rate": 0.8368620937415435
+  },
+  {
+    "feedback_date": "2025-12-02",
+    "good": 73963,
+    "ok": 16398,
+    "bad": 17581,
+    "total": 107942,
+    "merchant_quality_rate": 0.8371254933204869
+  },
+  {
+    "feedback_date": "2025-12-03",
+    "good": 74486,
+    "ok": 16529,
+    "bad": 17483,
+    "total": 108498,
+    "merchant_quality_rate": 0.8388633891868974
+  },
+  {
+    "feedback_date": "2025-12-04",
+    "good": 74820,
+    "ok": 16528,
+    "bad": 17150,
+    "total": 108498,
+    "merchant_quality_rate": 0.8419325701856255
+  },
+  {
+    "feedback_date": "2025-12-05",
+    "good": 74860,
+    "ok": 16315,
+    "bad": 16804,
+    "total": 107979,
+    "merchant_quality_rate": 0.8443771474082924
+  },
+  {
+    "feedback_date": "2025-12-06",
+    "good": 74798,
+    "ok": 16384,
+    "bad": 16723,
+    "total": 107905,
+    "merchant_quality_rate": 0.8450210833603633
+  },
+  {
+    "feedback_date": "2025-12-07",
+    "good": 74484,
+    "ok": 16464,
+    "bad": 16665,
+    "total": 107613,
+    "merchant_quality_rate": 0.8451395277522232
+  },
+  {
+    "feedback_date": "2025-12-08",
+    "good": 74455,
+    "ok": 16149,
+    "bad": 16215,
+    "total": 106819,
+    "merchant_quality_rate": 0.8482011627144983
+  },
+  {
+    "feedback_date": "2025-12-09",
+    "good": 74664,
+    "ok": 15732,
+    "bad": 15722,
+    "total": 106118,
+    "merchant_quality_rate": 0.8518441734672723
+  },
+  {
+    "feedback_date": "2025-12-10",
+    "good": 73499,
+    "ok": 15531,
+    "bad": 15418,
+    "total": 104448,
+    "merchant_quality_rate": 0.8523858762254902
+  },
+  {
+    "feedback_date": "2025-12-11",
+    "good": 71946,
+    "ok": 15045,
+    "bad": 15067,
+    "total": 102058,
+    "merchant_quality_rate": 0.8523682611848165
+  },
+  {
+    "feedback_date": "2025-12-12",
+    "good": 70326,
+    "ok": 14669,
+    "bad": 14801,
+    "total": 99796,
+    "merchant_quality_rate": 0.8516874423824602
+  },
+  {
+    "feedback_date": "2025-12-13",
+    "good": 69341,
+    "ok": 14613,
+    "bad": 14696,
+    "total": 98650,
+    "merchant_quality_rate": 0.8510288900152053
+  },
+  {
+    "feedback_date": "2025-12-14",
+    "good": 68848,
+    "ok": 14587,
+    "bad": 14639,
+    "total": 98074,
+    "merchant_quality_rate": 0.8507351591655281
+  },
+  {
+    "feedback_date": "2025-12-15",
+    "good": 68019,
+    "ok": 14318,
+    "bad": 14425,
+    "total": 96762,
+    "merchant_quality_rate": 0.8509228829499184
+  },
+  {
+    "feedback_date": "2025-12-16",
+    "good": 66402,
+    "ok": 14061,
+    "bad": 14164,
+    "total": 94627,
+    "merchant_quality_rate": 0.8503175626406839
+  },
+  {
+    "feedback_date": "2025-12-17",
+    "good": 66300,
+    "ok": 13773,
+    "bad": 14008,
+    "total": 94081,
+    "merchant_quality_rate": 0.8511070247977807
+  },
+  {
+    "feedback_date": "2025-12-18",
+    "good": 65739,
+    "ok": 13473,
+    "bad": 13854,
+    "total": 93066,
+    "merchant_quality_rate": 0.8511379021339694
+  },
+  {
+    "feedback_date": "2025-12-19",
+    "good": 64161,
+    "ok": 13136,
+    "bad": 13463,
+    "total": 90760,
+    "merchant_quality_rate": 0.8516637285147642
+  },
+  {
+    "feedback_date": "2025-12-20",
+    "good": 63362,
+    "ok": 13117,
+    "bad": 13379,
+    "total": 89858,
+    "merchant_quality_rate": 0.8511095283669791
+  },
+  {
+    "feedback_date": "2025-12-21",
+    "good": 62780,
+    "ok": 12992,
+    "bad": 13259,
+    "total": 89031,
+    "merchant_quality_rate": 0.8510743448911053
+  },
+  {
+    "feedback_date": "2025-12-22",
+    "good": 61684,
+    "ok": 12622,
+    "bad": 12876,
+    "total": 87182,
+    "merchant_quality_rate": 0.8523089628593058
+  },
+  {
+    "feedback_date": "2025-12-23",
+    "good": 59761,
+    "ok": 12293,
+    "bad": 12535,
+    "total": 84589,
+    "merchant_quality_rate": 0.8518128834718462
+  }
+]

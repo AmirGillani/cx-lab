@@ -1,0 +1,74 @@
+[
+  {
+    "month_start": "2025-01-01",
+    "gmv_influenced": 78081.34,
+    "gmv_web": 30500017.52,
+    "gmv_influenced_rate": 0.002560042398296957
+  },
+  {
+    "month_start": "2025-02-01",
+    "gmv_influenced": 213505.13,
+    "gmv_web": 34447183.44,
+    "gmv_influenced_rate": 0.0061980431693834945
+  },
+  {
+    "month_start": "2025-03-01",
+    "gmv_influenced": 366045.62,
+    "gmv_web": 57395546.22,
+    "gmv_influenced_rate": 0.006377596313778926
+  },
+  {
+    "month_start": "2025-04-01",
+    "gmv_influenced": 494673.23,
+    "gmv_web": 70967747,
+    "gmv_influenced_rate": 0.00697039500181806
+  },
+  {
+    "month_start": "2025-05-01",
+    "gmv_influenced": 1250228.91,
+    "gmv_web": 101487978.2,
+    "gmv_influenced_rate": 0.012318985235359816
+  },
+  {
+    "month_start": "2025-06-01",
+    "gmv_influenced": 1677029,
+    "gmv_web": 71726642.8,
+    "gmv_influenced_rate": 0.023380837782637717
+  },
+  {
+    "month_start": "2025-07-01",
+    "gmv_influenced": 3790241.05,
+    "gmv_web": 161646054.2,
+    "gmv_influenced_rate": 0.02344777961166312
+  },
+  {
+    "month_start": "2025-08-01",
+    "gmv_influenced": 5501281.69,
+    "gmv_web": 282801163.22,
+    "gmv_influenced_rate": 0.01945282554838848
+  },
+  {
+    "month_start": "2025-09-01",
+    "gmv_influenced": 6257018.46,
+    "gmv_web": 351129323.99,
+    "gmv_influenced_rate": 0.017819697847737646
+  },
+  {
+    "month_start": "2025-10-01",
+    "gmv_influenced": 9266605.38,
+    "gmv_web": 470351213.57,
+    "gmv_influenced_rate": 0.019701459483317994
+  },
+  {
+    "month_start": "2025-11-01",
+    "gmv_influenced": 20732112.71,
+    "gmv_web": 1127168410.09,
+    "gmv_influenced_rate": 0.018393092397192196
+  },
+  {
+    "month_start": "2025-12-01",
+    "gmv_influenced": 9609075.67,
+    "gmv_web": 657234517.43,
+    "gmv_influenced_rate": 0.014620467142429977
+  }
+]

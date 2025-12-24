@@ -1,0 +1,482 @@
+[
+  {
+    "month_start": "2024-01-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1440
+  },
+  {
+    "month_start": "2024-01-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 512
+  },
+  {
+    "month_start": "2024-01-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 38
+  },
+  {
+    "month_start": "2024-01-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 30338859
+  },
+  {
+    "month_start": "2024-02-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1365
+  },
+  {
+    "month_start": "2024-02-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 1183
+  },
+  {
+    "month_start": "2024-02-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 44
+  },
+  {
+    "month_start": "2024-02-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 28184920
+  },
+  {
+    "month_start": "2024-03-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1457
+  },
+  {
+    "month_start": "2024-03-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 4660
+  },
+  {
+    "month_start": "2024-03-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 45
+  },
+  {
+    "month_start": "2024-03-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 31309650
+  },
+  {
+    "month_start": "2024-04-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1720
+  },
+  {
+    "month_start": "2024-04-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 7267
+  },
+  {
+    "month_start": "2024-04-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 51
+  },
+  {
+    "month_start": "2024-04-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 30636853
+  },
+  {
+    "month_start": "2024-05-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 2072
+  },
+  {
+    "month_start": "2024-05-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 19027
+  },
+  {
+    "month_start": "2024-05-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 54
+  },
+  {
+    "month_start": "2024-05-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 29550002
+  },
+  {
+    "month_start": "2024-06-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 3267
+  },
+  {
+    "month_start": "2024-06-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 68548
+  },
+  {
+    "month_start": "2024-06-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 93
+  },
+  {
+    "month_start": "2024-06-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 25816613
+  },
+  {
+    "month_start": "2024-07-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 94605
+  },
+  {
+    "month_start": "2024-07-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 63481
+  },
+  {
+    "month_start": "2024-07-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 118
+  },
+  {
+    "month_start": "2024-07-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 25669318
+  },
+  {
+    "month_start": "2024-08-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 215861
+  },
+  {
+    "month_start": "2024-08-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 78167
+  },
+  {
+    "month_start": "2024-08-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 171
+  },
+  {
+    "month_start": "2024-08-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 25145140
+  },
+  {
+    "month_start": "2024-09-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 385641
+  },
+  {
+    "month_start": "2024-09-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 89253
+  },
+  {
+    "month_start": "2024-09-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 298
+  },
+  {
+    "month_start": "2024-09-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 24113830
+  },
+  {
+    "month_start": "2024-10-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 478006
+  },
+  {
+    "month_start": "2024-10-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 116376
+  },
+  {
+    "month_start": "2024-10-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 17417
+  },
+  {
+    "month_start": "2024-10-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 25594664
+  },
+  {
+    "month_start": "2024-11-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 729810
+  },
+  {
+    "month_start": "2024-11-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 192160
+  },
+  {
+    "month_start": "2024-11-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 185349
+  },
+  {
+    "month_start": "2024-11-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 28556840
+  },
+  {
+    "month_start": "2024-12-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1231327
+  },
+  {
+    "month_start": "2024-12-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 298437
+  },
+  {
+    "month_start": "2024-12-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 384957
+  },
+  {
+    "month_start": "2024-12-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 32302023
+  },
+  {
+    "month_start": "2025-01-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1055687
+  },
+  {
+    "month_start": "2025-01-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 245955
+  },
+  {
+    "month_start": "2025-01-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 194980
+  },
+  {
+    "month_start": "2025-01-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 25833790
+  },
+  {
+    "month_start": "2025-02-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 921609
+  },
+  {
+    "month_start": "2025-02-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 195212
+  },
+  {
+    "month_start": "2025-02-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 174582
+  },
+  {
+    "month_start": "2025-02-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 21884518
+  },
+  {
+    "month_start": "2025-03-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1179970
+  },
+  {
+    "month_start": "2025-03-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 248377
+  },
+  {
+    "month_start": "2025-03-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 195435
+  },
+  {
+    "month_start": "2025-03-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 24185072
+  },
+  {
+    "month_start": "2025-04-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1193130
+  },
+  {
+    "month_start": "2025-04-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 258770
+  },
+  {
+    "month_start": "2025-04-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 190423
+  },
+  {
+    "month_start": "2025-04-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 20708596
+  },
+  {
+    "month_start": "2025-05-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1418538
+  },
+  {
+    "month_start": "2025-05-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 279978
+  },
+  {
+    "month_start": "2025-05-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 244080
+  },
+  {
+    "month_start": "2025-05-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 24259397
+  },
+  {
+    "month_start": "2025-06-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1724517
+  },
+  {
+    "month_start": "2025-06-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 216958
+  },
+  {
+    "month_start": "2025-06-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 177431
+  },
+  {
+    "month_start": "2025-06-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 21648224
+  },
+  {
+    "month_start": "2025-07-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1931754
+  },
+  {
+    "month_start": "2025-07-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 367382
+  },
+  {
+    "month_start": "2025-07-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 151972
+  },
+  {
+    "month_start": "2025-07-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 21941029
+  },
+  {
+    "month_start": "2025-08-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1810391
+  },
+  {
+    "month_start": "2025-08-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 407661
+  },
+  {
+    "month_start": "2025-08-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 148533
+  },
+  {
+    "month_start": "2025-08-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 20880606
+  },
+  {
+    "month_start": "2025-09-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 1778319
+  },
+  {
+    "month_start": "2025-09-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 318699
+  },
+  {
+    "month_start": "2025-09-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 164681
+  },
+  {
+    "month_start": "2025-09-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 18853943
+  },
+  {
+    "month_start": "2025-10-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 2125277
+  },
+  {
+    "month_start": "2025-10-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 305932
+  },
+  {
+    "month_start": "2025-10-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 202271
+  },
+  {
+    "month_start": "2025-10-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 19584365
+  },
+  {
+    "month_start": "2025-11-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 2804511
+  },
+  {
+    "month_start": "2025-11-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 299402
+  },
+  {
+    "month_start": "2025-11-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 186137
+  },
+  {
+    "month_start": "2025-11-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 22011528
+  },
+  {
+    "month_start": "2025-12-01",
+    "handling_type": "ai_fully_resolved",
+    "tickets": 2301117
+  },
+  {
+    "month_start": "2025-12-01",
+    "handling_type": "ai_handover_to_human",
+    "tickets": 248707
+  },
+  {
+    "month_start": "2025-12-01",
+    "handling_type": "flows_fully_resolved",
+    "tickets": 172737
+  },
+  {
+    "month_start": "2025-12-01",
+    "handling_type": "human_fully_resolved",
+    "tickets": 16800396
+  }
+]

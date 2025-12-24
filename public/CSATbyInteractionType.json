@@ -1,0 +1,123 @@
+[
+  {
+    "month": "2025-01-01T00:00:00",
+    "csat_after_flow": 4.26,
+    "count_after_flow": 11432,
+    "csat_all_ai_agent": 4.09,
+    "count_all_ai_agent": 169122,
+    "csat_ai_agent_fully_automated": 3.7,
+    "count_ai_agent_automated": 41549,
+    "csat_human_handled": 4.46,
+    "count_human": 877372
+  },
+  {
+    "month": "2025-02-01T00:00:00",
+    "csat_after_flow": 4.3,
+    "count_after_flow": 8962,
+    "csat_all_ai_agent": 4.14,
+    "count_all_ai_agent": 140891,
+    "csat_ai_agent_fully_automated": 3.72,
+    "count_ai_agent_automated": 33916,
+    "csat_human_handled": 4.5,
+    "count_human": 724308
+  },
+  {
+    "month": "2025-03-01T00:00:00",
+    "csat_after_flow": 4.24,
+    "count_after_flow": 10545,
+    "csat_all_ai_agent": 4.18,
+    "count_all_ai_agent": 174529,
+    "csat_ai_agent_fully_automated": 3.8,
+    "count_ai_agent_automated": 41615,
+    "csat_human_handled": 4.51,
+    "count_human": 774920
+  },
+  {
+    "month": "2025-04-01T00:00:00",
+    "csat_after_flow": 4.24,
+    "count_after_flow": 11205,
+    "csat_all_ai_agent": 4.11,
+    "count_all_ai_agent": 183880,
+    "csat_ai_agent_fully_automated": 3.72,
+    "count_ai_agent_automated": 46406,
+    "csat_human_handled": 4.51,
+    "count_human": 760450
+  },
+  {
+    "month": "2025-05-01T00:00:00",
+    "csat_after_flow": 4.21,
+    "count_after_flow": 13221,
+    "csat_all_ai_agent": 4.12,
+    "count_all_ai_agent": 214410,
+    "csat_ai_agent_fully_automated": 3.75,
+    "count_ai_agent_automated": 55768,
+    "csat_human_handled": 4.49,
+    "count_human": 784685
+  },
+  {
+    "month": "2025-06-01T00:00:00",
+    "csat_after_flow": 4.31,
+    "count_after_flow": 11110,
+    "csat_all_ai_agent": 4.11,
+    "count_all_ai_agent": 222010,
+    "csat_ai_agent_fully_automated": 3.77,
+    "count_ai_agent_automated": 61606,
+    "csat_human_handled": 4.49,
+    "count_human": 778478
+  },
+  {
+    "month": "2025-07-01T00:00:00",
+    "csat_after_flow": 4.29,
+    "count_after_flow": 9169,
+    "csat_all_ai_agent": 4.07,
+    "count_all_ai_agent": 246991,
+    "csat_ai_agent_fully_automated": 3.71,
+    "count_ai_agent_automated": 72363,
+    "csat_human_handled": 4.48,
+    "count_human": 829644
+  },
+  {
+    "month": "2025-08-01T00:00:00",
+    "csat_after_flow": 4.33,
+    "count_after_flow": 9102,
+    "csat_all_ai_agent": 4.09,
+    "count_all_ai_agent": 242987,
+    "csat_ai_agent_fully_automated": 3.8,
+    "count_ai_agent_automated": 59377,
+    "csat_human_handled": 4.47,
+    "count_human": 773912
+  },
+  {
+    "month": "2025-09-01T00:00:00",
+    "csat_after_flow": 4.36,
+    "count_after_flow": 8908,
+    "csat_all_ai_agent": 4.15,
+    "count_all_ai_agent": 235109,
+    "csat_ai_agent_fully_automated": 3.82,
+    "count_ai_agent_automated": 53938,
+    "csat_human_handled": 4.47,
+    "count_human": 757223
+  },
+  {
+    "month": "2025-10-01T00:00:00",
+    "csat_after_flow": 4.34,
+    "count_after_flow": 9278,
+    "csat_all_ai_agent": 4.15,
+    "count_all_ai_agent": 257157,
+    "csat_ai_agent_fully_automated": 3.87,
+    "count_ai_agent_automated": 65603,
+    "csat_human_handled": 4.47,
+    "count_human": 774497
+  },
+  {
+    "month": "2025-11-01T00:00:00",
+    "csat_after_flow": 4.35,
+    "count_after_flow": 11055,
+    "csat_all_ai_agent": 4.12,
+    "count_all_ai_agent": 318819,
+    "csat_ai_agent_fully_automated": 3.83,
+    "count_ai_agent_automated": 84821,
+    "csat_human_handled": 4.48,
+    "count_human": 864039
+  }
+]

@@ -4,7 +4,7 @@ import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
   BarChart, Bar, Legend, LineChart, Line, ComposedChart
 } from 'recharts';
-import { ICONS, AI_AGENT_HANDOVER_DATA, ACCOUNT_PERFORMANCE_DATA, QUARTERLY_ACCOUNT_DATA, SUPPORT_INQUIRIES_DATA } from './constans';
+import { ICONS, MERCHANT_QUALITY_RATE_DATA, ACCOUNT_PERFORMANCE_DATA, QUARTERLY_ACCOUNT_DATA, SUPPORT_INQUIRIES_DATA, AI_AGENT_RESOLUTION_RATE_DATA, TOTAL_REVENUE_DATA, ROLLING_28_DAY_GMV_DATA, CSAT_BY_INTERACTION_TYPE_DATA, WEEKLY_AVG_CSAT_DATA, CSAT_BY_TICKET_TYPE_DATA, MONTHLY_TICKET_HANDLING_DATA, MONTHLY_TICKET_EVOLUTION_DATA } from './constans';
 import InsightSection from './componenets/InsightSection';
 
 const Home: React.FC = () => {
@@ -77,33 +77,37 @@ const Home: React.FC = () => {
           ))}
         </div>
 
-        {/* Insight 1: AI Agent Handover vs Fully Automated */}
+        {/* Insight 1: Merchant Quality Rate */}
         <InsightSection
-          title="Handover & Quality by AI Agent"
-          subtitle="AI Agent Ticket Handover vs Fully Automated Tickets"
-          narrative="From January to August 2025, we've seen remarkable growth in AI agent ticket volume, with total_ai_agent_tickets increasing from 1.27M to 2.28M—a 79% increase. More importantly, the automation efficiency has improved dramatically: fully_automated_percent rose from 33.3% in January to 49.8% in July, before settling at 43% in August. This shift means that nearly half of all AI agent tickets are now fully automated without human handover, representing millions of interactions handled autonomously. The handover_percent trend shows we're getting better at resolving issues without escalation."
-          whyItMatters="As fully_automated_percent increases, we reduce agent workload while maintaining quality. The goal is to maximize fully_automated_tickets while minimizing handover_tickets—this data shows we're on the right trajectory, with automation rates improving even as volume grows."
-          methodology="Monthly aggregation of AI agent ticket data from January 2025 through August 2025. Metrics include handover_tickets (tickets requiring human escalation), fully_automated_tickets (completely resolved by AI), total_ai_agent_tickets (sum of both), and calculated percentages for each category."
+          title="Merchant Quality Rate"
+          subtitle="Feedback breakdown: good, ok, and bad ratings with quality rate trend"
+          narrative="From July to December 2025, we've tracked merchant quality feedback showing consistent improvement in quality rates. The merchant_quality_rate increased from 67.6% in July to 85.2% in December—an 18 percentage point improvement. Good feedback grew from 4,461 in July to 59,761 in December, while bad feedback decreased from 2,891 to 12,535 over the same period. The total feedback volume increased significantly, from 8,911 in July to 84,589 in December, indicating both scale and quality improvements."
+          whyItMatters="Merchant quality rate directly reflects customer satisfaction and service effectiveness. As we scale operations, maintaining or improving quality rates becomes critical—this data shows we've achieved both volume growth and quality improvement simultaneously."
+          methodology="Monthly aggregation of Merchant Quality Rate data from MerchantQualityRate.json. Metrics include good (positive feedback count), ok (neutral feedback count), bad (negative feedback count), total (sum of all feedback), and merchant_quality_rate (percentage of positive feedback). Data represents the last entry for each month from July to December 2025."
         >
           <div style={{ width: '100%', height: '100%' }}>
             <ResponsiveContainer width="100%" height="100%">
             <ComposedChart 
-              data={AI_AGENT_HANDOVER_DATA} 
+              data={MERCHANT_QUALITY_RATE_DATA} 
               margin={isMobile ? { top: 10, right: 10, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
             >
               <defs>
-                <linearGradient id="colorHandover" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#ef4444" stopOpacity={0.8}/>
-                  <stop offset="95%" stopColor="#ef4444" stopOpacity={0.2}/>
-                </linearGradient>
-                <linearGradient id="colorFullyAutomated" x1="0" y1="0" x2="0" y2="1">
+                <linearGradient id="colorGood" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#10b981" stopOpacity={0.8}/>
                   <stop offset="95%" stopColor="#10b981" stopOpacity={0.2}/>
+                </linearGradient>
+                <linearGradient id="colorOk" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="#f59e0b" stopOpacity={0.8}/>
+                  <stop offset="95%" stopColor="#f59e0b" stopOpacity={0.2}/>
+                </linearGradient>
+                <linearGradient id="colorBad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="#ef4444" stopOpacity={0.8}/>
+                  <stop offset="95%" stopColor="#ef4444" stopOpacity={0.2}/>
                 </linearGradient>
               </defs>
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
               <XAxis 
-                dataKey="month_start" 
+                dataKey="month_display" 
                 axisLine={false} 
                 tickLine={false} 
                 tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
@@ -116,7 +120,7 @@ const Home: React.FC = () => {
                 axisLine={false} 
                 tickLine={false} 
                 tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
-                label={isMobile ? undefined : { value: 'Ticket Count', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                label={isMobile ? undefined : { value: 'Feedback Count', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
                 width={isMobile ? 50 : 60}
               />
               <YAxis 
@@ -126,14 +130,14 @@ const Home: React.FC = () => {
                 tickLine={false} 
                 tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
                 domain={[0, 100]}
-                label={isMobile ? undefined : { value: 'Percentage %', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                label={isMobile ? undefined : { value: 'Quality Rate %', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
                 width={isMobile ? 50 : 60}
               />
               <Tooltip 
                 contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
                 formatter={(value: number | undefined, name: string | undefined) => {
                   const nameStr = name || '';
-                  if (nameStr.includes('%') || nameStr === 'Handover %' || nameStr === 'Fully Automated %') {
+                  if (nameStr === 'merchant_quality_rate' || nameStr.includes('%')) {
                     return [`${value?.toFixed(1)}%`, nameStr];
                   }
                   return [value ? value.toLocaleString() : '0', nameStr];
@@ -143,43 +147,44 @@ const Home: React.FC = () => {
               <Area 
                 yAxisId="left"
                 type="monotone" 
-                dataKey="handover_tickets" 
-                name={isMobile ? 'Handover' : 'Handover Tickets'} 
+                dataKey="good" 
+                name="Good" 
                 stackId="1"
-                stroke="#ef4444" 
+                stroke="#10b981" 
                 fillOpacity={1} 
-                fill="url(#colorHandover)" 
+                fill="url(#colorGood)" 
                 strokeWidth={isMobile ? 1.5 : 2}
               />
               <Area 
                 yAxisId="left"
                 type="monotone" 
-                dataKey="fully_automated_tickets" 
-                name={isMobile ? 'Fully Auto' : 'Fully Automated Tickets'} 
+                dataKey="ok" 
+                name="Ok" 
                 stackId="1"
-                stroke="#10b981" 
+                stroke="#f59e0b" 
                 fillOpacity={1} 
-                fill="url(#colorFullyAutomated)" 
+                fill="url(#colorOk)" 
+                strokeWidth={isMobile ? 1.5 : 2}
+              />
+              <Area 
+                yAxisId="left"
+                type="monotone" 
+                dataKey="bad" 
+                name="Bad" 
+                stackId="1"
+                stroke="#ef4444" 
+                fillOpacity={1} 
+                fill="url(#colorBad)" 
                 strokeWidth={isMobile ? 1.5 : 2}
               />
               <Line 
                 yAxisId="right"
                 type="monotone" 
-                dataKey="handover_percent" 
-                name="Handover %" 
-                stroke="#f59e0b" 
+                dataKey="merchant_quality_rate" 
+                name="Quality Rate %" 
+                stroke="#2563eb" 
                 strokeWidth={isMobile ? 2 : 3} 
-                dot={{fill: '#f59e0b', r: isMobile ? 3 : 5}}
-                activeDot={{r: isMobile ? 5 : 7}}
-              />
-              <Line 
-                yAxisId="right"
-                type="monotone" 
-                dataKey="fully_automated_percent" 
-                name="Fully Automated %" 
-                stroke="#22c55e" 
-                strokeWidth={isMobile ? 2 : 3} 
-                dot={{fill: '#22c55e', r: isMobile ? 3 : 5}}
+                dot={{fill: '#2563eb', r: isMobile ? 3 : 5}}
                 activeDot={{r: isMobile ? 5 : 7}}
               />
             </ComposedChart>
@@ -412,6 +417,724 @@ const Home: React.FC = () => {
               />
             </BarChart>
           </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 5: AI Agent - Resolution Rate */}
+        <InsightSection
+          title="AI Agent - Resolution Rate"
+          subtitle="Monthly resolution rate and ticket coverage metrics for 2025"
+          narrative="Throughout 2025, we've tracked the AI Agent resolution rate alongside ticket coverage metrics. The success_rate_28 peaked at 43.7% in July 2025, demonstrating significant improvement in AI agent performance. The rolling_ai_covered_28 metric shows steady growth from 1.15M in January to 3.95M by December, while rolling_closed_billed_28 increased from 348K to 1.41M over the same period. This data reveals both the scale of AI coverage expansion and the effectiveness of resolution rates."
+          whyItMatters="Resolution rate directly impacts customer satisfaction and operational efficiency. As AI coverage grows, maintaining or improving resolution rates becomes critical—this data shows we've achieved both scale and quality improvements throughout 2025."
+          methodology="Monthly aggregation of AI Agent Resolution Rate data from AIAgentResolutionrate.json. Metrics include success_rate_28 (percentage of successfully resolved tickets), rolling_ai_covered_28 (28-day rolling window of AI-covered tickets), and rolling_closed_billed_28 (28-day rolling window of closed and billed tickets)."
+        >
+          <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+            {/* Prominent percentage display */}
+            <div style={{ 
+              position: 'absolute', 
+              top: '20px', 
+              left: '50%', 
+              transform: 'translateX(-50%)', 
+              zIndex: 10,
+              textAlign: 'center'
+            }}>
+              <div style={{ 
+                fontSize: isMobile ? '48px' : '72px', 
+                fontWeight: 'bold', 
+                color: '#1e293b',
+                lineHeight: 1
+              }}>
+                {Math.round(AI_AGENT_RESOLUTION_RATE_DATA[AI_AGENT_RESOLUTION_RATE_DATA.length - 1].success_rate_28)}%
+              </div>
+            </div>
+          <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart 
+                data={AI_AGENT_RESOLUTION_RATE_DATA} 
+                margin={isMobile ? { top: 80, right: 30, left: 0, bottom: 60 } : { top: 100, right: 40, left: 0, bottom: 0 }}
+              >
+              <defs>
+                  <linearGradient id="colorAICovered" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#cbd5e1" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="#cbd5e1" stopOpacity={0.2}/>
+                  </linearGradient>
+                  <linearGradient id="colorClosedBilled" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#64748b" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="#64748b" stopOpacity={0.2}/>
+                </linearGradient>
+              </defs>
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                />
+                <YAxis 
+                  yAxisId="left" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => `${(value / 1000000).toFixed(0)}M`}
+                  label={{ value: '', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <YAxis 
+                  yAxisId="right" 
+                  orientation="right" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  domain={[0, 50]}
+                  tickFormatter={(value) => `${value}%`}
+                  label={{ value: '', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                />
+                <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined, name: string | undefined) => {
+                    const nameStr = name || '';
+                    if (nameStr === 'success_rate_28' || nameStr.includes('%')) {
+                      return [`${value?.toFixed(1)}%`, nameStr];
+                    }
+                    return [value ? (value / 1000000).toFixed(2) + 'M' : '0', nameStr];
+                  }}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
+                <Area 
+                  yAxisId="left"
+                  type="monotone" 
+                  dataKey="rolling_ai_covered_28" 
+                  name="rolling_ai_covered_28" 
+                  stackId="1"
+                  stroke="#cbd5e1" 
+                  fillOpacity={1} 
+                  fill="url(#colorAICovered)" 
+                  strokeWidth={2} 
+                />
+                <Area 
+                  yAxisId="left"
+                  type="monotone" 
+                  dataKey="rolling_closed_billed_28" 
+                  name="rolling_closed_billed_28" 
+                  stackId="1"
+                  stroke="#64748b" 
+                  fillOpacity={1} 
+                  fill="url(#colorClosedBilled)" 
+                  strokeWidth={2} 
+                />
+                <Line 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="success_rate_28" 
+                  name="success_rate_28" 
+                  stroke="#fb923c" 
+                  strokeWidth={3} 
+                  dot={{fill: '#fb923c', r: 4}}
+                  activeDot={{r: 6}}
+                />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 6: Total Revenue - GMV Influenced vs Web */}
+        <InsightSection
+          title="Total Revenue - GMV Influenced vs Web"
+          subtitle="Monthly GMV breakdown: influenced revenue vs web revenue with influence rate"
+          narrative="Throughout 2025, we've tracked total revenue across two key channels: GMV Web and GMV Influenced. Web revenue shows dramatic growth, starting at $30.5M in January and peaking at $1.13B in November—a 36x increase. Influenced revenue, while smaller in absolute terms, demonstrates significant growth from $78K in January to $20.7M in November. The gmv_influenced_rate metric reveals the percentage of total revenue attributed to influencer-driven sales, peaking at 2.3% in June and July, indicating strong influencer impact during those months."
+          whyItMatters="Understanding the balance between web and influenced revenue helps optimize marketing spend. While web revenue dominates, the influenced rate shows the growing impact of influencer marketing—peaking influence rates correlate with strategic campaign timing and effectiveness."
+          methodology="Monthly aggregation of Total Revenue data from TotalRevenue.json. Metrics include gmv_web (total web-based gross merchandise value), gmv_influenced (revenue attributed to influencer marketing), and gmv_influenced_rate (percentage of total revenue from influencer channels)."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart 
+                data={TOTAL_REVENUE_DATA} 
+                margin={isMobile ? { top: 20, right: 30, left: 0, bottom: 60 } : { top: 20, right: 40, left: 0, bottom: 0 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                />
+                <YAxis 
+                  yAxisId="left" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => {
+                    if (value >= 1000000000) return `$${(value / 1000000000).toFixed(1)}B`;
+                    if (value >= 1000000) return `$${(value / 1000000).toFixed(0)}M`;
+                    return `$${(value / 1000).toFixed(0)}K`;
+                  }}
+                  label={{ value: '', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <YAxis 
+                  yAxisId="right" 
+                  orientation="right" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  domain={[0, 3]}
+                  tickFormatter={(value) => `${value}%`}
+                  label={{ value: '', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                />
+              <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined, name: string | undefined) => {
+                    const nameStr = name || '';
+                    if (nameStr === 'gmv_influenced_rate') {
+                      return [`${value?.toFixed(2)}%`, nameStr];
+                    }
+                    if (nameStr === 'gmv_influenced' || nameStr === 'gmv_web') {
+                      const val = value || 0;
+                      if (val >= 1000000) return [`$${(val / 1000000).toFixed(2)}M`, nameStr];
+                      return [`$${(val / 1000).toFixed(2)}K`, nameStr];
+                    }
+                    return [value ? value.toLocaleString() : '0', nameStr];
+                  }}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
+                <Bar 
+                  yAxisId="left" 
+                  dataKey="gmv_web" 
+                  name="gmv_web" 
+                  fill="#fb923c" 
+                  radius={[4, 4, 0, 0]}
+                  maxBarSize={isMobile ? 50 : 80}
+                />
+                <Bar 
+                  yAxisId="left" 
+                  dataKey="gmv_influenced" 
+                  name="gmv_influenced" 
+                  fill="#2563eb" 
+                  radius={[4, 4, 0, 0]}
+                  maxBarSize={isMobile ? 50 : 80}
+                />
+                <Line 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="gmv_influenced_rate" 
+                  name="gmv_influenced_rate" 
+                  stroke="#14b8a6" 
+                  strokeWidth={3} 
+                  dot={{fill: '#14b8a6', r: 4}}
+                  activeDot={{r: 6}}
+                />
+              </ComposedChart>
+          </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 7: Rolling 28-Day GMV */}
+        <InsightSection
+          title="Rolling 28-Day GMV"
+          subtitle="Monthly trends: customers, GMV, and influenced revenue over 28-day rolling windows"
+          narrative="Throughout 2025, we've tracked rolling 28-day metrics showing significant growth in both GMV and influenced revenue. The gmv_28d metric started at $26.5M in January and grew exponentially to $1.08B by December—a 40x increase. Similarly, revenue_influenced_28d grew from $72K in January to $18.8M in December, demonstrating the growing impact of influencer-driven sales. The customers metric shows steady growth from 22 to 1,237, indicating expanding customer base. The rapid acceleration in Q4 2025 (September to November) highlights successful scaling of both web and influencer channels."
+          whyItMatters="Rolling 28-day windows provide a smoothed view of trends, reducing daily volatility while capturing meaningful growth patterns. The exponential growth in Q4 demonstrates successful channel expansion and marketing effectiveness."
+          methodology="Monthly aggregation of Rolling 28-Day GMV data from Rolling28dayGMV.json. Metrics include customers (total customer count), gmv_28d (28-day rolling gross merchandise value), and revenue_influenced_28d (28-day rolling revenue from influencer channels). Data represents the last entry for each month."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+          <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart 
+                data={ROLLING_28_DAY_GMV_DATA} 
+                margin={isMobile ? { top: 20, right: 40, left: 0, bottom: 60 } : { top: 20, right: 50, left: 0, bottom: 0 }}
+              >
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                  angle={isMobile ? -45 : -45}
+                  textAnchor="end"
+                  height={isMobile ? 70 : 80}
+                />
+                <YAxis 
+                  yAxisId="left" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => {
+                    if (value >= 1000000000) return `$${(value / 1000000000).toFixed(1)}B`;
+                    if (value >= 1000000) return `$${(value / 1000000).toFixed(0)}M`;
+                    return `$${(value / 1000).toFixed(0)}K`;
+                  }}
+                  domain={[0, 1500000000]}
+                  label={{ value: '', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <YAxis 
+                  yAxisId="right" 
+                  orientation="right" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => {
+                    if (value >= 1000000) return `$${(value / 1000000).toFixed(0)}M`;
+                    return `$${(value / 1000).toFixed(0)}K`;
+                  }}
+                  domain={[0, 30000000]}
+                  label={{ value: '', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                />
+              <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined, name: string | undefined) => {
+                    const nameStr = name || '';
+                    const val = value || 0;
+                    if (nameStr === 'customers') {
+                      return [val.toLocaleString(), nameStr];
+                    }
+                    if (val >= 1000000) return [`$${(val / 1000000).toFixed(2)}M`, nameStr];
+                    if (val >= 1000) return [`$${(val / 1000).toFixed(2)}K`, nameStr];
+                    return [`$${val.toFixed(2)}`, nameStr];
+                  }}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
+                <Line 
+                  yAxisId="left"
+                  type="monotone" 
+                  dataKey="customers" 
+                  name="customers" 
+                  stroke="#60a5fa" 
+                  strokeWidth={3} 
+                  dot={{fill: '#60a5fa', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="gmv_28d" 
+                  name="gmv_28d" 
+                  stroke="#f97316" 
+                  strokeWidth={3} 
+                  dot={{fill: '#f97316', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="revenue_influenced_28d" 
+                  name="revenue_influenced_28d" 
+                  stroke="#14b8a6" 
+                  strokeWidth={3} 
+                  dot={{fill: '#14b8a6', r: 4}}
+                  activeDot={{r: 6}}
+                />
+            </ComposedChart>
+          </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 8: CSAT by Interaction Type */}
+        <InsightSection
+          title="CSAT by Interaction Type"
+          subtitle="Customer satisfaction scores across different interaction channels from January to November 2025"
+          narrative="Throughout 2025, we've tracked CSAT scores across four interaction types, revealing clear performance hierarchies. Human-handled interactions consistently achieve the highest satisfaction, starting at 4.46 in January and maintaining around 4.47-4.51 throughout the period. After-flow interactions show strong performance, improving from 4.26 to 4.35 by November. All AI agent interactions demonstrate moderate satisfaction, fluctuating between 4.07 and 4.18. Fully automated AI agent interactions show the lowest but improving scores, starting at 3.7 and reaching 3.87 by October. The data reveals that while human interactions maintain the highest satisfaction, AI-driven channels are showing improvement, with fully automated interactions gaining 0.17 points over the period."
+          whyItMatters="Understanding CSAT by interaction type helps optimize channel allocation and identify improvement opportunities. The consistent gap between human and AI interactions highlights areas for AI enhancement, while the improving trends in automated channels show progress toward closing the satisfaction gap."
+          methodology="Monthly CSAT data from CSATbyInteractionType.json. Metrics include csat_human_handled (satisfaction for human-agent interactions), csat_after_flow (satisfaction after automated flow interactions), csat_all_ai_agent (satisfaction for all AI agent interactions), and csat_ai_agent_fully_automated (satisfaction for fully automated AI interactions). Scores range from 1-5."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart 
+                data={CSAT_BY_INTERACTION_TYPE_DATA} 
+                margin={isMobile ? { top: 20, right: 30, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                  angle={isMobile ? -45 : -45}
+                  textAnchor="end"
+                  height={isMobile ? 70 : 80}
+                />
+                <YAxis 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  domain={[3.6, 4.6]}
+                  label={{ value: 'CSAT Score', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined) => value ? value.toFixed(2) : '0'}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
+                <Line 
+                  type="monotone" 
+                  dataKey="csat_human_handled" 
+                  name="csat_human_handled" 
+                  stroke="#a855f7" 
+                  strokeWidth={3} 
+                  dot={{fill: '#a855f7', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="csat_after_flow" 
+                  name="csat_after_flow" 
+                  stroke="#60a5fa" 
+                  strokeWidth={3} 
+                  dot={{fill: '#60a5fa', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="csat_all_ai_agent" 
+                  name="csat_all_ai_agent" 
+                  stroke="#f97316" 
+                  strokeWidth={3} 
+                  dot={{fill: '#f97316', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="csat_ai_agent_fully_automated" 
+                  name="csat_ai_agent_fully_automated" 
+                  stroke="#14b8a6" 
+                  strokeWidth={3} 
+                  dot={{fill: '#14b8a6', r: 4}}
+                  activeDot={{r: 6}}
+                />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 9: Weekly Avg. CSAT by Ticket Intent */}
+        <InsightSection
+          title="Weekly Avg. CSAT by Ticket Intent"
+          subtitle="Monthly average CSAT scores across 13 ticket intent categories from October 2024 to December 2025"
+          narrative="Throughout the tracking period, we've monitored CSAT scores across 13 distinct ticket intent categories, revealing significant variation in customer satisfaction by interaction type. Account and Other categories consistently maintain higher scores (often above 4.0), while Promotion & Discount and Shipping tend to score lower (typically 3.0-3.5 range). Feedback shows the most volatility, with scores ranging from 2.71 to 4.2, indicating inconsistent satisfaction levels. Marketing interactions show strong performance, frequently scoring above 4.4. The data reveals that satisfaction varies significantly by intent type, with some categories requiring focused improvement efforts."
+          whyItMatters="Understanding CSAT by ticket intent helps prioritize improvement efforts. Categories with consistently lower scores (like Promotion & Discount) represent opportunities for process optimization, while high-performing categories (like Marketing) can serve as benchmarks for best practices."
+          methodology="Monthly aggregation of AI Agent CSAT by Ticket Intent data from AIAgentCSATbyTicketIntentRolling7Day.json. Data represents rolling 7-day averages aggregated monthly. Metrics include avg_score (CSAT score) for each contact_reason category: Account, Exchange, Feedback, Marketing, Order, Other, Product, Promotion & Discount, Return, Shipping, Subscription, Warranty, and Wholesale."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart 
+                data={WEEKLY_AVG_CSAT_DATA} 
+                margin={isMobile ? { top: 20, right: 30, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                  angle={isMobile ? -45 : -45}
+                  textAnchor="end"
+                  height={isMobile ? 70 : 80}
+                />
+                <YAxis 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  domain={[2, 5]}
+                  label={{ value: 'Weekly Avg. CSAT', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined) => value ? value.toFixed(2) : 'N/A'}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '10px', paddingTop: '10px' } : { fontSize: '11px' }} iconSize={isMobile ? 10 : 12} />
+                <Line type="monotone" dataKey="Account" name="Account" stroke="#86efac" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Exchange" name="Exchange" stroke="#60a5fa" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Feedback" name="Feedback" stroke="#c084fc" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Marketing" name="Marketing" stroke="#9333ea" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Order" name="Order" stroke="#fb923c" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Other" name="Other" stroke="#f472b6" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Product" name="Product" stroke="#fb7185" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Promotion & Discount" name="Promotion & Discount" stroke="#f97316" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Return" name="Return" stroke="#fbbf24" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Shipping" name="Shipping" stroke="#f87171" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Subscription" name="Subscription" stroke="#9ca3af" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Warranty" name="Warranty" stroke="#f0abfc" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Wholesale" name="Wholesale" stroke="#4ade80" strokeWidth={2} dot={false} />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 10: CSAT by Ticket Type */}
+        <InsightSection
+          title="CSAT by Ticket Type"
+          subtitle="Weekly average CSAT scores and scored volume by ticket type from October 2024 to December 2025"
+          narrative="Throughout the tracking period, we've monitored CSAT scores and ticket volumes across three ticket types: human-handled, AI-assisted, and fully AI agent. Human-handled tickets consistently achieve the highest CSAT scores, maintaining around 4.4-4.5 throughout most of the period. AI-assisted tickets show strong performance with scores around 4.3-4.4, while fully AI agent tickets score lower at 3.5-3.7. The volume data reveals a dramatic shift: starting in September 2025, AI-assisted and AI agent ticket counts surged dramatically, with AI-assisted tickets peaking at 73,761 in December 2025. This surge in AI-handled volume coincided with a slight decline in CSAT scores across all categories, suggesting the need for quality optimization as scale increases."
+          whyItMatters="Understanding the relationship between ticket volume and CSAT scores by type helps balance automation goals with quality maintenance. The surge in AI-handled tickets shows successful scaling, but the concurrent CSAT decline indicates the need for continuous quality improvement as automation expands."
+          methodology="Monthly aggregation of CSAT by Ticket Type data from CSATbyTicketTypeforAIAgentMerchantsTicketLevel.json. Metrics include avg_score (average CSAT score) and ticket_count (number of tickets) for each ticket_type: human, ai_assisted, and ai_agent. Data represents rolling averages aggregated monthly."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart 
+                data={CSAT_BY_TICKET_TYPE_DATA} 
+                margin={isMobile ? { top: 20, right: 30, left: 0, bottom: 60 } : { top: 20, right: 40, left: 0, bottom: 0 }}
+              >
+                <defs>
+                  <linearGradient id="colorHumanTickets" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#9ca3af" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="#9ca3af" stopOpacity={0.2}/>
+                  </linearGradient>
+                  <linearGradient id="colorAIAssistedTickets" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#60a5fa" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="#60a5fa" stopOpacity={0.2}/>
+                  </linearGradient>
+                  <linearGradient id="colorAIAgentTickets" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#fb923c" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="#fb923c" stopOpacity={0.2}/>
+                  </linearGradient>
+                </defs>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                  angle={isMobile ? -45 : -45}
+                  textAnchor="end"
+                  height={isMobile ? 70 : 80}
+                />
+                <YAxis 
+                  yAxisId="left" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  domain={[3, 5]}
+                  label={{ value: 'Weekly Avg. CSAT', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <YAxis 
+                  yAxisId="right" 
+                  orientation="right" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => `${(value / 1000).toFixed(0)}k`}
+                  domain={[0, 150000]}
+                  label={{ value: 'Scored Volume', angle: 90, position: 'insideRight', fill: '#94a3b8' }}
+                />
+                <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined, name: string | undefined) => {
+                    const nameStr = name || '';
+                    if (nameStr.includes('avg_score')) {
+                      return [value ? value.toFixed(2) : '0', nameStr];
+                    }
+                    if (nameStr.includes('ticket_count')) {
+                      return [value ? value.toLocaleString() : '0', nameStr];
+                    }
+                    return [value ? value.toLocaleString() : '0', nameStr];
+                  }}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
+                <Area 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="human_ticket_count" 
+                  name="human-ticket_count" 
+                  stackId="1"
+                  stroke="#9ca3af" 
+                  fillOpacity={1} 
+                  fill="url(#colorHumanTickets)" 
+                  strokeWidth={2} 
+                />
+                <Area 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="ai_assisted_ticket_count" 
+                  name="ai_assisted-ticket_count" 
+                  stackId="1"
+                  stroke="#60a5fa" 
+                  fillOpacity={1} 
+                  fill="url(#colorAIAssistedTickets)" 
+                  strokeWidth={2} 
+                />
+                <Area 
+                  yAxisId="right"
+                  type="monotone" 
+                  dataKey="ai_agent_ticket_count" 
+                  name="ai_agent-ticket_count" 
+                  stackId="1"
+                  stroke="#fb923c" 
+                  fillOpacity={1} 
+                  fill="url(#colorAIAgentTickets)" 
+                  strokeWidth={2} 
+                />
+                <Line 
+                  yAxisId="left"
+                  type="monotone" 
+                  dataKey="human_avg_score" 
+                  name="human-avg_score" 
+                  stroke="#1f2937" 
+                  strokeWidth={3} 
+                  strokeDasharray="5 5"
+                  dot={{fill: '#1f2937', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  yAxisId="left"
+                  type="monotone" 
+                  dataKey="ai_assisted_avg_score" 
+                  name="ai_assisted-avg_score" 
+                  stroke="#2563eb" 
+                  strokeWidth={3} 
+                  dot={{fill: '#2563eb', r: 4}}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  yAxisId="left"
+                  type="monotone" 
+                  dataKey="ai_agent_avg_score" 
+                  name="ai_agent-avg_score" 
+                  stroke="#ef4444" 
+                  strokeWidth={3} 
+                  dot={{fill: '#ef4444', r: 4}}
+                  activeDot={{r: 6}}
+                />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 11: Monthly Ticket Handling Evolution */}
+        <InsightSection
+          title="Monthly Ticket Handling Evolution"
+          subtitle="Ticket resolution breakdown by handling type from January 2024 to December 2025"
+          narrative="Over the two-year period from January 2024 to December 2025, we've tracked the evolution of ticket handling across four distinct resolution types. Human-fully-resolved tickets dominate the volume, ranging from 16.8M to 31.3M, though showing a declining trend from 30.3M in January 2024 to 16.8M in December 2025. Flows-fully-resolved tickets show the most dramatic growth, starting at just 38 tickets in January 2024 and growing to 384,957 by December 2024, then stabilizing around 150k-200k in 2025. AI-fully-resolved tickets grew from 1,440 to 2.8M by November 2025, while AI-handover-to-human tickets remained relatively low, peaking at 407,661 in August 2025. This data reveals a significant shift toward automated resolution, with flows and AI handling an increasing share of ticket volume."
+          whyItMatters="Understanding the evolution of ticket handling types helps track automation adoption and identify where human intervention is still required. The growth in flows-fully-resolved and AI-fully-resolved demonstrates successful automation scaling, while the decline in human-fully-resolved suggests effective workload redistribution."
+          methodology="Monthly aggregation of ticket handling data from MonthlyTicketHandlingEvolutionsince2024.json. Metrics include ai_fully_resolved (tickets fully resolved by AI agent), ai_handover_to_human (tickets requiring human escalation), flows_fully_resolved (tickets resolved by automated flows), and human_fully_resolved (tickets resolved by human agents)."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart 
+                data={MONTHLY_TICKET_HANDLING_DATA} 
+                margin={isMobile ? { top: 20, right: 30, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                  angle={isMobile ? -45 : -45}
+                  textAnchor="end"
+                  height={isMobile ? 70 : 80}
+                />
+                <YAxis 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => {
+                    if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
+                    if (value >= 1000) return `${(value / 1000).toFixed(0)}k`;
+                    return value.toString();
+                  }}
+                  domain={[0, 35000000]}
+                  label={{ value: '', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined) => {
+                    const val = value || 0;
+                    if (val >= 1000000) return `${(val / 1000000).toFixed(2)}M`;
+                    if (val >= 1000) return `${(val / 1000).toFixed(2)}k`;
+                    return val.toLocaleString();
+                  }}
+                />
+                <Legend wrapperStyle={isMobile ? { fontSize: '11px', paddingTop: '10px' } : {}} iconSize={isMobile ? 12 : 14} />
+                <Line 
+                  type="monotone" 
+                  dataKey="ai_fully_resolved" 
+                  name="ai_fully_resolved" 
+                  stroke="#2563eb" 
+                  strokeWidth={3} 
+                  dot={false}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="ai_handover_to_human" 
+                  name="ai_handover_to_human" 
+                  stroke="#f97316" 
+                  strokeWidth={3} 
+                  dot={false}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="flows_fully_resolved" 
+                  name="flows_fully_resolved" 
+                  stroke="#14b8a6" 
+                  strokeWidth={3} 
+                  dot={false}
+                  activeDot={{r: 6}}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="human_fully_resolved" 
+                  name="human_fully_resolved" 
+                  stroke="#a855f7" 
+                  strokeWidth={3} 
+                  dot={false}
+                  activeDot={{r: 6}}
+                />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </InsightSection>
+
+        {/* Insight 12: Monthly Ticket Evolution */}
+        <InsightSection
+          title="Monthly Ticket Evolution"
+          subtitle="Total ticket volume trends from January 2024 to December 2025"
+          narrative="Over the two-year period, total ticket volume shows significant volatility with a clear declining trend. Starting at 30.3M tickets in January 2024, volume peaked at 33.8M in December 2024—the highest point in the tracking period. Following this peak, there was a sharp decline into early 2025, with values fluctuating between approximately 21M and 26M throughout most of 2025. The period ends at its lowest point of 19.5M in December 2025, representing a 35% decline from the peak. This decline suggests either improved automation reducing ticket volume, seasonal variations, or changes in customer behavior patterns."
+          whyItMatters="Tracking total ticket volume evolution helps understand overall customer support demand trends. The declining trend, combined with increasing automation rates from other metrics, suggests successful deflection of tickets through automated channels, reducing overall volume while maintaining service quality."
+          methodology="Monthly aggregation of total ticket data from MonthlyTicketEvolutionsince2024.json. Metric represents total tickets processed each month from January 2024 through December 2025."
+        >
+          <div style={{ width: '100%', height: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart 
+                data={MONTHLY_TICKET_EVOLUTION_DATA} 
+                margin={isMobile ? { top: 20, right: 30, left: 0, bottom: 60 } : { top: 20, right: 30, left: 0, bottom: 0 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
+                <XAxis 
+                  dataKey="month_display" 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 9 : 11}}
+                  angle={isMobile ? -45 : -45}
+                  textAnchor="end"
+                  height={isMobile ? 70 : 80}
+                />
+                <YAxis 
+                  axisLine={false} 
+                  tickLine={false} 
+                  tick={{fill: '#94a3b8', fontSize: isMobile ? 10 : 12}}
+                  tickFormatter={(value) => {
+                    if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
+                    return value.toString();
+                  }}
+                  domain={[18000000, 35000000]}
+                  label={{ value: '', angle: -90, position: 'insideLeft', fill: '#94a3b8' }}
+                />
+                <Tooltip 
+                  contentStyle={{borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: isMobile ? '12px' : '14px'}}
+                  formatter={(value: number | undefined) => {
+                    const val = value || 0;
+                    if (val >= 1000000) return `${(val / 1000000).toFixed(2)}M`;
+                    return val.toLocaleString();
+                  }}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="tickets" 
+                  name="Total Tickets" 
+                  stroke="#2563eb" 
+                  strokeWidth={3} 
+                  dot={false}
+                  activeDot={{r: 6}}
+                />
+              </LineChart>
+            </ResponsiveContainer>
           </div>
         </InsightSection>
 
